@@ -1,0 +1,278 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pasika"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		count: 1
+		id: "superbwarfare:monitor"
+	}
+	id: "0C9CE36ABBEE23D0"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [ ]
+			id: "58DADF35D7CC6753"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "execute as @a run playsound minecraft:event.raid.horn master @s ~ ~ ~ 1 1"
+					elevate_perms: true
+					id: "3F670088733C7177"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "title @a times 10 80 20"
+					elevate_perms: true
+					id: "68BA4786DC9B710E"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "title @a subtitle {\"text\":\"Пройдіть до найближчого укриття\",\"color\":\"gray\"}"
+					elevate_perms: true
+					id: "191EC73062A483F7"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "title @a title {\"text\":\"⚠ ПОВІТРЯНА ТРИВОГА\",\"color\":\"red\",\"bold\":true}"
+					elevate_perms: true
+					id: "74E2C6D421CF8CD4"
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:phantom"
+					id: "3D147D670BA2BC7E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58DADF35D7CC6753"
+			]
+			id: "05BFE77763F96CFA"
+			rewards: [
+				{
+					id: "47EEFC8DC8A02C34"
+					item: {
+						count: 2
+						id: "superbwarfare:battery"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "scoreboard players set #spike sd.var 1"
+					elevate_perms: true
+					id: "165BB5D44769C775"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @a [{\"text\":\"✪ Розвідка: \",\"color\":\"gold\",\"bold\":true},{\"text\":\"противник посилився. Окупанти тепер у бронежилетах, а шахеди літають зграями.\",\"color\":\"white\",\"bold\":false}]"
+					elevate_perms: true
+					id: "11803D1C648BDCA0"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "4AC4D546134EC6B7"
+					item: {
+						count: 1
+						id: "superbwarfare:monitor"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"05BFE77763F96CFA"
+			]
+			id: "4AD90B9A1F9CD82C"
+			rewards: [
+				{
+					id: "5B68235EBE50ED92"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "58D802035077C57A"
+					item: {
+						count: 1
+						id: "sbwdroneconfig:cubed_fpv_drone"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4AD90B9A1F9CD82C"
+			]
+			id: "349D31AB6072BE4E"
+			rewards: [
+				{
+					id: "0DBC671903F547B8"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1E6216DBC619128A"
+					item: {
+						count: 1
+						id: "sbwdroneconfig:fpv_goggles"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4AD90B9A1F9CD82C"
+			]
+			id: "4811A3713BCE488E"
+			rewards: [
+				{
+					id: "0985AD673A039E47"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3EDD1221103D4767"
+					item: {
+						count: 1
+						id: "sbwdroneconfig:fiber_optic_spool_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"349D31AB6072BE4E"
+				"4811A3713BCE488E"
+			]
+			id: "13025E9167C3282C"
+			rewards: [
+				{
+					id: "5995B19E13627A1F"
+					item: {
+						count: 1
+						id: "sbwdroneconfig:drone_jammer"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "343BFCEF0AC65199"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"05BFE77763F96CFA"
+			]
+			id: "437C463D67416606"
+			rewards: [
+				{
+					id: "187EA18D16EEB52F"
+					item: {
+						count: 4
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:shelter"
+					criterion: ""
+					id: "7BB1EB80CAC30EBD"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"05BFE77763F96CFA"
+			]
+			id: "180505CAEFC083C1"
+			rewards: [
+				{
+					id: "645A2811FB233A90"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3DFC215E336F7C65"
+					item: {
+						count: 1
+						id: "sbwdroneconfig:drone_detection_siren"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "60D3297C237C9B11"
+					item: {
+						count: 1
+						id: "sbwdroneconfig:anti_drone_net"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+}

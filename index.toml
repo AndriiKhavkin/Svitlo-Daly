@@ -1,0 +1,1777 @@
+hash-format = "sha256"
+
+[[files]]
+file = "CHANGELOG.txt"
+hash = "81ab477b859175cc2b1b209b6ba8dda0c79b34021e6ed382b5798a9a88cd1da0"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/andezytova_doba.snbt"
+hash = "eeb6e54a12b54baacf77e35b35855590724352162b045e3122dfb4ec35112de8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/khata_skraiu.snbt"
+hash = "0af7fa6979da5ea777adf4b6c9e736565e27a3554c10cf24916c70039ba80b79"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mandry.snbt"
+hash = "2c76750471b37a8deea4f17c9d73a8b05abc4d34e369832486a133fa861537aa"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/nebo.snbt"
+hash = "3cfaed938543fd24e3f123e3bcf5d9de8a664c8fc0c74cb31e3682465fd3e71f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/nova_poshta.snbt"
+hash = "16bd59d00196e51acd5e79f4a336592240200dddfafc711d6ba7a7ecebf6698c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pasika.snbt"
+hash = "bd1d8e49a27d3f2d1918ab33e5a0c53ba51d7599975489329d71c646104a464b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/rozminuvannia.snbt"
+hash = "b244250e061d4b18eded88e44bc5a1670b65d24a24518dc0890245e8f6b1e071"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/sich.snbt"
+hash = "58c69bb886c0f597f7b1356c0ba706f3af1a84c5986affe2b28a4068cb03cb3a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/smachna_mapa.snbt"
+hash = "070518a9f864e90e3b0ad2172cda9bc60771075145c1629ce0242ccfd75f888b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/svii_dtek.snbt"
+hash = "5e6570e1473bad7b0b19130ca57428fdbf1b4db0f81dd5fafd2ed015994d571a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/svitlo_daly.snbt"
+hash = "5145702c880ae4b2b69f67214e69ad9227259662b39b63eaa7ad3948f163f9e7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/svoia_khata.snbt"
+hash = "17268c8babe0e97e8bbca4f85ee287a38c23f907436f6f0b1a60545f06796d6c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ukrzaliznytsia.snbt"
+hash = "7b066ea0eb9bb4a716d6bd65a50aa769da95369e5437847d47d9fc828878815e"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
+
+[[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "519af752f3c02341e86711f9c3872a0ce058a5b1192cdef0d615e9c17354b98d"
+
+[[files]]
+file = "config/ftbquests/quests/lang/uk_ua.snbt"
+hash = "519af752f3c02341e86711f9c3872a0ce058a5b1192cdef0d615e9c17354b98d"
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "8f4a78575df9bccb72a69d106bd3f70a4430d5c20d327812ae424b9645b800da"
+preserve = true
+
+[[files]]
+file = "config/tide/tide_server.json"
+hash = "e399d739b2b9e2c0374a7096950e60d596ae51be0babec84dcaddedcd948679b"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "7010ff123c6d1d66d12de64eda3515c8e95aa148f75aabfce9cecaea9474a3cf"
+
+[[files]]
+file = "kubejs/assets/minecraft/lang/en_us.json"
+hash = "53cb8bfd516d2dd61ad34d3d699f9fe7bd18a543cbff91f7a8dd02b498bc5d59"
+
+[[files]]
+file = "kubejs/assets/minecraft/lang/uk_ua.json"
+hash = "53cb8bfd516d2dd61ad34d3d699f9fe7bd18a543cbff91f7a8dd02b498bc5d59"
+
+[[files]]
+file = "kubejs/assets/minecraft/optifine/random/entity/illager/pillager.properties"
+hash = "e63824309522f4f79e8e63801791ef6e488f9bf0cd48b87880a5691117c6e435"
+
+[[files]]
+file = "kubejs/assets/minecraft/optifine/random/entity/illager/pillager2.png"
+hash = "5c2ba552332a3c4b6eb8e0ea91791ff0008c3022737517dd98db200f043c8dfe"
+
+[[files]]
+file = "kubejs/assets/minecraft/optifine/random/entity/illager/pillager3.png"
+hash = "cecb63fb8d18ab6d26194ee79ac6922e2a5b114d3e5287ec389d3e0cbdd44c0e"
+
+[[files]]
+file = "kubejs/assets/minecraft/optifine/random/entity/illager/vindicator.properties"
+hash = "9c52d93edc836c6ee71665f50e6e217ae81b9bc0f657f3066ed7515d01098d5e"
+
+[[files]]
+file = "kubejs/assets/minecraft/optifine/random/entity/illager/vindicator2.png"
+hash = "acf29cd2080935c5b69951ee87dfbb22808daa9f3bc5ec8fc7d435f8c44dbb5e"
+
+[[files]]
+file = "kubejs/assets/minecraft/optifine/random/entity/villager/villager.properties"
+hash = "a4d5af0d98472424adf522ae0959e1fbeaca36003f8716c51543fedf15af4fc2"
+
+[[files]]
+file = "kubejs/assets/minecraft/sounds.json"
+hash = "fb8a9b0700ffde629e1c0d5e36648b6f0aeed005bb429f542ba12180c433fbba"
+
+[[files]]
+file = "kubejs/assets/minecraft/sounds/svitlo/shahed_buzz.ogg"
+hash = "c574bc35d1a6486c9621345c243388f52b1e27ba4b2a0007003727576de30c36"
+
+[[files]]
+file = "kubejs/assets/minecraft/sounds/svitlo/shahed_dive.ogg"
+hash = "9f842a88e14abc01e10f65ead261337244f76e62128ada19fdc006b31e75f6bf"
+
+[[files]]
+file = "kubejs/assets/minecraft/sounds/svitlo/shahed_hit.ogg"
+hash = "d4fb7515ce7090268e72970e1d83b9d0cd7f5bcfcd700e852c6fd8b197fdd58a"
+
+[[files]]
+file = "kubejs/assets/minecraft/texts/splashes.txt"
+hash = "f0ba8ae1096b50ffcd11afa2651e36a9a20b73408c3f426d80c3ab64bd520f0f"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/creeper/creeper.png"
+hash = "a4e1d41c1b24e39b83e5d77daeb07c550996e38f00e869c3b3f1199e56548be6"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/phantom.png"
+hash = "7c7a809b9b043c1f1e669892a5d53078685cecf4ded7c75817d60f6c07cb36bd"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/phantom_eyes.png"
+hash = "7aaf517e0ad3588dbb54b9a4b3fa664974610e4b460b4158416b744b248e6898"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/skeleton/bogged.png"
+hash = "2b9a32ae372d93e31fac8c3e79a952db5c3a71b1a121a2dd1576b546e597ba1b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/skeleton/skeleton.png"
+hash = "2c3cd2ac01c2937acd3a8c1c2cba22a9731898a09e198b586eef6f2215dd2bc3"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/skeleton/stray.png"
+hash = "3339a59933c4aeff8c430cc0af415bba8a2e681f25bff31078ea4725a1c6be12"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/villager/type/plains.png"
+hash = "4107591a606430786df9c428af019bbe31ebdf42a5d738d3043a536377b3f1c8"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/villager/villager2.png"
+hash = "63a9c33ee23e526b177ff359d848aba896c4820f323d56bd4b495e7f4ac6612b"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wandering_trader.png"
+hash = "1550e0b49ba23eb6731c7e73193a3c6ff04f77bfc8aa6d8336fbfe5f6321271f"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wolf/wolf_ashen_tame.png"
+hash = "db93fbc81c8ad27bc65eb7675d2a44aa5bfec03c8177063db381005906198a00"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wolf/wolf_black_tame.png"
+hash = "db93fbc81c8ad27bc65eb7675d2a44aa5bfec03c8177063db381005906198a00"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wolf/wolf_chestnut_tame.png"
+hash = "db93fbc81c8ad27bc65eb7675d2a44aa5bfec03c8177063db381005906198a00"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wolf/wolf_rusty_tame.png"
+hash = "db93fbc81c8ad27bc65eb7675d2a44aa5bfec03c8177063db381005906198a00"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wolf/wolf_snowy_tame.png"
+hash = "db93fbc81c8ad27bc65eb7675d2a44aa5bfec03c8177063db381005906198a00"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wolf/wolf_spotted_tame.png"
+hash = "db93fbc81c8ad27bc65eb7675d2a44aa5bfec03c8177063db381005906198a00"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wolf/wolf_striped_tame.png"
+hash = "db93fbc81c8ad27bc65eb7675d2a44aa5bfec03c8177063db381005906198a00"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wolf/wolf_tame.png"
+hash = "db93fbc81c8ad27bc65eb7675d2a44aa5bfec03c8177063db381005906198a00"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/wolf/wolf_woods_tame.png"
+hash = "db93fbc81c8ad27bc65eb7675d2a44aa5bfec03c8177063db381005906198a00"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/drowned.png"
+hash = "1fb6c511788e82ccf39993b2a85af05d73e37c967f33bcb6b98338ff2d2e95ea"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/husk.png"
+hash = "b2066946aed9d03aa267c151b131f468dec9fd7da9cac2ce1fb15e4ad8c49c7c"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/entity/zombie/zombie.png"
+hash = "b71ccccf9868b5228992143f02e0a4c04f888bbf199864fc37366bd589fbf403"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_0.png"
+hash = "f6e0ebfe54261107a107a6b7c3175e68d55f49f3c36912ea76add6cd319f8da2"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_1.png"
+hash = "f9457a7a907d4a90491a0484f0588062841f8b09aeea1c7a9762f6456cb19ee7"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_2.png"
+hash = "ea48d133623ccdda67d40825fad695f6aad708fa40a6d1b48d3776e2f36b37ac"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_3.png"
+hash = "932aedb1b8f458be3af1f8e0d618dceb5c86aa90b2b045b7ce71cecb4ecce03a"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_4.png"
+hash = "2542a9bb85415ca8056557d678f4909fbc742b36dbc1a8f8d3ae18207e66ccb8"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_5.png"
+hash = "1a0d932a7a96fdeb066f6342dfcb528154208dc54a9c4f36659151cf4e31e6df"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/edition.png"
+hash = "e023b79d525e03faa01a9912869f16ab143b993f2b8ded9182d0da1128410431"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/minceraft.png"
+hash = "70ab4ab416a1a83f80f3cda06fac2007b758d06969b85f131856111fd35b1ce7"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/minecraft.png"
+hash = "70ab4ab416a1a83f80f3cda06fac2007b758d06969b85f131856111fd35b1ce7"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/fire_charge.png"
+hash = "2e7e2d50965bf7907f99a223dd91317b9a2413a8ad03caad7c0a0ec55d9247d0"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/leather_chestplate.png"
+hash = "20c04d7fafa431a0645963c73bf7107416e2c9e7c3dc7fab58990382b5140468"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/item/leather_chestplate_overlay.png"
+hash = "f248cdce5df0077795ab62e869fa19135e9c492e5f5cfe648473e38bfe38682f"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/models/armor/leather_layer_1.png"
+hash = "f93b016f793a8e035adeec947b5a246045eca5ee1aa2a30396ee3d243498f940"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/models/armor/leather_layer_1_overlay.png"
+hash = "e619491312a3a9d5419a8e244aaec734ce7b4ff244cf8647f0a8d4875f91ab76"
+
+[[files]]
+file = "kubejs/assets/svitlo/lang/en_us.json"
+hash = "d34bd8b09d9c15721616e5f2842e2dc8c98bd6d73d82f29d8e91292117e5b038"
+
+[[files]]
+file = "kubejs/assets/svitlo/lang/uk_ua.json"
+hash = "a025d5116385507276e6df1c745c7b66aa88a8ac9ad336b42887e40ec87ec18e"
+
+[[files]]
+file = "kubejs/assets/svitlo/models/block/yizhak_shape.json"
+hash = "45427b0947908f4dc2815acd440f98d52d84a0965560076d02075cdc33f165e1"
+
+[[files]]
+file = "kubejs/assets/svitlo/sounds.json"
+hash = "9d397c08e88f226b337ead525741a2b753a1f11ded4efef7b4368b3c9b7dd128"
+
+[[files]]
+file = "kubejs/assets/svitlo/sounds/music/kozatska.ogg"
+hash = "4cfe72486e36f1f956f6dea3b9f1de43b5ea978e755930fe0dce1752534e71ec"
+
+[[files]]
+file = "kubejs/assets/svitlo/sounds/music/shchedryk.ogg"
+hash = "5b4ff0d7713ac9c9434d3e745187285c4cd9ec761706360fe5c184ac41cd8a43"
+
+[[files]]
+file = "kubejs/assets/svitlo/sounds/tinnitus.ogg"
+hash = "475e51102b36e4eed2eea0c3f9290aaef8627da2a94fa903e3b972a68909b37c"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/bankomat_front.png"
+hash = "e16748af612d2addcaee3d850279db84df686a9a60dcbb12b54482a6dcc597ce"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/bankomat_side.png"
+hash = "f70bee43aff2362f98367a9c6a7fbb58f065fd50b7ed1dd29bdb4dbe8189191a"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/bankomat_top.png"
+hash = "96415546abf93d6a51305bf63c10ea785d2bdaf0286cfcf5421570bcc1051561"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/cucumber_plant0.png"
+hash = "724a904e2807d355b2941440ff6fbfecddc2310caa0405e0faa8b7112acca065"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/cucumber_plant1.png"
+hash = "8776f52a16c414df334ca456cbc93b1a48db10e3d64b90b59b3a03267b0807a2"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/cucumber_plant2.png"
+hash = "3a2a093a818b04d4951aec828e6906610688bef4fe7d2a52e27a80c4a1666422"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/cucumber_plant3.png"
+hash = "2565d7bfbfa87d79ce02424f16907c28ac754ccdca827eeae4bc1e8bbba9f597"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/banka_ohirkiv.png"
+hash = "9dbfe082b92bb33d87b3ae9a1626959a8eeee0c9e25dfc06487f344f6930daf6"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/banosh.png"
+hash = "2b47533cc2fbb71a9cc7edfae57c90c3ed39ab4feab14109614f91a24b7b593b"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/borshch.png"
+hash = "8dedb3b745cfc66a5e3770e1d1a249b6051e80f9e732d44015e2bd1c0ac5e999"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/braha.png"
+hash = "53269d5bf12900ff8d507bfe478a73e1a44af87dc4b20e592c193929bb9030a0"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/can_empty.png"
+hash = "65f7882e7b975eb9f20b9653730f8b9beed2e5588c3b3df991ece00a7aec01b9"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/cucumber.png"
+hash = "1c55abe1965d2b781735ca70b1ae42cc08ef3352ec06b6ae10a12000fe8c4ba6"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/cucumber_plant_seeds.png"
+hash = "8e483c08950e3a3c9ddb4bebbbf3b8ed046e52d07e5b5511aecf03361bf5b944"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/deruny.png"
+hash = "2d8f0662226066fc79a361e30abacfc175553a7efa1ebd1718aa3084864fd5a1"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/halushky.png"
+hash = "1ac22304f7b22d4005176acba7d4fafa4c5641a9cde8cd7ca3a7a8d12a216e3e"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/hodynnyk.png"
+hash = "1bdb198bb98121c03ef410291f32f796f803887a9d3e41ee45ae914dcc29ed97"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/holubtsi.png"
+hash = "850e34b598167fb260c08a69141c97ee10c4a971b6f974816c9975c9ddf39a13"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/hramota.png"
+hash = "5c9154466e5d6516ac25fb966d1d290061f4869a14863e8630ac05fc08c87f1c"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/hryvnia_100.png"
+hash = "c22a06848b54b73edf7a9f6e876040aab768ceed6b2b509142b0b105f4204082"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/khamsa_sandwich.png"
+hash = "d0bd57e24655400679b50f2199897138827219e75a215d3253ac477df59304aa"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/khortytsia.png"
+hash = "e7df7c0bfa17cb09bc25a5db0ac4d3fe369b9c6a9e00db7cc110ddb8dfaceb53"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/kotleta_kyivska.png"
+hash = "a817055d8cb12fd2b88fee002ecf72ce9a8aad68a3daec86204cf4b91a7802c1"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/medal_tysiacha.png"
+hash = "e39737b3007fa6bda3947714be6031e5aad4ed12f482fcdd666769b8f8096414"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/monster_original.png"
+hash = "93d3d7401513e2c1e7fcae379ab9ad028cbadae9b4d892095ddf67edc62c3eae"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/monster_ultra.png"
+hash = "a212d738ffdbcece536fde57fe424872a65400a2014b2e0a3553ebf9f38bad1f"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/non_stop.png"
+hash = "77e7df253924d28cb1ca8a7efef3a8d2993e5a9a0448ba7534e3263ad4b9a229"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/orden_svitla.png"
+hash = "b858b080aca78f33e478e794eec432a1cbbd2ff73ec3168da2a56b8f8f95e0f3"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/palianytsia.png"
+hash = "e80add4cb91f09ccd93f1fef0f3feecc7e57e2e490c8a98afef116a3b2a0051c"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/pyrizhok.png"
+hash = "e430c7bde31df9334b68bda3f2ad8fdd344f9def81752279355c10821720dc5d"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/red_bull.png"
+hash = "161a00ade4506ecdd6e42492bdeee5a8f0dee9d257f06bb1f1a73665d593f0fe"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/rozsil.png"
+hash = "bf0b224042960f0f5ee88d6eddb357a293b852d763733b421c65661f29a203ca"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/salo.png"
+hash = "0c58dd32b9f566f912f56f175b4cd9f073f772b6a385a1dffc7ecc785f8ee126"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/samohon.png"
+hash = "699352486da6bcae1bdfaa14ea85b24a9ff1c5bef38bb712b570363a2dcf82a7"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/syrnyky.png"
+hash = "fd88474d972253b32f5a466f1e6e7f6f61defd20d5949099be18e2462c5ac557"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/unfinished_cartridge.png"
+hash = "424059615cd4e1028ae7948daf0b7d7746ea7dd0726e257b466e07c4455b36a2"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/uzvar.png"
+hash = "b08031d31d9bd84d247959bb40e63d610a039eb83a56378d8db221fc5e453171"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/varenyky.png"
+hash = "f4bb20140e0cf78b1b27ee41a39e410d1b2bf850bf09cbca461916ad6277e3d3"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/viiskovyi_dokument.png"
+hash = "3d282b44e33deccb2ce6698d6bbb1cebe6ce5d3d1b8fb61d8bce4039973c0a69"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/vyshnianka.png"
+hash = "395070e9164b05964f67e925e955c372bd81c05db39598a095dd8cce86f33d65"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/yushka.png"
+hash = "70f4e10d86c93e7c3ec42e22b0a96e5114a8654f6313d6519ed00afab966fe9e"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/znak_horod.png"
+hash = "c22c98e0c10e71b914138f38ebcfd3d1a64030c0aa859e26b3277d4c93f2188a"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_medium_house_1.nbt"
+hash = "c6db00df1d8bebf8cee37cedb3f3d5b921ab287f1cc67b93c89a2a223f066aa0"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_medium_house_2.nbt"
+hash = "bf77bb9f2e9c0b07b4870a14de203395d62f74347379a9ff6688d08b81c04c60"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_small_house_1.nbt"
+hash = "2a3b9607c20ba9fb39f463ebe3d288893248970cd3f71f2b623c6a399878ab15"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_small_house_2.nbt"
+hash = "6dd874b07e4e02017543ef84d8e5291a562c6a8f359b85e5837c9ccd8d8e2547"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_small_house_3.nbt"
+hash = "8fa0de855acfffa00183cae9c677ccba0152ec47638dcd0b32693e07e8edd0f6"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_small_house_4.nbt"
+hash = "b82799acb5cd402f3d5004d9f74659ceeeb4bfd3493851e5289d9d108c342164"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_small_house_5.nbt"
+hash = "6e5678f6b060b2b34e21c1cb1a252826d7e0b63f6c7d12c19bab77e33a1da8f0"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_small_house_6.nbt"
+hash = "1e9eeca7c4d74afb96cdda5683015c70af0b45968ccf5897656826d955d1de3e"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_small_house_7.nbt"
+hash = "8763680e7597a8e05faa1d909abe0ad1ce63fd108ddc70fe6bd309847a5e8b57"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/desert/zombie/houses/desert_small_house_8.nbt"
+hash = "8eff9bc44b7dd41665ce897bc98fff61684561e2f7f2c378c466853d9026a4fd"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_big_house_1.nbt"
+hash = "40a8951fd3b6e0de9ee02e3791555b441432ff389e5b29ef589ef2eebeb41c1f"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_butcher_shop_2.nbt"
+hash = "909cfe1247088d740801adec3c256aab180898b6a8f8dcc73e6f00e61c8a909d"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_fletcher_house_1.nbt"
+hash = "8cd3a422517580a6536cd5f2fb0938e97b195ec81ca39a9e3bc629c19da2c50c"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_medium_house_1.nbt"
+hash = "ec93fd3603b167c53a73c3cc43233e8eb300894953be4edd7a606e137964ba88"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_medium_house_2.nbt"
+hash = "990f992d08da1d1e308990aced6d1cee66a242263db9ebe236c0317c1ae60a27"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_meeting_point_4.nbt"
+hash = "d6c012f63ece29005d91b5cd1379a8cc48c80b1843ae41631f8f421b7efef203"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_meeting_point_5.nbt"
+hash = "5017a7c94b805c12f20221f20736096b6f7aa14cc77afc89b22657203d9b51f9"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_shepherds_house_1.nbt"
+hash = "c56123c4f1689440210523faaf4dd63dafecafe2ec1643a5c8684707bf900aaf"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_small_house_1.nbt"
+hash = "13a7de50d4ca2ffd5da18917657a9ad1d430f7ed7c57d88c5f064c00ecaf5d6b"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_small_house_2.nbt"
+hash = "3998b6d03560605f925aa1c8af96b2405d9960b8cab9dd8b64e34672da6ac698"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_small_house_3.nbt"
+hash = "25bddee1cb707ef84ab73cffc2d16b520d5ea47bdc55652dc3a4da83d0479fc6"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_small_house_4.nbt"
+hash = "38eeb1f82f4f78f4b1eedd75d1aca46038d832aa128863318acc25194fbf58e3"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_small_house_5.nbt"
+hash = "58ebf7fd1bbb66ce289bb04112ea2b2992b8ecf49286d3c938d3d4795dc414f5"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_small_house_6.nbt"
+hash = "929ab5a06bd21ed85a9c1d4d8a857c7998afbccc1483447d028ddd003dd5decf"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_small_house_7.nbt"
+hash = "f10438476a310a416c8934f6625e60a680e8fdb22866f59ec67850853226fa5c"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_small_house_8.nbt"
+hash = "a6595f2208b660d56bb692a5b8f5edbb949beae159ffb78d4bae62828c02f7cc"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/plains/zombie/houses/plains_stable_1.nbt"
+hash = "48aae8d9658d2ce5b43b83976607078d53b68aa04ba71012eee0b0693f9736c2"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_large_farm_2.nbt"
+hash = "a522e295c89047b75f61de62594ee0aebb2cb5ab2b6a9a0534a38d26adddfb5f"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_medium_house_1.nbt"
+hash = "744d7346d24687fbf94b1eaca467f62c59bbd6e0892d1fb581ec3d91c26729b5"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_small_house_1.nbt"
+hash = "fffbfc399d2ae4afa6bf4006a04270d3042c26c504397571b40aa4543e66e94b"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_small_house_2.nbt"
+hash = "86d0688087bd9322ea727d6d080fb76442ee12cb68330b51914ef08f30378dbd"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_small_house_3.nbt"
+hash = "48127ae26d416ea89c2b1c2dbf5d2801809f1fc334391c4935e9a95dbcee82ea"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_small_house_4.nbt"
+hash = "352bb181a87d6bf324ce8a061c50481a451e67cc6122c74b81ad5a036ccae234"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_small_house_5.nbt"
+hash = "773eff5f6ea43d9cd78c980625f136d57d2720ed59fffab52706f57b2f7c0ca6"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_small_house_6.nbt"
+hash = "0d42c5ebcbee338a71ba13c2f79b218f5001bb4d7cb360d52fba1098c9ea0b06"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_small_house_7.nbt"
+hash = "b511133b79ba1c9d83e19fd9120740ca396d56fbbf11e8045b0ed6fa2022c038"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/savanna/zombie/houses/savanna_small_house_8.nbt"
+hash = "974d8370354fcfaa3e7568f6011032a7f6b75a3cb9e293d674a43347a80a5ff1"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_medium_house_1.nbt"
+hash = "ca1a6ed763fd6951d57150a07ff26020d1d78ca9af71ac7f547d8f6ca0b1e9e3"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_medium_house_2.nbt"
+hash = "dcc2e982366bc8b39b36b6b276ff0fc947067ec50938855c6628119610a59a18"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_medium_house_3.nbt"
+hash = "1db1f4d6c92098d117fa29699d1f869df5106933428f2d1f924334ef2c4ec5bc"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_small_house_1.nbt"
+hash = "d5e0f093980d161b75e1248a71f9421c0cc15136cc83294b0e6699f0b58fa836"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_small_house_2.nbt"
+hash = "e5bea9b19226892406ef8cc0e6ae9ed039c0c307d89d85c9fc8a28d777c7388f"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_small_house_3.nbt"
+hash = "f0cd87c7b9a378fc6a8c2a33ab22b464eb3963c6be23baf5712004624b468149"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_small_house_4.nbt"
+hash = "86abb158e30de3202e001e777f3f3eb9ee992fcea6be0bef32f2e1c806fb853d"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_small_house_5.nbt"
+hash = "2e83d6f8cd86aa75795ef225aef5af33a595dc5b31219253a0c227a9bcd5a4eb"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_small_house_6.nbt"
+hash = "06f57e83afee9d8056192ba9a036bc91630b3a682b4a78d810dd6eb3bee1a24b"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_small_house_7.nbt"
+hash = "c8f7bde8d2775e27a1bbe84009859461a4a8f8c7dd3e82dde3ee7bd9583b2dc7"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/snowy/zombie/houses/snowy_small_house_8.nbt"
+hash = "af89e0b1b50ffeb8bb22c608eb0c9fc9b93a47e5b3e44ee12f1da3c8b0172a1c"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_cartographer_house_1.nbt"
+hash = "71a520e61a7912135721c78e26955b9cee031e9c8124f91683ad1374325f31cb"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_fisher_cottage_1.nbt"
+hash = "47d742806a4f255e50d71224e1625b44f25a38cbd4e2dcb71cc2a88631f88b04"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_large_farm_2.nbt"
+hash = "609c1e138f0f5a4ce9038c511e0f0364a03a3e775583dd297afedc25d8090166"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_library_1.nbt"
+hash = "68a7b5ed5b2de041ffe1e7026616aebf9bfdd9b6b2143e95d0ca1bbeffcf63a1"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_medium_house_1.nbt"
+hash = "33d1e4cf3956b3408ba7f86f4615162d0194c4f37c0cffe51bd4377be6065d47"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_medium_house_2.nbt"
+hash = "19e31284b8b250fecfed6b6eb1732baa1a9ae79ba13580b89e1b348cb73f0e9c"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_medium_house_3.nbt"
+hash = "539dc3187b1a94a138eca13c02da0cd0704b6de526f998d19d41b2c35ae7f874"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_medium_house_4.nbt"
+hash = "827338867311a6b663605bf8828fb9122bf35ff9f67c7fc786edc5a31bf7b468"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_shepherds_house_1.nbt"
+hash = "ce33bc74f116d6af256bd76fced4417441bf002df49bef6d5b9e2bc0f38bef15"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_small_house_1.nbt"
+hash = "499f2d8082b2dc96f2155b4f19456ee48cba2f3233240ff005b3317cb76016eb"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_small_house_2.nbt"
+hash = "71053e5326a33a6afe8f848d5004b1cfceafb140fbbe53ed26ace5563f7d35d1"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_small_house_3.nbt"
+hash = "e7fdfde70794985202fbce6b929802f87568a3934c3fb089f62f69bd52e02f40"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_small_house_4.nbt"
+hash = "cf4f5031c1b190ddfbe55ee6facde7b518b8ee52dd83021d393dd7cee87617d8"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_small_house_5.nbt"
+hash = "dc6160b775bd870544f09e9e8346aea912a149fa6e7444e25dbe608339433779"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_temple_1.nbt"
+hash = "ccdfcf4128faf651d400e03ab2c1fbdbb2196d7e3c43750b1b54196a46643feb"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_tool_smith_1.nbt"
+hash = "2256fd2122a4b7720a8e8309d3b88ada86adf383b08271ce6419f5b8a042af94"
+
+[[files]]
+file = "kubejs/data/minecraft/structure/village/taiga/zombie/houses/taiga_weaponsmith_2.nbt"
+hash = "95ee463dc0fce3e52df55c906945bdab08f093f66caedf5736cbdd085ff80a3b"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/function/load.json"
+hash = "0f59e6c90b35c60fd0340aa4b8e1af003edbf94c352aab48354cfc586d22919f"
+
+[[files]]
+file = "kubejs/data/minecraft/tags/function/tick.json"
+hash = "e45c008ac67035e478816ee5f451cda83e211fb66b19c923627bf7924a222a48"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/desert/houses.json"
+hash = "8cba58f8b4cfb4f3f7f6d5c701cfdadc8027c6b45b49c643b8ef94457a1cfa3d"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/desert/town_centers.json"
+hash = "2ac623a196487e8eb46266e62c673f45207d8a0d856695fbc8b623c2a07e31a7"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/plains/houses.json"
+hash = "1464ff195c850b6b07b105749f9989c43a1741fd9543253b6f579199a537a801"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/plains/town_centers.json"
+hash = "3b24ca0c09542628cdaaa3d1675867c67f5a7614a1bce298dad99e419931f7f2"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/savanna/houses.json"
+hash = "619d22c2a4bb6b80edfb368eaefbf6489bc5a89f6fd6fc266851d486320720e0"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/savanna/town_centers.json"
+hash = "c2def0b1cf89018e29d8173c3791d8ee0059925867d0227e47329edca4a448a8"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/snowy/houses.json"
+hash = "90aa6a83b20dc6f82fdcc3dab2e08a9fb21aeaefebe1c7ce267068d6b30267e5"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/snowy/town_centers.json"
+hash = "74c83f7a3be0cdb0656de60e39b6c1efb83c8c2128040047c08f3c08182605e0"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/taiga/houses.json"
+hash = "933f1b7a19f3afd0d374524072d05534956d10bca0e2266fb3a2a5d17a49a220"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/taiga/town_centers.json"
+hash = "1d35d69f73d1df8c13aea302570d1055f6906f446fa04acf13bfedcaa682dd38"
+
+[[files]]
+file = "kubejs/data/neoforge/loot_modifiers/global_loot_modifiers.json"
+hash = "817971645cf923cfb1cd81bd2482a001fe67fafc91e0b1071085f4b7c40bbc3f"
+
+[[files]]
+file = "kubejs/data/superbwarfare/recipe/handgun_ammo.json"
+hash = "6a5294ff2df0496c8daba0634dc4abc22c33822b6941ebccb2b3768657d7baad"
+
+[[files]]
+file = "kubejs/data/superbwarfare/recipe/heavy_ammo.json"
+hash = "efcb7d0fae7254feff885f04619208bfad39ef3299ec3ce5b3850f835135f007"
+
+[[files]]
+file = "kubejs/data/superbwarfare/recipe/rifle_ammo.json"
+hash = "f2d2d5ade6307ab1f7dd8d1ac3c9adea6c81ec9034eea6af8bfa13d04d40e467"
+
+[[files]]
+file = "kubejs/data/superbwarfare/recipe/shotgun_ammo.json"
+hash = "62324d30c5325800748e109652118702e1bba5233654d6858fede9ba8cb2dbb5"
+
+[[files]]
+file = "kubejs/data/superbwarfare/recipe/sniper_ammo.json"
+hash = "613532e47168e8eb2b9becb783dc8fc65f427af632184155bf0b321120819c74"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/blindazh.json"
+hash = "97a5ecb9f3ae45a90703c99aa25a0884b17bc97a6f293d0ff83774e51a910ff1"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/botoferma.json"
+hash = "9692dbeb6696f85ff01c348cf24ac4211bc72a993432658bab7d4d107a56eca9"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/bunker.json"
+hash = "d4a2a0852c275ce0c7387db8d7ed985ad94dfe58a2eab6238dc820bd2bb49042"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/concussion.json"
+hash = "7c3b1a385e1f08b5ae5231c3a29d085cc467534e76f65198ebd0a238f7c9ef29"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/hamak.json"
+hash = "427b117b5024ce7182655c5cee378a44ef17a1f28a1f111a56c69f2aaf5f56b2"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/kurka.json"
+hash = "79f5031d9df8913cad7ac67dbdab1b2b0a7f3662b1bc78c0f802123a3b71ba0c"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/makiivka.json"
+hash = "b19b8d695c01955adb106f7c2525f45702285c34151587f6adbea5ac8e16e153"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/mebli/chair.json"
+hash = "fbdb2af0e8fd0bed28fe4988357befd98aef11063fc7a95a5e4da02776f77942"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/mebli/couch.json"
+hash = "a8c207584d7417c7bfb75fc0c08d1615f2e4e66c4274dc212217e22e47fef887"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/mebli/cozy.json"
+hash = "95f832c32cb51730e06dee6f2c60488fc310deef71c6c9744f482473fd00aaff"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/mebli/dishes.json"
+hash = "b875a06a47c16ece24ce046dbb8009f3c67ee71374a828ca010ba19028fffa1d"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/mebli/flowers.json"
+hash = "aae699df6322b6c4d062a3a97f4fabec223dc52cd044d8b0932db21dd26658de"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/mebli/kitchen.json"
+hash = "4c62df0009644efbf747806e2a0bf55c1c6c1c88ce4bf90fd110f9d5ce68d342"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/mebli/storage.json"
+hash = "55a5f6afd7cc0a84f48ae1ac4d233b03193d8028b9ccb330dcd01eca654f4150"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/mebli/table.json"
+hash = "fd51899c509b404b894db14c380e98c1c43bfdb2aed8d6f2ccd7b521b1a6bc7b"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/mebli/trophy.json"
+hash = "115c98cec0336bdeef9587903bcb3046a5b8fd5392cb80719f32d40e0aafdec7"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/minefield_enter.json"
+hash = "14c3b28f3ed6ee7a2fbc866af547bd944791cc6aac1d1495a7ef39e3c842a11d"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/nether_bread.json"
+hash = "1b5acc3d037b5260815e4237171998669ceae40b9bb28200a935724530416c4a"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/patron.json"
+hash = "3fe2a42b4162e3462c010eaee97b749215fb20be13768aac81fc82edb34ffc04"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/root.json"
+hash = "570b428889249cf319c780580fa67bf35baeb8a80cd91853f2b6985f25ff6d9e"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/russkiy_mir.json"
+hash = "726c0c6654bcdada37f6397034afc6df194aab6b0f78203bd2a039a0a41bb7e0"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/ryba.json"
+hash = "389542afd2b503bdd9bab78e893b56d4b0cfcdb7168f1d50232ab2817fd06713"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/shelter.json"
+hash = "de7cea6b7afbcc37b5e264c332b8a0ff3ced7d5d147d9aa4cbc0d6ff318f185c"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/tck.json"
+hash = "25a3f79e585671e5afc2bc2bda2fb8a4aee2b14643b53c552fb4b2fa3097fd7c"
+
+[[files]]
+file = "kubejs/data/svitlo/function/atm/balance.mcfunction"
+hash = "eb941e6d7e12e485588ae86e4d9bc9f4373c835afe7ac3a4353e833f27d978a5"
+
+[[files]]
+file = "kubejs/data/svitlo/function/atm/deposit_cash.mcfunction"
+hash = "b7059b8760b23923a0ba99ce349f00708ec0916239cd23dd930897d9c5a10872"
+
+[[files]]
+file = "kubejs/data/svitlo/function/atm/deposit_emerald.mcfunction"
+hash = "21ceb1c94cbe3b4b9ba0238ac2779e273e6144e692a5f091d7380642ddf83e9e"
+
+[[files]]
+file = "kubejs/data/svitlo/function/atm/give.mcfunction"
+hash = "51136cab112ed266c96fc14efaa02c5de70e602bf2eed02af49b10794bbb298b"
+
+[[files]]
+file = "kubejs/data/svitlo/function/atm/no_power.mcfunction"
+hash = "275b10ff078de4d5fd00f54585621b27cb49bd171c759630b877dca054732175"
+
+[[files]]
+file = "kubejs/data/svitlo/function/atm/use.mcfunction"
+hash = "a9be5858a38d79bf8f058a0d5b0951a0b4e6e6e4cbc70978539b2f960ab59cd6"
+
+[[files]]
+file = "kubejs/data/svitlo/function/atm/withdraw.mcfunction"
+hash = "6625ebd809d5f8bf9326abcfdc1022829bb400aefe97c473f0c0dc96930b9bfc"
+
+[[files]]
+file = "kubejs/data/svitlo/function/automatnyky.mcfunction"
+hash = "0b89ec79459d98fc656eb47c6a4ce0813f35dcec9e6a0385d613d27fdb7d42b8"
+
+[[files]]
+file = "kubejs/data/svitlo/function/award/check.mcfunction"
+hash = "4fc3057a5645c302a38bcf280a639385a75576148c3a0a989d2654a350e2130d"
+
+[[files]]
+file = "kubejs/data/svitlo/function/award/give.mcfunction"
+hash = "830f201f6f5d5a600645ae95fa610262d17e76ae50fe6223a112df20511d6980"
+
+[[files]]
+file = "kubejs/data/svitlo/function/babusia/check.mcfunction"
+hash = "55c036d9e2375713805ce4843979d9d29a5c291909fbfc14424852dddb4a13fe"
+
+[[files]]
+file = "kubejs/data/svitlo/function/babusia/leave.mcfunction"
+hash = "004ef4f13013deade52fb23683f07694c7e5e03f396cad36f6a3c07b171d867e"
+
+[[files]]
+file = "kubejs/data/svitlo/function/babusia/spawn.mcfunction"
+hash = "d6f59a960fde913b0260659751bd5fbb4419032a2ff891a69ad4847772f3e362"
+
+[[files]]
+file = "kubejs/data/svitlo/function/babusia/swap.mcfunction"
+hash = "462d9ba944b66e81aa8227497aedf635f2f6f5ea446de372b06d85f9fe39a660"
+
+[[files]]
+file = "kubejs/data/svitlo/function/blackout.mcfunction"
+hash = "db0ddb7285db672181d41083cf982cb852a627884d8833de709f8810fbb755f0"
+
+[[files]]
+file = "kubejs/data/svitlo/function/buff.mcfunction"
+hash = "327d76558b392cdcc07f72320f0f918f59d37f3c56740e2c5f0b3327d63c216e"
+
+[[files]]
+file = "kubejs/data/svitlo/function/concussion.mcfunction"
+hash = "85c9e75e7d3ba0c0a968317ac9651ebe9ab0e7d6521d3aef45b300ae7a75a2d6"
+
+[[files]]
+file = "kubejs/data/svitlo/function/concussion_apply.mcfunction"
+hash = "36a58392c7431aa187895cf28e3976e321e1ca11a862bffab32cf92f6a79b1c1"
+
+[[files]]
+file = "kubejs/data/svitlo/function/count_kills.mcfunction"
+hash = "402b8828f7e5cb4c6017443bab42b32594a9fc030fd0d16937a5d14091beff81"
+
+[[files]]
+file = "kubejs/data/svitlo/function/dia.mcfunction"
+hash = "7f15937428467d034a6e9181a28d2f63e9cfe6e0e89f3de77a228815a86dea4b"
+
+[[files]]
+file = "kubejs/data/svitlo/function/died_check.mcfunction"
+hash = "0b4bc84f520eb8486d468ee3947f55e7abce8d46339c22869413227b7c571bd6"
+
+[[files]]
+file = "kubejs/data/svitlo/function/dog_sniff.mcfunction"
+hash = "191827b641f6d2fcb0975993c7287bdee3bb1f9c94d5b12627e8217af6975b71"
+
+[[files]]
+file = "kubejs/data/svitlo/function/drink/banka.mcfunction"
+hash = "ef7ec5884ef6b97eee7abbe32baf0ab447a9e2fb7c73e42ac834f59b237410f6"
+
+[[files]]
+file = "kubejs/data/svitlo/function/drink/booze.mcfunction"
+hash = "e86265dd4d09c89c576af71785570d5c0fbbd0ea6fe335e124478bde69a70f4b"
+
+[[files]]
+file = "kubejs/data/svitlo/function/drink/crash.mcfunction"
+hash = "642b90a00743105c257e93c1eb111ceecd59d20453b2ea1031eec7f4bd45d663"
+
+[[files]]
+file = "kubejs/data/svitlo/function/drink/energy.mcfunction"
+hash = "9bf3eb618191dc40c754a64661ae7995df42d890853ecffe329e91edacaa8ebf"
+
+[[files]]
+file = "kubejs/data/svitlo/function/drink/hangover.mcfunction"
+hash = "9acde57ec54e51ad2a58eae67301d3885a0ff580c5984531d5de62898f79b2bd"
+
+[[files]]
+file = "kubejs/data/svitlo/function/drink/heart.mcfunction"
+hash = "161d45f269bfca12d1f442a42d78caf791f81fae8dd1ce947686bc7bbafbdf7f"
+
+[[files]]
+file = "kubejs/data/svitlo/function/drink/rozsil.mcfunction"
+hash = "ad2436eb5e1f8de29c6518c59fdc20504555c5dcb0fbae89650810f384b81421"
+
+[[files]]
+file = "kubejs/data/svitlo/function/drink/vyrubylo.mcfunction"
+hash = "96aa87e5746a1037f794cd17bc0576bdde0c479618ed2321402b23b0b9f5617d"
+
+[[files]]
+file = "kubejs/data/svitlo/function/fine_big.mcfunction"
+hash = "01a37acb4aaf09719a9ec61056c0b4ae1919a694d62da6b28ae808b07595c491"
+
+[[files]]
+file = "kubejs/data/svitlo/function/fine_drunk.mcfunction"
+hash = "e8fc975065f4ab48a48877714652965de87a00a5265b929e1729c3b2d0bc23bd"
+
+[[files]]
+file = "kubejs/data/svitlo/function/fine_small.mcfunction"
+hash = "55a063f3254c0da32566333d45d9b56ca14d84afa1a137cac8937d3ca105ed9a"
+
+[[files]]
+file = "kubejs/data/svitlo/function/load.mcfunction"
+hash = "1ebf59e8cb55affa86a0bb10764bd632d5f3c68d74c2483484004307ffebf636"
+
+[[files]]
+file = "kubejs/data/svitlo/function/loss_line.mcfunction"
+hash = "e95b5db78ed0ea56e3436967c1d7292933bd91903f35a2bb0f0ce8ec392e01d6"
+
+[[files]]
+file = "kubejs/data/svitlo/function/mine_mark.mcfunction"
+hash = "6a430474f3a1addf8ce1068086e63fdf5b4a6c0bb22c438d8428ed10140e0490"
+
+[[files]]
+file = "kubejs/data/svitlo/function/minefield_warn.mcfunction"
+hash = "9b645d90295d1871bf40056855b28bfb49ed98b51f05da2527917f104811f4ee"
+
+[[files]]
+file = "kubejs/data/svitlo/function/morning.mcfunction"
+hash = "5210129bbcb53f4635e4adc2bab78bf265fcd515834475728ee95d26a70a1a97"
+
+[[files]]
+file = "kubejs/data/svitlo/function/nabu.mcfunction"
+hash = "541bb426e0a0c3277555bf8f3bda3838403841d3032e337d139713b8b7d1f8b7"
+
+[[files]]
+file = "kubejs/data/svitlo/function/no_money.mcfunction"
+hash = "85197f03a64245b1506f5259491f9d849dd6e45918a9b31dff547d953694ca0d"
+
+[[files]]
+file = "kubejs/data/svitlo/function/pay/card.mcfunction"
+hash = "e7c39c62050adcb0f336de82a5618ddb5c26804c38f207eca3f163ec9093f718"
+
+[[files]]
+file = "kubejs/data/svitlo/function/pay/cash.mcfunction"
+hash = "fa91f2518d443f0a30e4fc37d8397aa0f872843a0eb4e4315249cfc2e8acc122"
+
+[[files]]
+file = "kubejs/data/svitlo/function/pay/emerald.mcfunction"
+hash = "5b8d622b74bd17800c710a024d8339b1ee411ee09f74f3c731ba6da56e19dc13"
+
+[[files]]
+file = "kubejs/data/svitlo/function/player_tick.mcfunction"
+hash = "9f4b2a5998d37f562c7b7a96df65cf67118f4f82779803e8a4b5f68475570ac1"
+
+[[files]]
+file = "kubejs/data/svitlo/function/second.mcfunction"
+hash = "87ac21f01df24caec4d35aff17c99db4517d92ddd1a1ae779f3c3437157e703a"
+
+[[files]]
+file = "kubejs/data/svitlo/function/speeding.mcfunction"
+hash = "d1f0fcd701d7b61c227e567c784b62c834574500238538252faacd8874db630a"
+
+[[files]]
+file = "kubejs/data/svitlo/function/squad_member.mcfunction"
+hash = "edd9d02d9ffd7518a1d8d5eb0e4bb3f21b4de75554880519d4feb3f1c4d5b1cd"
+
+[[files]]
+file = "kubejs/data/svitlo/function/squad_raid.mcfunction"
+hash = "237c4d388ff3f2a6454fb2a27ec476d7d80832da0c844019a7ce767bf54f8e0c"
+
+[[files]]
+file = "kubejs/data/svitlo/function/squad_spawn.mcfunction"
+hash = "a296cb861e76b08e0393f44d46f81fbcc96ca0e9f91506415c16b556a072d97f"
+
+[[files]]
+file = "kubejs/data/svitlo/function/squads_on.mcfunction"
+hash = "6dabacb2f60a0931c407534b16f151fc74ff5001fb023706454f6ec4076458fc"
+
+[[files]]
+file = "kubejs/data/svitlo/function/swarm.mcfunction"
+hash = "9490550188b08e6ccb0ccd5c68aa3fc6006fc654e11795e2b26f8c57e92facb4"
+
+[[files]]
+file = "kubejs/data/svitlo/function/tck/check.mcfunction"
+hash = "f8a4bac29bb12bf35e4e897a319f152bf77149ac7d7cae576ec8e5fb95b3a6ff"
+
+[[files]]
+file = "kubejs/data/svitlo/function/tck/fail.mcfunction"
+hash = "4fc1ee86ffe9ae4c5365f7596b7faf01324788793c2d5275a458c463672270cf"
+
+[[files]]
+file = "kubejs/data/svitlo/function/tck/glitch.mcfunction"
+hash = "333984dee51861ad68a277c78d5c1e8554934f54d0fb24ebe1e05c0c4867444c"
+
+[[files]]
+file = "kubejs/data/svitlo/function/tck/pass.mcfunction"
+hash = "aad9f3b70b01b829f20f3ce77b9ca86ad1c82542f9bee56c4361c49a3ed6583d"
+
+[[files]]
+file = "kubejs/data/svitlo/function/tck/release.mcfunction"
+hash = "a21dd91999fc29663f86d854b7d12ccb1501a6aafee41c46f5d23e86eeff81ef"
+
+[[files]]
+file = "kubejs/data/svitlo/function/tick.mcfunction"
+hash = "a8419c292f4b88126883507b0701d834f56ff0040897344518b43ce43d811832"
+
+[[files]]
+file = "kubejs/data/svitlo/function/winter.mcfunction"
+hash = "0b7c616967c2469a2c83b00a942522b7f2bcefa7cad9ed7fb1121953cf3bafa8"
+
+[[files]]
+file = "kubejs/data/svitlo/loot_modifiers/cucumber_from_grass.json"
+hash = "16e04abe97cfa6fbfbc602531237229523ddac82d3c8a841ce3d7cbe95f9a856"
+
+[[files]]
+file = "kubejs/data/svitlo/loot_table/chests/minefield.json"
+hash = "3da14a7054e14faa43949a1f6afd6841aac7cb4699a467f6c461cc51577582c7"
+
+[[files]]
+file = "kubejs/data/svitlo/loot_table/chests/poshtomat.json"
+hash = "9bc9e90a1b5017364def67affbe371e03991d952405667a8da96178fba2c3686"
+
+[[files]]
+file = "kubejs/data/svitlo/loot_table/inject/cucumber_seeds.json"
+hash = "a3e491e72958fabdf9048f34a10fbd3181a75cdbc2b0e4fe58d4e6f9c4c03b4f"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/chance_automat.json"
+hash = "476f19c000a4e10500c6bccb7a3f5ca1a6b34af9bbcd1485e654fea04c929575"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/chance_babusia.json"
+hash = "1a408ebd6375aeeb5fa6ba82f30420b8d660266a04d9267dac9eaacba6f15f50"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/chance_rezerv_glitch.json"
+hash = "505150d8adbd5f7f71d4c6a2ac00e638e4656c8516f54d30d464fc557d5c2607"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/chance_squad.json"
+hash = "5b79b4b36c0d59f427a74371682ba31873a859faec58086efc8a6aae372d57e1"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/chance_third.json"
+hash = "795f66ca70e65907fc576fddc2402c024bdbd230c128a7d755214fbd1d69eb5d"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/cold_outdoors.json"
+hash = "67bee5eab340b58b5d06b5c1517b6c98173bfffae48e0b6e80c2d4fcdbc5d4ff"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/has_jacket.json"
+hash = "64cb5f76a4c195f7f49ac748474540b46d18138e082a444d3810d0b99e4d8542"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/sneaking.json"
+hash = "98286ec80b7927ba4295f559c3eab074365dab16c484e942926b9f665bf897d1"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/banka_ohirkiv.json"
+hash = "1d003d144dfcd877e4bee3364b706543edab69dd4175841a5420c22278f30abb"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/bankomat.json"
+hash = "772187d013ecc957a62da3bda41e581c8ac6d5ff59ede9ca335d35f23f90f13a"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/banosh.json"
+hash = "d2512e7d796277861cbb2b65057f5374b2a45955b841ebe34e9cbcd5e67d4830"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/borshch.json"
+hash = "b7909ccac34b61ba973b5ec7b092e8d0a4672c07a21f0a69ac5b5a1db909ba42"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/braha.json"
+hash = "834f6b392c8e9cfe7e3e93b12bedb9862c19486edead49a88da4429a175dfaa6"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/can_empty.json"
+hash = "ee3e90e8096a66d2bcdba9a4a5bfdbba386a8ece651c377f7387dbb60cf125a4"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/can_recycle.json"
+hash = "06fd40b2542b3f8aa8ad1c63bf0f834840fddd16536073e5b00c1263cbb269bf"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/cucumber_seeds.json"
+hash = "8c6886c96732deacb6d3a26a20bd7e61711f0b538e27e814440066e2c86131b7"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/deruny.json"
+hash = "b8dca86887eba26862bf29924ec862761fa62052012242d923ac25042139dd5e"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/halushky.json"
+hash = "89f907219d0fab597c8772bc1a9545f8f714035c59df57b6b731ba094d181a6e"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/holubtsi.json"
+hash = "bb724408ed774144ba301514f6d283b496bddbfb22873fc8c9f6747e7ba56413"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/khamsa_sandwich.json"
+hash = "55abdcc1aad86b74bf878395b482a657363ddd0a838506e09fdd7bde634d45db"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/khortytsia.json"
+hash = "29c990adb1d97bf2d319bfbb78db82d87f7536e62fd166d9fcf8fea8ceaa0947"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/kotleta_kyivska.json"
+hash = "c22a1b7cd113998572e23b078957debeb541c8127dec1982f3a2ecbf0785c580"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/monster_original.json"
+hash = "d1fbd3c78d8efc76c72ee7e86cd780344a75589c730d62b13015c27586a9664d"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/monster_ultra.json"
+hash = "5eb83982db5a3bd9c73cfb7f5fcb05cf657d8b5b385d0918a2dec662f52ab659"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/non_stop.json"
+hash = "d38d31526056d8c954f4c4466df57e586c0786aeff8986329d0902585cdd1473"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/palianytsia.json"
+hash = "4cf4fcc82066db8006c2ee31faac70748683d627040055c4625ef1cdd8902111"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/palianytsia_create.json"
+hash = "b2dd5d5702581e09dbb80b46caab17a4768ec720910b29da52c8c72fb6e566da"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/palianytsia_create_smoking.json"
+hash = "87ee7639bd6ee99b1b229e63d6b383053bfc4285480f13ac07ac67406ebcbda7"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/palianytsia_smoking.json"
+hash = "b043aa5615f1fbe4885619b1bb2b0c24411806a88827ec7a739167d01626aa06"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/pyrizhok.json"
+hash = "282ce75ba5fe1082098ef2bfd113a4dd29858929817d1226f469c40d51248a73"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/red_bull.json"
+hash = "cb03a1ab3da6de54c0d8e5ce3db2421c0f35b8482c9812db370e385e737f110c"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/salo.json"
+hash = "a8a9b8756eb6cebbb0c08cb6dc9540dc433cc54a90b306466ae3121c7eb5e1d1"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/samohon.json"
+hash = "8aa6564b13dde63a536e18f2c25d01292709f2d3634e98b8366d5c03dc20eaa3"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/syrnyky.json"
+hash = "df618fd56a2de099bc4c807e850bbffa079295e106bdeb32a81a4a9a66d6b530"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/uzvar.json"
+hash = "d694abc5e39fa4c7066bb8ebe3290c7078ae718cb7b3b84d8af55d9afe96eb24"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/varenyky.json"
+hash = "277928d98dd4e1228b33c111be8ce523f54fc45925963ca2ab2a409419eeb48c"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/viiskovyi_dokument.json"
+hash = "ad0ddd9eeb91761f0f5e7511894301487f411c60a3d5154b5d379f55f49e21d2"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/vyshnianka.json"
+hash = "034a809c68bc4a44fe296ff2556d0a36358e28774bfa05658413b3674b364386"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/yizhak.json"
+hash = "6ee41352c0f216476cc5bb29d8684536aea960bf7cc11a2f0f421a00faea48b8"
+
+[[files]]
+file = "kubejs/data/svitlo/recipe/yushka.json"
+hash = "b33ba669a0dddf3e46c3655e63d7813796b272614a02ce7171c62a395312ec65"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/minefield/pole_1.nbt"
+hash = "886c9c4de87795165b2ac77cf50800d60165f24830a175d7fb141120fb4f0ed0"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/minefield/pole_2.nbt"
+hash = "5286da5720c8dc78d0a68be3c494411439448f8a6a449daf85a27b3ab561d2dc"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/nova_poshta/desert.nbt"
+hash = "d075d88169db7e024fabe862d3883953c1dce69a8c3606d2ee276dcd429a8ff8"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/nova_poshta/plains.nbt"
+hash = "1534fa249a7b7d01d95ec496dd07ee274969ea764e42f91dccd5125f4cac26a7"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/nova_poshta/savanna.nbt"
+hash = "51d14c05045d1e5b12ca61a6eb5dd861124557da3bf3a4dbbd4c461fc563ca75"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/nova_poshta/snowy.nbt"
+hash = "1dd412a9cb2b4fa43d612d2bea0c2f13d8c52e7a8e71d0a1c17d66c1275d2242"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/nova_poshta/taiga.nbt"
+hash = "a3cdb53c2ef011a92e7da40d5a94908265226f1dee748211ee013be63a36d720"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/entity_type/mines.json"
+hash = "45869aa835346af9ba74585d65c126f50c10be3a67172ec832b79034d7eacc93"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/entity_type/okupanty.json"
+hash = "52efd92981bc6e738ccefe9ca8fdd7d0aefa1c075cd427fc05f535c88336c4b3"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/item/mebli/chair.json"
+hash = "d60deaf44ab0caf12fabd40f3658b8dd60a827711af8f060436ba3a17ba9e9b5"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/item/mebli/couch.json"
+hash = "c99485de6dc6b3e6880c3fdbca7a3911af41998d5a42d840a98971e57858b3c6"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/item/mebli/cozy.json"
+hash = "b760d016653eaaa58f36ad9c6724cc82af3399dd9d33f3acd140d5e89344fb07"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/item/mebli/dishes.json"
+hash = "7f6147f30bdedf85f4cad87d016356ba7c9395439423d275438411eb99d3327d"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/item/mebli/flowers.json"
+hash = "6db5b4f82c494727ab4c091b42b54d4a0d9acb2e5df0dded9068d6106eaf8613"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/item/mebli/kitchen.json"
+hash = "35bebe1b1eaf41b3f2a15eeced21e535b9292ec825d8ee11792fb455a146d8af"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/item/mebli/storage.json"
+hash = "6c9cf65a70b62e0567a20ac8e73f977a1f3352ccbe2c47689c8aedff1e381a4b"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/item/mebli/table.json"
+hash = "23b41a0e1cba6a9609d0589697587554939901a35739ec75d8368d276595ab95"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/item/mebli/trophy.json"
+hash = "dca89d77932e8adde915dd6315efe9371c2424e4bdcb6fa770f181836f5eafa0"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/worldgen/biome/has_minefield.json"
+hash = "8191ac0c77350f7318072d96004df1eb4efc01906dc873595787996c2cba25d6"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/worldgen/biome/winter.json"
+hash = "cd6423b697dcd3cb4af8daf420d7a487bccfbdfe656c2cd36f0347daf5fbccd7"
+
+[[files]]
+file = "kubejs/data/svitlo/worldgen/structure/minefield.json"
+hash = "436ca8a2ee5b01a998e2ed4ff92c3ecbcec550161839a097af27767da57dc70f"
+
+[[files]]
+file = "kubejs/data/svitlo/worldgen/structure_set/minefield.json"
+hash = "5f8b2457dceb7c9c95fc35d3132a894d0295366d6052f9f513fa42381103d790"
+
+[[files]]
+file = "kubejs/data/svitlo/worldgen/template_pool/minefield/start.json"
+hash = "3d63002077cff8ec212f0920dda3ac0dea2c697d016cc5a78186aa91e382ac88"
+
+[[files]]
+file = "kubejs/server_scripts/bankomat.js"
+hash = "ba9f55f64766a371c3d158c4f207894e6653565bfaee1652fef2ee96f26aa6cc"
+
+[[files]]
+file = "kubejs/server_scripts/napoi.js"
+hash = "70636f7d50193a231e9d76e7a855ec493402647511b6657d59577c802a59ba9d"
+
+[[files]]
+file = "kubejs/server_scripts/tab_i_sejv.js"
+hash = "c52a277017843f45c866e63aab85b4ce5ab82420880697be13d097be7ab52fc3"
+
+[[files]]
+file = "kubejs/server_scripts/versiia.js"
+hash = "029d80b92a8317d572f1fe888bfcd8d001f0ca944d0b26909ba5025d04e19d36"
+
+[[files]]
+file = "kubejs/startup_scripts/svitlo_registry.js"
+hash = "f247b1f733a9d9f1083981fc87cbf2093049f8ac54a982a491c30d9de5ba3269"
+
+[[files]]
+file = "mods/another-furniture.pw.toml"
+hash = "24454d6da736e8445aca5c8dd0437df0e5baac04d1dba59e5cd1c686b847ffe9"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+hash = "1b0d73dab03fa3b432542ad65dc94bba4aa3b41e8f8c1cb452276f616aeb09c5"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "a798e58dc1174e4084d33a8cac029460fea2339475c84bcd7f2ca5e6cbfabe62"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "a3e7e90cd0e2e2552b6a5d77fdd66f076b241e1ad37e3636bd6ec4f1f40bd866"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "1595481a728cebb43709a7fba295698cd5136e2f42f450bad11cf240b94aee03"
+metafile = true
+
+[[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "6028884732652d13ec993d6f06ab2bc0f03134105648c1370e1ace51e7647b8f"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "6c1cc4316c5dae82bd44c6c30b161167cae3e0a90c6e5e98ef979118535ed20d"
+metafile = true
+
+[[files]]
+file = "mods/chest-tracker-neoforge-port.pw.toml"
+hash = "6c55dc429a0d06792269f08e278eb4edbeca0704170b35406958385235ee14fd"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "c9f5811e9b12ef54fe3bca7ec48f4d3a792b74a6d58c50c8a00194af6dfe5fae"
+metafile = true
+
+[[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "36bca049db266019a1ad3168112a2e0b82b9b2906a90a5bededb478ca71bde44"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "f97b49c7bc36be2ee693c5d7418b1a602a0b36c32387cfd9cdd5a9838b4ae8a1"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics.pw.toml"
+hash = "e8fffc7c025ff962cb2b57171e52ce32ef84df377e2816e241d375248305745c"
+metafile = true
+
+[[files]]
+file = "mods/create-new-age.pw.toml"
+hash = "9f9069847357a28081214ff5515fb57e961e41534094483d33abd795e87bed16"
+metafile = true
+
+[[files]]
+file = "mods/create-pantographs-and-wires.pw.toml"
+hash = "6ec26dcb8bb5c4af664e6f7e519c0e3b6bc715de9f12646feac3193c9d57813f"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails-1.21.1.pw.toml"
+hash = "bd3a743197af4a0daff2a3b825a5d66434ab67548c66662869c0fc9caa1cab73"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "d54c45b486976c4c6ffb74197f2f1f8d37130ab4208db229969b6397517e40e7"
+metafile = true
+
+[[files]]
+file = "mods/cristel-lib.pw.toml"
+hash = "1d55a269b58e683cc53affa178c6d950822cef4d37a70abc69405ce901c3c041"
+metafile = true
+
+[[files]]
+file = "mods/dragonlib.pw.toml"
+hash = "51cd767006afb5c84e32eb83a4d788f5bdf91a835e6c52aeb46416c6e9e2a7bc"
+metafile = true
+
+[[files]]
+file = "mods/emotecraft.pw.toml"
+hash = "f1a7b2e607ecf527e3844b68af37c5409e3fe0608ed0021fb580a7ddcda81418"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
+hash = "fed6b431fd1b6280251907efed5537f381c14f9904b8a1f5e3fe03477287de43"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "33ffadf7049282c499386b17cd7cc5f9d787bbdd3da908d30188360b3ea47172"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "36f48fcf3565488130a3fb2417688cce6b77461c9beec468be43c9deea5519d3"
+metafile = true
+
+[[files]]
+file = "mods/ftb-chunks-forge.pw.toml"
+hash = "afffd3501ef07d3dcfbb198d515e2bfce716912f7afb2f2e2e982b9a1d8c6082"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "7e721b2773d81c36ff54e5af4b089cdd487244ebd26fdca42d8bc87264239f82"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "990a3de49ac0e9e44175899ce38a27526b36be4a13630a99a06a694e20d7127a"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-item-rewards.pw.toml"
+hash = "5c8adfbfe3cd534bd421d21908cbbfa8793ae1a88974809903aba8828572de5f"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-optimizer.pw.toml"
+hash = "f4b2e7e83d922cc756a7a1685a628e288e2092dcc0a14e90548e40cff7170654"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "2bec2e81553fb308b82b3ef4edb8bafab428fbd8048361a1977f99724253a233"
+metafile = true
+
+[[files]]
+file = "mods/ftbchunksaerospace.pw.toml"
+hash = "0efdca3ab1e5bdbc596e8e64879a6c7a98517d5f05c490c089ba70ef33ef4559"
+metafile = true
+
+[[files]]
+file = "mods/geckolib.pw.toml"
+hash = "5107c54b2abd38dd01360f45995c12a6f76984d75f6df8e76a7c263f086bf24a"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-and-sable-compatibility-patch.pw.toml"
+hash = "b6edd8b86e4e6c9271381d35228b36cc14caeba928c9fdb0dee40cf00442000f"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "6e86c0ec377d6e8a7a3f970bd1f36af1521eb4157aaff0512852d44164cbdcdb"
+metafile = true
+
+[[files]]
+file = "mods/handcrafted.pw.toml"
+hash = "d4699836c7d65541ad60d61fd90777796b85b2fe046a7673357b6a8ff14e7cb9"
+metafile = true
+
+[[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "7c436acc5f0e7a046e5b5cee5afa050e6de41b524bbc91ded6212989faa794f3"
+metafile = true
+
+[[files]]
+file = "mods/iris.pw.toml"
+hash = "2121dcf5fafdbea1c6add988ba3a79ec8c8b9814dcc37b406558cace8925a9b0"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "6a3548983cc982c22badd9b7976b592ac354920b1772ab7361ed879ae51f1fef"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "5d1176bd1420bdc46216841cdb5b93ff49aa4ef8a1b132561d3a2246102176a5"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "e4251eecd040009cccbd91817b970777f8499f5f5ab94619d9ea4ffa11c4d630"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "ed77efd1e63eafec6bbeea6e53339226f62569c203144efcb7d05c406fdbcf0a"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "dad387216edd199a83c2bc8896af29b15a6c3ddc4e1b4292622020712c151690"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "d77ae0d6e81bbef57001dfff91cfc66fc5d007b59a8d2b9ae028adfdffeec349"
+metafile = true
+
+[[files]]
+file = "mods/mafglib.pw.toml"
+hash = "09a0fdf883335fbb40cb63b5f50d931911450f6f3184d99086e23fe08d93e7bf"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "32330c1b90a01a541b0553d340f2b185ec3c58392bf26623fbba1d256fe46f73"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "0c5b4c2db00e5c6605d0f98bcf74d82f0e9e9edbfa107d1e4f4544f7c59d2fcf"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "7d32a097b18f9af470519fde4d16b3b8dd52ed6cf2c4bfabef224fb75187c822"
+metafile = true
+
+[[files]]
+file = "mods/patpat.pw.toml"
+hash = "85533b6835155a727c3306b49e2aa2c089830ac5048e57c6ee4f65cd23e3ce51"
+metafile = true
+
+[[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "bb893f7cdccf3ceddd63bb86aebd1a9960e68db10417933d54576bb737e04546"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "3205bd94cab821a70ccd07d9cc2b13df031ef41f4d6e2baa530433faa260d5cb"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "737e180c55f62915ee3761fdeb5e62c7917c1ce142d957c0509521f46a5f4c85"
+metafile = true
+
+[[files]]
+file = "mods/sable.pw.toml"
+hash = "3f10888598e28c2b74cf0b9c13b82a7537aad7c1bfdac6983f0594b6fb95fce8"
+metafile = true
+
+[[files]]
+file = "mods/sbw-npc-squads.pw.toml"
+hash = "d895eeb36ed1c0d9ac81114db60cc346d3edc84b9be2b00096977008f1b6171a"
+metafile = true
+
+[[files]]
+file = "mods/sbw-tactical-drone.pw.toml"
+hash = "60ca4a46637aa9d2b0e5bbc4c5b11065cb28cc53d277e0c523d601995ba8776e"
+metafile = true
+
+[[files]]
+file = "mods/slice-and-dice.pw.toml"
+hash = "83314dcbf7c0a7c55d7c39a2daa1c33b6d62c10fd07f50a8be390a03d6e4e208"
+metafile = true
+
+[[files]]
+file = "mods/smartbrainlib.pw.toml"
+hash = "59b4c0613ffc1334e0937801b69d9959f3694097d7862205c3324b7d497dedcb"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "374a359c15cce75e270176f80a3ee2358d715564c345a0ab6d0ab4c9c26bfed5"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
+hash = "f0c74feaee4aba8bdbc36d9aa6dff9cd9acc78cf4c557f1f07c3a0bd609ae0c9"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core.pw.toml"
+hash = "d31e5407f08b50eea06e3e73e4e1bb94a423e7769de63a9ae85e79c377057dd3"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage.pw.toml"
+hash = "6e9751aa402de59aa2755879b16ec2cd258e81fa668c302fc3024ebf7b29776d"
+metafile = true
+
+[[files]]
+file = "mods/superb-warfare.pw.toml"
+hash = "e79a8c31b234c111f31556053046849f35f4dc65205a038262430b902f75e11c"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "8e173626819a954b33d0b9dd2ded76cea70f1a7719e8362d4b2b0cb207b266ef"
+metafile = true
+
+[[files]]
+file = "mods/tide.pw.toml"
+hash = "44911a8b68256e57a92534ccc25839a607b626cdd2aab613d4f0fd5190bb3be6"
+metafile = true
+
+[[files]]
+file = "mods/towns-and-towers.pw.toml"
+hash = "6758048e29cc05b7cf4b992108f4195ee326de8d33bd529bf32b376a5ef28569"
+metafile = true
+
+[[files]]
+file = "mods/trade-cycling.pw.toml"
+hash = "5d15ca582db6abef3b9bc161e5f8c1f717ef09fbc39f7162cdb44be743e96bb8"
+metafile = true
+
+[[files]]
+file = "mods/waystones-sable.pw.toml"
+hash = "1269572fde1c3a1fbb5f49cbb99015daf6560cd62541fc0ac7f22941a0995755"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "42d6b0494e33ca442555518bff036d369f6e9c6b158f31a421321f36facbf9f3"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
+hash = "2c3c1a470e0aadb71f40f2eade67760b9452b3d6c23e039239aeeded0e72c5ca"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "60930f7ba2ac3747b8b766e2a2dfd40318f56d15f8a3b75c2273da9e80bd4a09"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-dungeons.pw.toml"
+hash = "dea05d46f4dd0d276caef6b6269f4e49b768e440d9693876df86d99bc9f9691f"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-mineshafts.pw.toml"
+hash = "d1e80279bee34c6ecb4e5c3b157efcc078abc086bfaea62fe386866140b18bcd"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-strongholds.pw.toml"
+hash = "2058f7411da22f6c0f641a133cbe57ef4328188ee540cce2dad4236b2796ce60"
+metafile = true
+
+[[files]]
+file = "mods/yungs-cave-biomes.pw.toml"
+hash = "8681b0a7788308fc91ec773dabb22b6fa115cdc6499c772f223086b16fbbbf36"
+metafile = true

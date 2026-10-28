@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nebo"
+	group: ""
+	icon: {
+		count: 1
+		id: "aeronautics:white_envelope"
+	}
+	id: "26D8EC259B627E3A"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5B81CDB348F32F1E"
+			]
+			id: "0D97F52C79117AF0"
+			rewards: [
+				{
+					id: "227D8641F4BF39D9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "367E6EAA0A6650F8"
+					item: {
+						count: 1
+						id: "simulated:physics_assembler"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0D97F52C79117AF0"
+			]
+			id: "7EE60CFC532F1C9F"
+			rewards: [
+				{
+					id: "06DD21CD57C4A330"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6DA677B52658B0D8"
+					item: {
+						count: 1
+						id: "aeronautics:propeller_bearing"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0651D631442EE3E4"
+					item: {
+						count: 1
+						id: "aeronautics:wooden_propeller"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0D97F52C79117AF0"
+			]
+			id: "37332CF5ABFBA93D"
+			rewards: [
+				{
+					id: "610522E377834BFE"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1735C112199F3794"
+					item: {
+						count: 1
+						id: "aeronautics:white_envelope"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2F8CA59F12EC7B70"
+					item: {
+						count: 1
+						id: "aeronautics:adjustable_burner"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7EE60CFC532F1C9F"
+				"37332CF5ABFBA93D"
+			]
+			id: "398CDC3D4190A6E0"
+			rewards: [
+				{
+					id: "054083695361E2DC"
+					item: {
+						count: 1
+						id: "aeronautics:aviators_goggles"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "40540E07D1B27159"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"398CDC3D4190A6E0"
+				"6E5B815FD96C9D47"
+			]
+			id: "2CADEDC7368A1A56"
+			rewards: [
+				{
+					id: "4D458134E18789BB"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "735645C8C59A094C"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

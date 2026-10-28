@@ -1,0 +1,28 @@
+{
+ "type": "create:mixing",
+ "ingredients": [
+  {
+   "item": "minecraft:sugar"
+  },
+  {
+   "item": "minecraft:sugar"
+  },
+  {
+   "item": "minecraft:glow_berries"
+  },
+  {
+   "item": "svitlo:can_empty"
+  },
+  {
+   "type": "neoforge:single",
+   "amount": 250,
+   "fluid": "minecraft:water"
+  }
+ ],
+ "results": [
+  {
+   "id": "svitlo:monster_original",
+   "count": 1
+  }
+ ]
+}

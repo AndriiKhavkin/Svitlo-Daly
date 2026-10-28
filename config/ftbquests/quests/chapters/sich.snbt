@@ -1,0 +1,232 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sich"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		count: 1
+		id: "superbwarfare:homemade_shotgun"
+	}
+	id: "53FB2386C9C6AEB9"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5B81CDB348F32F1E"
+			]
+			id: "23141ED841BA19B5"
+			rewards: [
+				{
+					id: "4F4B12D2C31270F7"
+					type: "xp"
+					xp: 40
+				}
+				{
+					auto: "invisible"
+					command: "scoreboard players set #spike sd.var 1"
+					elevate_perms: true
+					id: "2333191EDCC9C204"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @a [{\"text\":\"✪ Розвідка: \",\"color\":\"gold\",\"bold\":true},{\"text\":\"противник посилився. Окупанти тепер у бронежилетах, а шахеди літають зграями.\",\"color\":\"white\",\"bold\":false}]"
+					elevate_perms: true
+					id: "0C454F53B1090598"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "433C501A669EFB73"
+					item: {
+						count: 1
+						id: "superbwarfare:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23141ED841BA19B5"
+			]
+			id: "464189C5C1ACA919"
+			rewards: [
+				{
+					id: "420FAF1E1EA964D3"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2878CDFFF8582FD7"
+					item: {
+						count: 1
+						id: "superbwarfare:knife"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"23141ED841BA19B5"
+			]
+			id: "776A6BC35ADB5AC8"
+			rewards: [
+				{
+					id: "3E6E2919EF96CF4A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "05453866EB786B27"
+					item: {
+						count: 1
+						id: "superbwarfare:handgun_ammo"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"23141ED841BA19B5"
+			]
+			id: "07E68ECED132F6B0"
+			rewards: [
+				{
+					id: "051A25968AC92C92"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "753AEB4AA3078544"
+					item: {
+						count: 1
+						id: "svitlo:yizhak"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"464189C5C1ACA919"
+				"776A6BC35ADB5AC8"
+			]
+			id: "3C757E759D0E8DF1"
+			rewards: [
+				{
+					id: "6E3D10CDBE8B8479"
+					item: {
+						count: 16
+						id: "superbwarfare:shotgun_ammo"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "1F3F910655ACD438"
+					item: {
+						count: 1
+						id: "superbwarfare:homemade_shotgun"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3C757E759D0E8DF1"
+			]
+			id: "6D0701A4F84C7EAD"
+			rewards: [
+				{
+					id: "470D7850BF6E934C"
+					item: {
+						count: 2
+						id: "superbwarfare:medical_kit"
+					}
+					type: "item"
+				}
+				{
+					id: "5501DAC1F90C83ED"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					entity: "sbwnpc:npc"
+					id: "40AFDA09407BA2B0"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3C757E759D0E8DF1"
+			]
+			id: "45DD614B7FF00FC7"
+			rewards: [
+				{
+					id: "4C01179DE7B803EE"
+					item: {
+						count: 8
+						id: "superbwarfare:mortar_shell"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "3335738DA753C2F2"
+					item: {
+						count: 1
+						id: "superbwarfare:mortar_deployer"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+ "type": "minecraft:crafting_shapeless",
+ "category": "misc",
+ "ingredients": [
+  {
+   "item": "svitlo:samohon"
+  },
+  {
+   "item": "minecraft:sweet_berries"
+  },
+  {
+   "item": "minecraft:sweet_berries"
+  },
+  {
+   "item": "minecraft:sugar"
+  }
+ ],
+ "result": {
+  "id": "svitlo:vyshnianka",
+  "count": 1
+ }
+}

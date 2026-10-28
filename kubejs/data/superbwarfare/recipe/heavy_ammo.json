@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:brass_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "superbwarfare:heavy_ammo",
+      "count": 4
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "svitlo:unfinished_cartridge"
+        },
+        {
+          "tag": "c:ingots/steel"
+        }
+      ],
+      "results": [
+        {
+          "id": "svitlo:unfinished_cartridge"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "svitlo:unfinished_cartridge"
+        },
+        {
+          "item": "minecraft:gunpowder"
+        }
+      ],
+      "results": [
+        {
+          "id": "svitlo:unfinished_cartridge"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "svitlo:unfinished_cartridge"
+        },
+        {
+          "item": "superbwarfare:primer"
+        }
+      ],
+      "results": [
+        {
+          "id": "svitlo:unfinished_cartridge"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "svitlo:unfinished_cartridge"
+        }
+      ],
+      "results": [
+        {
+          "id": "svitlo:unfinished_cartridge"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "svitlo:unfinished_cartridge"
+  }
+}

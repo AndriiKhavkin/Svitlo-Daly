@@ -1,0 +1,25 @@
+{
+ "type": "create:mixing",
+ "ingredients": [
+  {
+   "item": "minecraft:glow_berries"
+  },
+  {
+   "item": "minecraft:snowball"
+  },
+  {
+   "item": "svitlo:can_empty"
+  },
+  {
+   "type": "neoforge:single",
+   "amount": 250,
+   "fluid": "minecraft:water"
+  }
+ ],
+ "results": [
+  {
+   "id": "svitlo:monster_ultra",
+   "count": 1
+  }
+ ]
+}

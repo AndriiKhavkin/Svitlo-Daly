@@ -1,0 +1,18 @@
+filename = 'SBW-Drone-Warfare-1.21.1-NeoForge-1.0.6.jar'
+name = '[SBW] Drone Warfare'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.6'
+
+[download]
+hash = 'c380fc8c174f2a2a18f5dbf2d9a0974c6e2cc9eb9034c3b3de3c68367f01a6ca7c0472a1af17f11d4adc22cc684ea88c6d7ef35e2403a46e261f44a23e77d96b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WG6tgfJf/versions/NeM3aBVy/SBW-Drone-Warfare-1.21.1-NeoForge-1.0.6.jar'
+
+[update.modrinth]
+mod-id = 'WG6tgfJf'
+version = 'NeM3aBVy'

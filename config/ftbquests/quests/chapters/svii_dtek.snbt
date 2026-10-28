@@ -1,0 +1,361 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "svii_dtek"
+	group: ""
+	icon: {
+		count: 1
+		id: "create_new_age:lamp_post"
+	}
+	id: "4A5A995A81894D15"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5B81CDB348F32F1E"
+			]
+			id: "3124E0F6C3E680AA"
+			rewards: [
+				{
+					id: "52F95BC6B71A5319"
+					type: "xp"
+					xp: 40
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 4L
+					id: "61D36ADBD69C4FF6"
+					item: {
+						count: 1
+						id: "create_new_age:magnetite_block"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3124E0F6C3E680AA"
+			]
+			id: "299B2B5CA321D78F"
+			rewards: [
+				{
+					id: "7F08371EE7B973E9"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0AB400920487AB70"
+					item: {
+						count: 1
+						id: "create_new_age:generator_coil"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3124E0F6C3E680AA"
+			]
+			id: "08E31D6F5A0E8484"
+			rewards: [
+				{
+					id: "794003854AADAE05"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1C64A1C97D91AF41"
+					item: {
+						count: 1
+						id: "create_new_age:carbon_brushes"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"299B2B5CA321D78F"
+				"08E31D6F5A0E8484"
+			]
+			id: "4A28C7FD80369994"
+			rewards: [
+				{
+					id: "3C3379D86A04CAF5"
+					item: {
+						count: 32
+						id: "create_new_age:copper_wire"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1C200070788411D0"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4A28C7FD80369994"
+			]
+			id: "161B982AB8ED4BCA"
+			rewards: [
+				{
+					id: "6A75B6D02D615992"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "0DF4E7E12079B182"
+					item: {
+						count: 1
+						id: "create_new_age:electrical_connector"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"161B982AB8ED4BCA"
+			]
+			id: "2E65061DB4494E06"
+			rewards: [
+				{
+					id: "1FBA35C1AC0CD70C"
+					item: {
+						count: 4
+						id: "create_new_age:street_light"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "title @a times 10 80 20"
+					elevate_perms: true
+					id: "05DCA521B657AF64"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "title @a subtitle {\"text\":\"Графік відключень на сьогодні скасовано\",\"color\":\"gray\"}"
+					elevate_perms: true
+					id: "48805831E9D48FF7"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "title @a title {\"text\":\"☀ СВІТЛО ДАЛИ\",\"color\":\"yellow\",\"bold\":true}"
+					elevate_perms: true
+					id: "4AB0EAC5390BD2DB"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @a run playsound minecraft:block.note_block.chime master @s ~ ~ ~ 1 1.2"
+					elevate_perms: true
+					id: "6C6ACB7016A6B4A1"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "62D9CACAACAA8453"
+					item: {
+						count: 1
+						id: "create_new_age:lamp_post"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2E65061DB4494E06"
+			]
+			id: "06C6E878DC6499C4"
+			rewards: [
+				{
+					id: "2DA0178E0F05A169"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "386185A27694BD36"
+					item: {
+						count: 1
+						id: "create_new_age:street_light"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A28C7FD80369994"
+			]
+			id: "1CD5C25D251D9EDA"
+			rewards: [
+				{
+					id: "7625C36D9BDE5C94"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6E3E363B5DA3E2A9"
+					item: {
+						count: 1
+						id: "create_new_age:basic_motor"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1CD5C25D251D9EDA"
+			]
+			id: "4DD465DCD5892244"
+			rewards: [
+				{
+					id: "51CDD26CC2ADEAC0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "06E976E8A0A88DB0"
+					item: {
+						count: 1
+						id: "create_new_age:basic_energiser"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4DD465DCD5892244"
+			]
+			id: "6E8E1F8CC10A5FC6"
+			rewards: [
+				{
+					id: "730831F671FA01F4"
+					type: "xp"
+					xp: 80
+				}
+				{
+					auto: "invisible"
+					command: "tag {p} add sd.energy"
+					elevate_perms: true
+					id: "3E9459AD43F57E9F"
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "67DD24A711883D00"
+					item: {
+						count: 1
+						id: "create_new_age:stirling_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"161B982AB8ED4BCA"
+				"7FD6B696CB86A1E0"
+			]
+			id: "400F9982FF9A47DE"
+			rewards: [
+				{
+					id: "4EA300BF29690F99"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 4L
+					id: "53EEAF9461046DB3"
+					item: {
+						count: 1
+						id: "pantographsandwires:wire_coil"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1BB554B9D4307503"
+					item: {
+						count: 1
+						id: "pantographsandwires:pantograph"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+	]
+}

@@ -1,0 +1,264 @@
+{
+ "values": [
+  {
+   "id": "handcrafted:black_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:black_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:blue_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:blue_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:brown_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:brown_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cyan_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cyan_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:fancy_painting",
+   "required": false
+  },
+  {
+   "id": "handcrafted:gray_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:gray_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:green_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:green_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:light_blue_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:light_blue_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:light_gray_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:light_gray_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:lime_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:lime_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:magenta_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:magenta_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:orange_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:orange_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:pink_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:pink_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:purple_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:purple_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:red_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:red_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:white_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:white_sheet",
+   "required": false
+  },
+  {
+   "id": "handcrafted:yellow_cushion",
+   "required": false
+  },
+  {
+   "id": "handcrafted:yellow_sheet",
+   "required": false
+  },
+  {
+   "id": "another_furniture:black_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:black_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:blue_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:blue_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:brown_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:brown_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:cyan_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:cyan_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:gray_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:gray_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:green_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:green_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:light_blue_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:light_blue_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:light_gray_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:light_gray_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:lime_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:lime_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:magenta_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:magenta_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:orange_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:orange_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:pink_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:pink_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:purple_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:purple_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:red_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:red_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:white_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:white_lamp",
+   "required": false
+  },
+  {
+   "id": "another_furniture:yellow_curtain",
+   "required": false
+  },
+  {
+   "id": "another_furniture:yellow_lamp",
+   "required": false
+  }
+ ]
+}

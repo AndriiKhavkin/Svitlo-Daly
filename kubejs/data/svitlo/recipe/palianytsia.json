@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "farmersdelight:wheat_dough"
+  },
+  "result": {
+    "count": 1,
+    "id": "svitlo:palianytsia"
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,0 +1,84 @@
+{
+ "values": [
+  {
+   "id": "handcrafted:blue_bowl",
+   "required": false
+  },
+  {
+   "id": "handcrafted:blue_crockery_combo",
+   "required": false
+  },
+  {
+   "id": "handcrafted:blue_cup",
+   "required": false
+  },
+  {
+   "id": "handcrafted:blue_plate",
+   "required": false
+  },
+  {
+   "id": "handcrafted:terracotta_bowl",
+   "required": false
+  },
+  {
+   "id": "handcrafted:terracotta_crockery_combo",
+   "required": false
+  },
+  {
+   "id": "handcrafted:terracotta_cup",
+   "required": false
+  },
+  {
+   "id": "handcrafted:terracotta_plate",
+   "required": false
+  },
+  {
+   "id": "handcrafted:white_bowl",
+   "required": false
+  },
+  {
+   "id": "handcrafted:white_crockery_combo",
+   "required": false
+  },
+  {
+   "id": "handcrafted:white_cup",
+   "required": false
+  },
+  {
+   "id": "handcrafted:white_plate",
+   "required": false
+  },
+  {
+   "id": "handcrafted:wood_bowl",
+   "required": false
+  },
+  {
+   "id": "handcrafted:wood_crockery_combo",
+   "required": false
+  },
+  {
+   "id": "handcrafted:wood_cup",
+   "required": false
+  },
+  {
+   "id": "handcrafted:wood_plate",
+   "required": false
+  },
+  {
+   "id": "handcrafted:yellow_bowl",
+   "required": false
+  },
+  {
+   "id": "handcrafted:yellow_crockery_combo",
+   "required": false
+  },
+  {
+   "id": "handcrafted:yellow_cup",
+   "required": false
+  },
+  {
+   "id": "handcrafted:yellow_plate",
+   "required": false
+  }
+ ]
+}

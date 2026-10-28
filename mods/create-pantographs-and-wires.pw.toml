@@ -1,0 +1,29 @@
+filename = 'pantographsandwires-neoforge-1.21.1-beta-0.2.3-C6.jar'
+name = 'Create: Pantographs & Wires'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.21.1-beta-0.2.3-C6'
+
+[download]
+hash = '25fca860cf1767aa8456a7877c44e320718dc95aa80975f66e4914a58f402af7452363cb34b98b252be3d186104f998dee8571220b99dc2c43ee4968cbbce4ef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VzdCnMqW/versions/CbRqaEft/pantographsandwires-neoforge-1.21.1-beta-0.2.3-C6.jar'
+
+[update.modrinth]
+mod-id = 'VzdCnMqW'
+version = 'CbRqaEft'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'sbIsGaOV'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '8BmcQJ2H'
+type = 'REQUIRED'

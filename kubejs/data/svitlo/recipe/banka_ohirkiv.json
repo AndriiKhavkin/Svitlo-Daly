@@ -1,0 +1,23 @@
+{
+ "type": "brewinandchewin:fermenting",
+ "category": "meals",
+ "experience": 1.0,
+ "ingredients": [
+  {
+   "item": "svitlo:cucumber"
+  },
+  {
+   "item": "svitlo:cucumber"
+  },
+  {
+   "item": "svitlo:cucumber"
+  },
+  {
+   "item": "minecraft:dried_kelp"
+  }
+ ],
+ "result": {
+  "count": 1,
+  "id": "svitlo:banka_ohirkiv"
+ }
+}

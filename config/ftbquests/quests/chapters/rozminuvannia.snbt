@@ -1,0 +1,282 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rozminuvannia"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: {
+		count: 1
+		id: "superbwarfare:defuser"
+	}
+	id: "6B99F12AA8D2B62E"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [ ]
+			id: "39FEFB1CE80E2F95"
+			invisible: true
+			rewards: [ ]
+			tasks: [
+				{
+					id: "49B4E9E46D6C0964"
+					observe_type: 5
+					timer: 0L
+					to_observe: "superbwarfare:blu_43"
+					type: "observation"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [ ]
+			id: "58578FE666023D9D"
+			invisible: true
+			rewards: [ ]
+			tasks: [
+				{
+					id: "5147BE355736EBAC"
+					observe_type: 5
+					timer: 0L
+					to_observe: "superbwarfare:claymore"
+					type: "observation"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [ ]
+			id: "3AF984D9F778E52A"
+			invisible: true
+			rewards: [ ]
+			tasks: [
+				{
+					advancement: "svitlo:minefield_enter"
+					criterion: ""
+					id: "66B4CDC25D668D5E"
+					type: "advancement"
+				}
+			]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"39FEFB1CE80E2F95"
+				"58578FE666023D9D"
+				"3AF984D9F778E52A"
+			]
+			dependency_requirement: "one_completed"
+			id: "0FAD39DE96BB3956"
+			rewards: [
+				{
+					id: "24754073724B31F3"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "663613FD6B593CBA"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0FAD39DE96BB3956"
+			]
+			id: "13CBA60B47A4DB65"
+			rewards: [
+				{
+					id: "25470E631045E160"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "627D72E2708E9333"
+					item: {
+						count: 1
+						id: "superbwarfare:defuser"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"13CBA60B47A4DB65"
+			]
+			id: "75AD9BC6C23618F8"
+			rewards: [
+				{
+					id: "0681BBA5BFAAC8AF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "6677DA63F4A0B54D"
+					item: {
+						count: 1
+						id: "superbwarfare:blu_43_mine"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"13CBA60B47A4DB65"
+			]
+			id: "36C8C08B77D43243"
+			rewards: [
+				{
+					id: "1EB0B73F1C0FFCED"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "341D590DF4A2DF1B"
+					item: {
+						count: 1
+						id: "superbwarfare:claymore_mine"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0FAD39DE96BB3956"
+			]
+			id: "7FE4BF362CE15C84"
+			rewards: [
+				{
+					id: "76A8A9D8CC12A058"
+					item: {
+						count: 8
+						id: "minecraft:bone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:patron"
+					criterion: ""
+					id: "30129700D7BF1970"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"75AD9BC6C23618F8"
+				"36C8C08B77D43243"
+			]
+			id: "25481107EC63633C"
+			rewards: [
+				{
+					id: "29079BEBC5506B91"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "68064B14C0C50417"
+					item: {
+						count: 1
+						id: "superbwarfare:tm_62"
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "58CCAF583F6DA9E2"
+					item: {
+						count: 1
+						id: "superbwarfare:dragon_teeth"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "653067BA45C2CBC8"
+					item: {
+						count: 1
+						id: "superbwarfare:barbed_wire"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"75AD9BC6C23618F8"
+				"36C8C08B77D43243"
+				"7FE4BF362CE15C84"
+			]
+			id: "20DEFAF3E6846E07"
+			rewards: [
+				{
+					id: "3A715063B4F290DA"
+					item: {
+						count: 2
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "2329F4DB06814224"
+					type: "xp"
+					xp: 300
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @a [{\"text\":\"✪ \",\"color\":\"gold\"},{\"text\":\"{p}\",\"color\":\"white\",\"bold\":true},{\"text\":\" розмінував поле. Фермери вже виїжджають тракторами.\",\"color\":\"white\"}]"
+					elevate_perms: true
+					id: "141CF2A337186231"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "618D6D40FC98E648"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+}

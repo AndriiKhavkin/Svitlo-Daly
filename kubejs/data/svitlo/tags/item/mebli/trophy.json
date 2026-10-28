@@ -1,0 +1,80 @@
+{
+ "values": [
+  {
+   "id": "handcrafted:bear_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:blaze_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:creeper_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:evoker_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:fox_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:goat_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:phantom_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:pillager_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:pufferfish_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:salmon_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:silverfish_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:skeleton_horse_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:skeleton_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:spider_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:tropical_fish_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:vindicator_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:witch_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:wither_skeleton_trophy",
+   "required": false
+  },
+  {
+   "id": "handcrafted:wolf_trophy",
+   "required": false
+  }
+ ]
+}

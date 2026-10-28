@@ -1,0 +1,190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "svitlo_daly"
+	group: ""
+	icon: {
+		count: 1
+		id: "minecraft:crafting_table"
+	}
+	id: "372391D7030961DD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [ ]
+			id: "003A07DEA023CCFB"
+			rewards: [
+				{
+					id: "64336D106AE22866"
+					item: {
+						count: 4
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "1332B092EBC610B0"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"003A07DEA023CCFB"
+			]
+			id: "461501CCC066B81F"
+			rewards: [
+				{
+					id: "5EECC6DB1A5E86A6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "3503DAD7188EB585"
+					stat: "minecraft:sleep_in_bed"
+					type: "stat"
+					value: 1
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"003A07DEA023CCFB"
+			]
+			id: "6FCBF43A4CFCE55B"
+			rewards: [
+				{
+					id: "556FBFA721A8C02F"
+					item: {
+						count: 4
+						id: "farmersdelight:tomato_seeds"
+					}
+					type: "item"
+				}
+				{
+					id: "1B4F5755D1E7D93A"
+					item: {
+						count: 4
+						id: "farmersdelight:cabbage_seeds"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7C67576EB6ABEF8A"
+					item: {
+						count: 1
+						id: "farmersdelight:flint_knife"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6FCBF43A4CFCE55B"
+			]
+			id: "02AB53E4E3B764E1"
+			rewards: [
+				{
+					id: "32205C07C396C266"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "615CE12886431734"
+					item: {
+						count: 1
+						id: "farmersdelight:cooking_pot"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"461501CCC066B81F"
+			]
+			id: "2D5001A0C8CB49F9"
+			rewards: [
+				{
+					id: "5C28CB9A6B9B7357"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:blindazh"
+					criterion: ""
+					id: "0FBAAE81F9BA15F8"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"461501CCC066B81F"
+			]
+			id: "6E5B815FD96C9D47"
+			rewards: [
+				{
+					id: "180D22B895FB740D"
+					item: {
+						count: 1
+						id: "waystones:warp_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "4EED9E29A9DA9B0B"
+					item: {
+						count: 8
+						id: "waystones:warp_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "37290A8E6A0D9AD5"
+					item: {
+						count: 1
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+	]
+}

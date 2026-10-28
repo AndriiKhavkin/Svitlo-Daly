@@ -1,0 +1,71 @@
+{
+  "entity.phantom.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "svitlo/shahed_buzz",
+        "volume": 1.0,
+        "pitch": 1.0
+      },
+      {
+        "name": "svitlo/shahed_buzz",
+        "volume": 1.0,
+        "pitch": 0.92
+      }
+    ],
+    "subtitle": "subtitles.entity.phantom.ambient"
+  },
+  "entity.phantom.flap": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "svitlo/shahed_buzz",
+        "volume": 0.35,
+        "pitch": 1.05
+      }
+    ],
+    "subtitle": "subtitles.entity.phantom.flap"
+  },
+  "entity.phantom.swoop": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "svitlo/shahed_dive",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ],
+    "subtitle": "subtitles.entity.phantom.swoop"
+  },
+  "entity.phantom.bite": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "svitlo/shahed_hit",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ],
+    "subtitle": "subtitles.entity.phantom.bite"
+  },
+  "entity.phantom.death": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "svitlo/shahed_hit",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.entity.phantom.death"
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "svitlo:music/kozatska",
+        "stream": true
+      }
+    ]
+  }
+}

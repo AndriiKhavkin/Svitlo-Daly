@@ -1,0 +1,56 @@
+{
+ "values": [
+  {
+   "id": "handcrafted:acacia_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:bamboo_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:birch_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cherry_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:crimson_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:dark_oak_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:jungle_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:kitchen_hood",
+   "required": false
+  },
+  {
+   "id": "handcrafted:mangrove_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:oak_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:oven",
+   "required": false
+  },
+  {
+   "id": "handcrafted:spruce_counter",
+   "required": false
+  },
+  {
+   "id": "handcrafted:warped_counter",
+   "required": false
+  }
+ ]
+}

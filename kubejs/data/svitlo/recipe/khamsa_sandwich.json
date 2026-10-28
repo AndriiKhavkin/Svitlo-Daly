@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "tide:anchovy"
+    },
+    {
+      "item": "tide:anchovy"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "svitlo:khamsa_sandwich"
+  }
+}

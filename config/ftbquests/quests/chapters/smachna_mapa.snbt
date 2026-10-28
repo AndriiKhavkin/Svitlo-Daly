@@ -1,0 +1,505 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smachna_mapa"
+	group: ""
+	icon: {
+		count: 1
+		id: "svitlo:borshch"
+	}
+	id: "2A42D404A1DC4559"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"02AB53E4E3B764E1"
+			]
+			id: "35FDAA92E670B5AF"
+			rewards: [
+				{
+					id: "7727F69B73FA5182"
+					item: {
+						count: 16
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "572BEA87E788A9BD"
+					item: {
+						count: 1
+						id: "svitlo:palianytsia"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "4ECAA774743BD2B6"
+			rewards: [
+				{
+					id: "7F633DEE1E3BAAB1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "685E59613BB82422"
+					item: {
+						count: 1
+						id: "svitlo:salo"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "4740C195A62FE719"
+			rewards: [
+				{
+					id: "6A03FC62E3CA5A0C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3B6E1C3ED9F1F19A"
+					item: {
+						count: 1
+						id: "svitlo:borshch"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "099D0A877E036632"
+			rewards: [
+				{
+					id: "7D5C1C251C156C0E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0912AD6C63D65F0D"
+					item: {
+						count: 1
+						id: "svitlo:halushky"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "355FA50BAE5EDE31"
+			rewards: [
+				{
+					id: "32D65344D9CDEE7C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "26D5329929C1054A"
+					item: {
+						count: 1
+						id: "svitlo:varenyky"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "6C8DFD6B138A2763"
+			rewards: [
+				{
+					id: "40151A9BCCD6EA1C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "018A6D380B6F8D47"
+					item: {
+						count: 1
+						id: "svitlo:deruny"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "5E8DBF7F1D0BE712"
+			rewards: [
+				{
+					id: "718A3F0C4334323F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0292FC6F3792E2BB"
+					item: {
+						count: 1
+						id: "svitlo:banosh"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "039B8F21DC621440"
+			rewards: [
+				{
+					id: "7D1FED0A8B14FFFA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6CC1D3BCE667F9C5"
+					item: {
+						count: 1
+						id: "svitlo:kotleta_kyivska"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "35107AD64A34DC11"
+			rewards: [
+				{
+					id: "21CF5047F4056A1E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "7C630BE457BC2B7D"
+					item: {
+						count: 1
+						id: "svitlo:holubtsi"
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "40B9D7ABEA8ED776"
+			rewards: [
+				{
+					id: "757C5C8A8DECD38B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "6CFFC6B1ECA38A28"
+					item: {
+						count: 1
+						id: "svitlo:syrnyky"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+				"71A13E20D5210F60"
+			]
+			id: "1DBB4219EB020DB4"
+			rewards: [
+				{
+					id: "774FDB4DE319F018"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0477884404965A92"
+					item: {
+						count: 1
+						id: "svitlo:khamsa_sandwich"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+				"51610BE7705348E4"
+			]
+			id: "6043D250571D43A8"
+			rewards: [
+				{
+					id: "064CC1DEB4AC27B3"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1E055917481A09C1"
+					item: {
+						count: 1
+						id: "svitlo:yushka"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"35FDAA92E670B5AF"
+			]
+			id: "5701A078ABD73D4F"
+			rewards: [
+				{
+					id: "497499A5A74F91F2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1BAC6BBF48FD55F2"
+					item: {
+						count: 1
+						id: "svitlo:uzvar"
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4740C195A62FE719"
+				"099D0A877E036632"
+				"355FA50BAE5EDE31"
+				"6C8DFD6B138A2763"
+				"5E8DBF7F1D0BE712"
+				"039B8F21DC621440"
+				"35107AD64A34DC11"
+				"40B9D7ABEA8ED776"
+				"1DBB4219EB020DB4"
+				"6043D250571D43A8"
+				"5701A078ABD73D4F"
+			]
+			id: "0EC2006C505BA439"
+			rewards: [
+				{
+					id: "25BB9F3B7D092DA7"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "1F64BF3746543A5D"
+					type: "xp"
+					xp: 300
+				}
+			]
+			shape: "hexagon"
+			size: 1.75d
+			tasks: [
+				{
+					count: 1L
+					id: "6D24A4DD9A05BD1B"
+					item: {
+						count: 1
+						id: "svitlo:palianytsia"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "2BDA8D511F3D6C01"
+					item: {
+						count: 1
+						id: "svitlo:borshch"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "40F4A29C1EB1848A"
+					item: {
+						count: 1
+						id: "svitlo:halushky"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "7574034D6D1EECAD"
+					item: {
+						count: 1
+						id: "svitlo:varenyky"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "6E3FF5605CCE21F3"
+					item: {
+						count: 1
+						id: "svitlo:deruny"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0EC988CCDF42DF28"
+					item: {
+						count: 1
+						id: "svitlo:banosh"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "0289F3D0F4F9BD00"
+					item: {
+						count: 1
+						id: "svitlo:kotleta_kyivska"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1DE9405ABF2879C2"
+					item: {
+						count: 1
+						id: "svitlo:holubtsi"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "38A3DB37987DD95D"
+					item: {
+						count: 1
+						id: "svitlo:syrnyky"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "293A4FA0310886BC"
+					item: {
+						count: 1
+						id: "svitlo:khamsa_sandwich"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "236B91E021E4CE55"
+					item: {
+						count: 1
+						id: "svitlo:yushka"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "1DAB81FD38719BF8"
+					item: {
+						count: 1
+						id: "svitlo:uzvar"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+}

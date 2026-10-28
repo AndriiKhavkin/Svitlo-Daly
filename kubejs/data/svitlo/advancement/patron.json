@@ -1,0 +1,2 @@
+{"parent":"svitlo:root","display":{"icon":{"id":"minecraft:bone"},"title":"Хто тут хороший хлопчик?","description":"Приручи собаку. Сапер з тебе поки так собі, а от він — найкращий"},
+ "criteria":{"tame":{"trigger":"minecraft:tame_animal","conditions":{"entity":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type":"minecraft:wolf"}}]}}}}

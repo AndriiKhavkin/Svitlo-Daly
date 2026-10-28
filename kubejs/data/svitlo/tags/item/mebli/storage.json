@@ -1,0 +1,268 @@
+{
+ "values": [
+  {
+   "id": "handcrafted:acacia_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:acacia_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:acacia_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:acacia_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:bamboo_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:bamboo_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:bamboo_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:bamboo_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:birch_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:birch_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:birch_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:birch_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cherry_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cherry_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cherry_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cherry_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:crimson_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:crimson_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:crimson_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:crimson_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:dark_oak_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:dark_oak_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:dark_oak_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:dark_oak_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:jungle_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:jungle_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:jungle_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:jungle_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:mangrove_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:mangrove_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:mangrove_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:mangrove_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:oak_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:oak_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:oak_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:oak_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:spruce_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:spruce_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:spruce_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:spruce_shelf",
+   "required": false
+  },
+  {
+   "id": "handcrafted:warped_cupboard",
+   "required": false
+  },
+  {
+   "id": "handcrafted:warped_drawer",
+   "required": false
+  },
+  {
+   "id": "handcrafted:warped_nightstand",
+   "required": false
+  },
+  {
+   "id": "handcrafted:warped_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:acacia_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:acacia_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:bamboo_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:bamboo_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:birch_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:birch_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:cherry_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:cherry_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:crimson_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:crimson_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:dark_oak_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:dark_oak_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:jungle_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:jungle_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:mangrove_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:mangrove_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:oak_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:oak_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:spruce_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:spruce_shelf",
+   "required": false
+  },
+  {
+   "id": "another_furniture:warped_drawer",
+   "required": false
+  },
+  {
+   "id": "another_furniture:warped_shelf",
+   "required": false
+  }
+ ]
+}

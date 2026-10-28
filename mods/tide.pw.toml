@@ -1,0 +1,21 @@
+filename = 'tide-neoforge-1.21.1-2.1.1.jar'
+name = 'Tide 2'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.1.1'
+
+[download]
+hash = 'a6ee50e7b1a31e3d12641827ada1816da08c6185ca6447a23c7f90bf4964c022c8dafd8d9df865b4c2368365b21114d326bd5eabde1c76392123d3e9b4b6111f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/die1AF7i/versions/1ki6UyqV/tide-neoforge-1.21.1-2.1.1.jar'
+
+[update.modrinth]
+mod-id = 'die1AF7i'
+version = '1ki6UyqV'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'

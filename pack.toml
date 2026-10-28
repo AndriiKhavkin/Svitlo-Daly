@@ -1,0 +1,13 @@
+name = "Світло Дали"
+author = "Andryhex"
+version = "0.5"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ebb414b9875a296e4e8c1eeffc66af4587c8a5a1f069ec9d340de0e52e0f3ba0"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.250"

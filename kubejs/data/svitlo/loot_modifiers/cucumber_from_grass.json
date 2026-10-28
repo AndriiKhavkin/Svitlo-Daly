@@ -1,0 +1,4 @@
+{"type":"neoforge:add_table","table":"svitlo:inject/cucumber_seeds",
+ "conditions":[{"condition":"neoforge:loot_table_id","loot_table_id":"minecraft:blocks/short_grass"},
+               {"condition":"minecraft:random_chance","chance":0.03},
+               {"condition":"minecraft:inverted","term":{"condition":"minecraft:match_tool","predicate":{"items":"minecraft:shears"}}}]}

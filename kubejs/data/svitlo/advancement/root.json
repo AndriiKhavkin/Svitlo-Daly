@@ -1,0 +1,2 @@
+{"display":{"icon":{"id":"create_new_age:lamp_post"},"title":"Світло Дали","description":"Особливі досягнення збірки","background":"minecraft:textures/block/yellow_terracotta.png","show_toast":false,"announce_to_chat":false},
+ "criteria":{"tick":{"trigger":"minecraft:tick"}}}

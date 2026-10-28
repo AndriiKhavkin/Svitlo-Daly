@@ -1,0 +1,512 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mandry"
+	group: ""
+	icon: {
+		count: 1
+		id: "minecraft:compass"
+	}
+	id: "0CC94473CE0FCADD"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"003A07DEA023CCFB"
+			]
+			id: "67750AAE478F3036"
+			rewards: [
+				{
+					id: "74EB39D51E123044"
+					item: {
+						count: 2
+						id: "minecraft:map"
+					}
+					type: "item"
+				}
+				{
+					id: "0200C5F491F1DCDB"
+					item: {
+						count: 2
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 1L
+					id: "3767CF631E6F9219"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"67750AAE478F3036"
+			]
+			id: "60F8D8B626EE45B2"
+			rewards: [
+				{
+					id: "6E9D318126888261"
+					item: {
+						count: 1
+						id: "svitlo:banosh"
+					}
+					type: "item"
+				}
+				{
+					id: "6018DB7DDCF3ED7C"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					biome: "#minecraft:is_mountain"
+					id: "5101409F446F5EE6"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"60F8D8B626EE45B2"
+			]
+			id: "7AD987A1B64D664E"
+			rewards: [
+				{
+					id: "2E120D3F8F5681BC"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:snowy_slopes"
+					id: "567BF07CBD542D7D"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"67750AAE478F3036"
+			]
+			id: "64551C4918DB9FF6"
+			rewards: [
+				{
+					id: "65C5244AFC09CA1C"
+					item: {
+						count: 2
+						id: "svitlo:deruny"
+					}
+					type: "item"
+				}
+				{
+					id: "398CE3940D923196"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:swamp"
+					id: "5C6BC457C1AAE97F"
+					type: "biome"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"67750AAE478F3036"
+			]
+			id: "13D5F0F3558A9AAD"
+			rewards: [
+				{
+					id: "7805E30065CE79A5"
+					item: {
+						count: 4
+						id: "minecraft:sunflower"
+					}
+					type: "item"
+				}
+				{
+					id: "452AB3E93E64CACD"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:sunflower_plains"
+					id: "6817ECA77C4AA0F1"
+					type: "biome"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"67750AAE478F3036"
+			]
+			id: "51610BE7705348E4"
+			rewards: [
+				{
+					id: "35DCF3DF9458D36D"
+					item: {
+						count: 8
+						id: "tide:bait"
+					}
+					type: "item"
+				}
+				{
+					id: "247B73C869F5B432"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					biome: "#minecraft:is_river"
+					id: "0A6093E23E3D6D5A"
+					type: "biome"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"51610BE7705348E4"
+			]
+			id: "0FA0C5CFE59F2510"
+			rewards: [
+				{
+					id: "395C33803F1FF3A0"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					biome: "#minecraft:is_savanna"
+					id: "17817D1EF2DE0986"
+					type: "biome"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"51610BE7705348E4"
+			]
+			id: "23AF8F722D921422"
+			rewards: [
+				{
+					id: "539DFD1C52A65D6B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:desert"
+					id: "24476CFECDEF8504"
+					type: "biome"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"67750AAE478F3036"
+			]
+			id: "71A13E20D5210F60"
+			rewards: [
+				{
+					id: "6872F0F85DDA10F7"
+					item: {
+						count: 2
+						id: "svitlo:khamsa_sandwich"
+					}
+					type: "item"
+				}
+				{
+					id: "19CC8E5077473EA6"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					biome: "#minecraft:is_beach"
+					id: "597315C46A922D6C"
+					type: "biome"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"60F8D8B626EE45B2"
+			]
+			id: "273016BA89606DBE"
+			rewards: [
+				{
+					id: "7AD81A13DA6CA475"
+					item: {
+						count: 8
+						id: "minecraft:glow_berries"
+					}
+					type: "item"
+				}
+				{
+					id: "27598C31A7375F2B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:lush_caves"
+					id: "259BC6AE8EE53AF8"
+					type: "biome"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"273016BA89606DBE"
+			]
+			id: "0AB81AE0BA080C45"
+			rewards: [
+				{
+					id: "66D2A2709A397F06"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					biome: "minecraft:dripstone_caves"
+					id: "5A3471A50004C5D8"
+					type: "biome"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"67750AAE478F3036"
+			]
+			id: "35C62E01C245DC20"
+			rewards: [
+				{
+					id: "20FE71217F654959"
+					item: {
+						count: 3
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "2FAC67021C523B77"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "05DF7FC11EB84037"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"13D5F0F3558A9AAD"
+			]
+			id: "1A416F9108535100"
+			rewards: [
+				{
+					id: "553968D9538ACD92"
+					item: {
+						count: 1
+						id: "minecraft:brush"
+					}
+					type: "item"
+				}
+				{
+					id: "7F5FFB47E2AD9BBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "2731938A133EA2F3"
+					structure: "minecraft:trail_ruins"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"51610BE7705348E4"
+			]
+			id: "06223F1C3DC5D263"
+			rewards: [
+				{
+					id: "61C3B37DAF982898"
+					item: {
+						count: 32
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "59478ECB89ADCBD1"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "7011BD65A691C35D"
+					structure: "#minecraft:mineshaft"
+					type: "structure"
+				}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"35C62E01C245DC20"
+			]
+			id: "3CCCDCB4352422F1"
+			rewards: [
+				{
+					id: "08342537EA495BBF"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "40E00494012CC1CE"
+					structure: "minecraft:pillager_outpost"
+					type: "structure"
+				}
+			]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"71A13E20D5210F60"
+			]
+			id: "1D07EBE8303F0870"
+			rewards: [
+				{
+					id: "7DE73BD97BAF2544"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "39D615C85AFA903D"
+					structure: "#minecraft:shipwreck"
+					type: "structure"
+				}
+			]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0AB81AE0BA080C45"
+			]
+			id: "7E775B3910731B41"
+			rewards: [
+				{
+					id: "1D89D430D328CE1D"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6DB3544EE414E9E1"
+					structure: "minecraft:ancient_city"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3CCCDCB4352422F1"
+			]
+			id: "656E072A03B25DD5"
+			rewards: [
+				{
+					id: "167864182A7B926E"
+					item: {
+						count: 4
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "1FB1BCB3D029BFC9"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "7409529061E93E46"
+					structure: "minecraft:stronghold"
+					type: "structure"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+	]
+}

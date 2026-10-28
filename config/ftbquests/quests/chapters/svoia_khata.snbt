@@ -1,0 +1,351 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "svoia_khata"
+	group: ""
+	icon: {
+		count: 1
+		id: "handcrafted:oak_couch"
+	}
+	id: "5E8CC4AC76AA56D1"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"461501CCC066B81F"
+			]
+			id: "5F5987F88DC2E14F"
+			rewards: [
+				{
+					id: "2D7100AC7BDBD4BF"
+					item: {
+						count: 3
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "23EF5A39AE610D1B"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1B8B489B7C9AEFCA"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F5987F88DC2E14F"
+			]
+			id: "085C694AFC1CD0E1"
+			rewards: [
+				{
+					id: "5CA6441DE5C08009"
+					item: {
+						count: 3
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "3E8444F2610C8F79"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:mebli/table"
+					criterion: ""
+					id: "2EBCA726988270EF"
+					type: "advancement"
+				}
+				{
+					advancement: "svitlo:mebli/chair"
+					criterion: ""
+					id: "2F58FB9A19A9122A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5F5987F88DC2E14F"
+			]
+			id: "7B48CEA7BEEBFBA2"
+			rewards: [
+				{
+					id: "60BA23D7BA65FE95"
+					item: {
+						count: 3
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "142723CE70CC12B6"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:mebli/couch"
+					criterion: ""
+					id: "2BB5EA8FDCDF16A8"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F5987F88DC2E14F"
+			]
+			id: "173102F75D4E098C"
+			rewards: [
+				{
+					id: "2D52DFFD35DBD728"
+					item: {
+						count: 3
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "0B8F046FC1297DD1"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:mebli/storage"
+					criterion: ""
+					id: "1C7C62D6BB821007"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5F5987F88DC2E14F"
+			]
+			id: "3EA2D135108CAD3D"
+			rewards: [
+				{
+					id: "7603265C8EFE6D87"
+					item: {
+						count: 4
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "60BBE48037D96AAB"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:mebli/kitchen"
+					criterion: ""
+					id: "0BF9E0949AC94ABD"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5F5987F88DC2E14F"
+			]
+			id: "42218062ED36CC15"
+			rewards: [
+				{
+					id: "0110A6B99F3225FA"
+					item: {
+						count: 4
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "7AE04714B158987A"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:mebli/cozy"
+					criterion: ""
+					id: "1C8D49E0AC3E72D5"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3EA2D135108CAD3D"
+			]
+			id: "5BB32F8B9349599F"
+			rewards: [
+				{
+					id: "6763915ADCFCD570"
+					item: {
+						count: 3
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "2B1A4F43C7EA2F17"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:mebli/dishes"
+					criterion: ""
+					id: "527A06EBDC369A13"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"42218062ED36CC15"
+			]
+			id: "66D1BF405EA26A59"
+			rewards: [
+				{
+					id: "56A45333011AF2E3"
+					item: {
+						count: 4
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "18B76A340E020539"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:mebli/trophy"
+					criterion: ""
+					id: "085A3B6721B4FF83"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"42218062ED36CC15"
+			]
+			id: "64D8CF7B0509C7E2"
+			rewards: [
+				{
+					id: "05E54DCBDFAD7A1A"
+					item: {
+						count: 3
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "3C0244199A98E908"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:mebli/flowers"
+					criterion: ""
+					id: "52B84C4335A2B71C"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"085C694AFC1CD0E1"
+				"7B48CEA7BEEBFBA2"
+				"173102F75D4E098C"
+				"3EA2D135108CAD3D"
+				"42218062ED36CC15"
+			]
+			id: "0FD992256BBE0F8C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "scoreboard players add {p} sd.bank 2000"
+					elevate_perms: true
+					id: "0B47CAB04F062B59"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "46DF92CDCE3F3E9E"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "4D72A6BE2EF30C6F"
+					type: "xp"
+					xp: 150
+				}
+				{
+					auto: "invisible"
+					command: "tellraw @a [{\"text\":\"❀ \",\"color\":\"light_purple\"},{\"text\":\"{p}\",\"color\":\"gold\",\"bold\":true},{\"text\":\" святкує новосілля! Несіть подарунки і не забудьте капці.\",\"color\":\"light_purple\"}]"
+					elevate_perms: true
+					id: "3C60767169791BBD"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "137CC50B95A7980F"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

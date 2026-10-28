@@ -1,0 +1,15 @@
+{
+ "type": "create:mixing",
+ "heat_requirement": "heated",
+ "ingredients": [
+  {
+   "item": "svitlo:braha"
+  }
+ ],
+ "results": [
+  {
+   "id": "svitlo:samohon"
+  }
+ ],
+ "processing_time": 200
+}

@@ -1,0 +1,37 @@
+filename = 'sbwnpc-0.6.0-mc1.21.1.jar'
+name = '[SBW] NPC Squads'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'sbwnpc-0.6.0-mc1.21.1.jar'
+
+[download]
+hash = 'bb60719201d0ee44f34aa44d41e057627be94a14'
+hash-format = 'sha1'
+mode = 'url'
+url = 'https://edge.forgecdn.net/files/9059/306/sbwnpc-0.6.0-mc1.21.1.jar'
+
+[update.curseforge]
+file-id = 9059306
+project-id = 1704148
+
+[[x-prismlauncher-dependencies]]
+addonId = '661293'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '351264'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1455983'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1218165'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '32274'
+type = 'OPTIONAL'

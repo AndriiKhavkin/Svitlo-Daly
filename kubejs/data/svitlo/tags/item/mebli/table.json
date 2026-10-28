@@ -1,0 +1,180 @@
+{
+ "values": [
+  {
+   "id": "handcrafted:acacia_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:acacia_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:acacia_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:bamboo_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:bamboo_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:bamboo_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:birch_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:birch_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:birch_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cherry_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cherry_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:cherry_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:crimson_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:crimson_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:crimson_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:dark_oak_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:dark_oak_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:dark_oak_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:jungle_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:jungle_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:jungle_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:mangrove_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:mangrove_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:mangrove_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:oak_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:oak_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:oak_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:spruce_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:spruce_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:spruce_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:warped_desk",
+   "required": false
+  },
+  {
+   "id": "handcrafted:warped_side_table",
+   "required": false
+  },
+  {
+   "id": "handcrafted:warped_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:acacia_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:bamboo_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:birch_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:cherry_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:crimson_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:dark_oak_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:jungle_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:mangrove_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:oak_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:spruce_table",
+   "required": false
+  },
+  {
+   "id": "another_furniture:warped_table",
+   "required": false
+  }
+ ]
+}

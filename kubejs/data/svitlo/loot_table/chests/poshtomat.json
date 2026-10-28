@@ -1,0 +1,14 @@
+{"type":"minecraft:chest","pools":[{"rolls":{"type":"minecraft:uniform","min":1,"max":3},"entries":[
+ {"type":"minecraft:item","name":"svitlo:hryvnia_100","weight":20,"functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":1,"max":5}}]},
+ {"type":"minecraft:item","name":"minecraft:paper","weight":15,"functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":2,"max":6}}]},
+ {"type":"minecraft:item","name":"create:cardboard","weight":15,"functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":1,"max":4}}]},
+ {"type":"minecraft:item","name":"svitlo:cucumber_plant_seeds","weight":10,"functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":2,"max":5}}]},
+ {"type":"minecraft:item","name":"svitlo:pyrizhok","weight":8,"functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":1,"max":3}}]},
+ {"type":"minecraft:item","name":"svitlo:non_stop","weight":6},
+ {"type":"minecraft:item","name":"svitlo:red_bull","weight":4},
+ {"type":"minecraft:item","name":"svitlo:salo","weight":6},
+ {"type":"minecraft:item","name":"minecraft:string","weight":8,"functions":[{"function":"minecraft:set_count","count":{"type":"minecraft:uniform","min":1,"max":4}}]},
+ {"type":"minecraft:item","name":"svitlo:rozsil","weight":3},
+ {"type":"minecraft:item","name":"minecraft:emerald","weight":4},
+ {"type":"minecraft:empty","weight":15}
+]}]}

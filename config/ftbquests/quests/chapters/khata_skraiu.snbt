@@ -1,0 +1,502 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "khata_skraiu"
+	group: ""
+	icon: {
+		count: 1
+		id: "brewinandchewin:beer"
+	}
+	id: "7A625FD7D3C5B637"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"02AB53E4E3B764E1"
+			]
+			id: "79564354ED61509A"
+			rewards: [
+				{
+					id: "745F8FA9A8ED6742"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "1C4585788DC18DE7"
+					item: {
+						count: 1
+						id: "farmersdelight:tomato"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5C41FC5DAEC42D21"
+					item: {
+						count: 1
+						id: "farmersdelight:cabbage"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"79564354ED61509A"
+			]
+			id: "4E08DA6B17A4DE0F"
+			rewards: [
+				{
+					id: "1D6D24E3AC837A60"
+					item: {
+						count: 2
+						id: "brewinandchewin:tankard"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0B24AC3B0EA19F1A"
+					item: {
+						count: 1
+						id: "brewinandchewin:keg"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4E08DA6B17A4DE0F"
+			]
+			id: "0140E33BECA46C14"
+			rewards: [
+				{
+					id: "4DEDC6776EAB2114"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "3EB14D2688EC0D8F"
+					item: {
+						count: 1
+						id: "brewinandchewin:beer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4E08DA6B17A4DE0F"
+			]
+			id: "5D15BC7BBDB991EB"
+			rewards: [
+				{
+					id: "68844414EF750EC6"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "02935F8DEBC59182"
+					item: {
+						count: 1
+						id: "brewinandchewin:flaxen_cheese_wedge"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"79564354ED61509A"
+			]
+			id: "3C6F3E1A226CD09B"
+			rewards: [
+				{
+					id: "29836F2C6110345A"
+					item: {
+						count: 16
+						id: "tide:bait"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:ryba"
+					criterion: ""
+					id: "222BCAF726F2C287"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3C6F3E1A226CD09B"
+			]
+			id: "18DF954618D1CD6A"
+			rewards: [
+				{
+					id: "7469091286EE2BE4"
+					item: {
+						count: 1
+						id: "tide:iron_fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5A47B3C7CBDB54A8"
+					item: {
+						count: 1
+						id: "tide:fishing_journal"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3C6F3E1A226CD09B"
+			]
+			id: "11F784772C8D0DCC"
+			rewards: [
+				{
+					id: "77A0FA5C2F5C14BB"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1121C5347A285439"
+					item: {
+						count: 1
+						id: "tide:pike"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "20686E47A77BEF60"
+					item: {
+						count: 1
+						id: "tide:catfish"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "45D169359A1F8B52"
+					item: {
+						count: 1
+						id: "tide:carp"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "28D1900945AC7C5F"
+					item: {
+						count: 1
+						id: "tide:walleye"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3C6F3E1A226CD09B"
+			]
+			id: "4D00A153C105F674"
+			rewards: [
+				{
+					id: "438BBD91E0B81155"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "1D041AB99EDD026E"
+					item: {
+						count: 1
+						id: "tide:brook_trout"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "5DEC2F527356C4E7"
+					item: {
+						count: 1
+						id: "tide:rainbow_trout"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3C6F3E1A226CD09B"
+			]
+			id: "5CBD6041CEF5C416"
+			rewards: [
+				{
+					id: "1AFCF2B34621A279"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5714882EB2556290"
+					item: {
+						count: 1
+						id: "tide:anchovy"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "4C176BA034866CD4"
+					item: {
+						count: 1
+						id: "tide:mackerel"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "5722A82986BF23A1"
+					item: {
+						count: 1
+						id: "tide:flounder"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"51610BE7705348E4"
+				"71A13E20D5210F60"
+			]
+			id: "6E637ED44335207A"
+			rewards: [
+				{
+					id: "27E7922D041FA5C3"
+					item: {
+						count: 1
+						id: "tide:golden_fishing_rod"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "59E54F21A27D7EFE"
+					item: {
+						count: 1
+						id: "tide:sturgeon"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4E08DA6B17A4DE0F"
+			]
+			id: "2FB18E48658803DD"
+			rewards: [
+				{
+					id: "7A7EA9FF7C0CBE9C"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0C69E8DE7A7D4830"
+					item: {
+						count: 1
+						id: "svitlo:braha"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2FB18E48658803DD"
+			]
+			id: "58CCA6AAFDA97C2E"
+			rewards: [
+				{
+					id: "279FE23D026151A8"
+					item: {
+						count: 8
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5E20181184C4F9F4"
+					item: {
+						count: 1
+						id: "svitlo:samohon"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"58CCA6AAFDA97C2E"
+			]
+			id: "01ABD8BCFEBA82F1"
+			rewards: [
+				{
+					id: "57A0D90CC897F03A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "5FC031D3F424C8D6"
+					item: {
+						count: 1
+						id: "svitlo:khortytsia"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2FB18E48658803DD"
+			]
+			id: "61C40E8E62235D41"
+			rewards: [
+				{
+					id: "1BE70A7A82C6E569"
+					item: {
+						count: 3
+						id: "svitlo:pyrizhok"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "28E98AD10DA327B2"
+					item: {
+						count: 1
+						id: "svitlo:rozsil"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E08DA6B17A4DE0F"
+			]
+			id: "7C2696F286C59D27"
+			rewards: [
+				{
+					id: "30A16C090CD36CAC"
+					item: {
+						count: 2
+						id: "svitlo:monster_original"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6D928AC92CB5C29A"
+					item: {
+						count: 1
+						id: "svitlo:non_stop"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "4AE18B91387DFAE4"
+					item: {
+						count: 1
+						id: "svitlo:red_bull"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+}

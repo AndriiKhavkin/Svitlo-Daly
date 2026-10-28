@@ -1,0 +1,2 @@
+{"parent":"svitlo:root","display":{"icon":{"id":"minecraft:cod"},"title":"Клює!","description":"Злови першу рибу","show_toast":true,"announce_to_chat":false,"hidden":true},
+ "criteria":{"fish":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"#tide:fish"}]}}}}

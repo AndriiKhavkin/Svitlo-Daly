@@ -1,0 +1,2 @@
+{"parent":"svitlo:root","display":{"icon":{"id":"minecraft:tnt"},"title":"Макіївський роднічок","description":"Знищ 8 окупантів за 3 секунди. Генштаб не встигає рахувати","frame":"challenge","hidden":true},
+ "criteria":{"manual":{"trigger":"minecraft:impossible"}},"rewards":{"experience":500}}

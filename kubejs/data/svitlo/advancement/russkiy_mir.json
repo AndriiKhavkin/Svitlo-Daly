@@ -1,0 +1,2 @@
+{"parent":"svitlo:root","display":{"icon":{"id":"minecraft:netherrack"},"title":"«Русскій мір»","description":"Потрап у Незер. Тут гаряче, всі злі, а золото міняють на мотлох"},
+ "criteria":{"nether":{"trigger":"minecraft:changed_dimension","conditions":{"to":"minecraft:the_nether"}}}}

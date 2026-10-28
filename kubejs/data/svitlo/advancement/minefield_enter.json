@@ -1,0 +1,3 @@
+{"parent":"svitlo:root","display":{"icon":{"id":"superbwarfare:blu_43_mine"},"title":"Заміновано!","description":"Зайди на мінне поле. Далі тільки навшпиньки (Shift)","frame":"goal"},
+ "criteria":{"in_field":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:location_check","predicate":{"structures":"svitlo:minefield"}}]}}},
+ "rewards":{"function":"svitlo:minefield_warn"}}

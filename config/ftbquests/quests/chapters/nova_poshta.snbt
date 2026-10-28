@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nova_poshta"
+	group: ""
+	icon: {
+		count: 1
+		id: "create:packager"
+	}
+	id: "314E36BDE903881A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"003A07DEA023CCFB"
+			]
+			id: "76EA33FB81E37BE5"
+			rewards: [
+				{
+					id: "0259F200C09B13C4"
+					item: {
+						count: 2
+						id: "sophisticatedstorage:upgrade_base"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "31185B5B6C557610"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:chest"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76EA33FB81E37BE5"
+			]
+			id: "058E93A6D9A60594"
+			rewards: [
+				{
+					id: "06C138C09236E8B6"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "28ABCE8D99415FF4"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:filter_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"058E93A6D9A60594"
+				"5B81CDB348F32F1E"
+			]
+			id: "47E512BDFE61B45E"
+			rewards: [
+				{
+					id: "67898CD0B299A0FD"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "29E5A8AB46D539AB"
+					item: {
+						count: 1
+						id: "create:packager"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"47E512BDFE61B45E"
+			]
+			id: "7F433740F91AADE4"
+			rewards: [
+				{
+					id: "7BDB34A8D0C64783"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "3230A00479E1F440"
+					item: {
+						count: 1
+						id: "create:package_frogport"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"47E512BDFE61B45E"
+			]
+			id: "77DBAADFDF234C46"
+			rewards: [
+				{
+					id: "3C44B78D55660F28"
+					item: {
+						count: 1
+						id: "sophisticatedbackpacks:backpack"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "03C9B0613A692549"
+					item: {
+						count: 1
+						id: "create:stock_ticker"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"76EA33FB81E37BE5"
+			]
+			id: "4759F88487F0054D"
+			rewards: [
+				{
+					id: "1C8F08DA35F35005"
+					item: {
+						count: 5
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0A70F343DDA69E45"
+					item: {
+						count: 1
+						id: "svitlo:bankomat"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+}

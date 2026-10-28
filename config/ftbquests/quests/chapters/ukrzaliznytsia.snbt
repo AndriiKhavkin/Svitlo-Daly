@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ukrzaliznytsia"
+	group: ""
+	icon: {
+		count: 1
+		id: "create:controls"
+	}
+	id: "4CCF33DC7A12A6F0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"5B81CDB348F32F1E"
+			]
+			id: "42FFE8BAAFD1749A"
+			rewards: [
+				{
+					id: "2BC930B65330A09E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "545EB3699A465DC1"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"42FFE8BAAFD1749A"
+			]
+			id: "5FC4DA0F27F3414F"
+			rewards: [
+				{
+					id: "35C741DFE4D69096"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0E8127F8A08723CF"
+					item: {
+						count: 1
+						id: "create:track_station"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5FC4DA0F27F3414F"
+			]
+			id: "7FD6B696CB86A1E0"
+			rewards: [
+				{
+					id: "0E5D26E81D161571"
+					item: {
+						count: 4
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "01E8EAD15F8431DA"
+					item: {
+						count: 1
+						id: "create:controls"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7FD6B696CB86A1E0"
+			]
+			id: "432C5FB70CAB0E07"
+			rewards: [
+				{
+					id: "4BC0FE1DBBB2A223"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "623CC6E205006F68"
+					item: {
+						count: 1
+						id: "create:schedule"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"42FFE8BAAFD1749A"
+			]
+			id: "1BE58896553780F3"
+			rewards: [
+				{
+					id: "543A28166D3E74EE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "2D07FCD21BA90D5B"
+					item: {
+						count: 1
+						id: "create:track_signal"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1BE58896553780F3"
+			]
+			id: "4784731FA8714632"
+			rewards: [
+				{
+					id: "1F3D4149DCB82917"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "027BF445E0DD3487"
+					item: {
+						count: 1
+						id: "railways:semaphore"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+}

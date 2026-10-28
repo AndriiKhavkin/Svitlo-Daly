@@ -1,0 +1,78 @@
+// «Світло Дали»: українська кухня, протитанковий їжак, деталі набоїв
+StartupEvents.registry('item', event => {
+  const dish = (id, name, nutrition, saturation, bowl, extra) => {
+    const b = event.create('svitlo:' + id).displayName(name).food(f => {
+      f.nutrition(nutrition).saturation(saturation)
+      if (bowl) f.usingConvertsTo(bowl)
+      if (extra) extra(f)
+    })
+    if (bowl) b.maxStackSize(16)
+    return b
+  }
+  dish('palianytsia', 'Паляниця', 6, 0.7)
+  dish('salo', 'Сало', 4, 0.5)
+  dish('borshch', 'Борщ', 12, 0.9, 'minecraft:bowl', f => f.effect('minecraft:regeneration', 200, 0, 1.0))
+  dish('halushky', 'Полтавські галушки', 10, 0.8, 'minecraft:bowl')
+  dish('varenyky', 'Вареники з картоплею', 5, 0.6)
+  dish('deruny', 'Деруни', 6, 0.6)
+  dish('banosh', 'Гуцульський банош', 12, 0.9, 'minecraft:bowl', f => f.effect('minecraft:resistance', 600, 0, 1.0))
+  dish('kotleta_kyivska', 'Котлета по-київськи', 10, 0.8)
+  dish('holubtsi', 'Голубці', 11, 0.8, 'minecraft:bowl')
+  dish('syrnyky', 'Сирники', 5, 0.6)
+  dish('uzvar', 'Узвар', 4, 0.4, 'minecraft:glass_bottle', f => f.alwaysEdible().effect('minecraft:speed', 600, 0, 1.0))
+  dish('khamsa_sandwich', 'Бутерброд з хамсою', 8, 0.7)
+  dish('yushka', 'Юшка з Хортиці', 10, 0.8, 'minecraft:bowl', f => f.effect('minecraft:water_breathing', 1200, 0, 1.0))
+  event.create('svitlo:unfinished_cartridge').displayName('Незібраний набій')
+  // готівка і нагороди Генштабу
+  event.create('svitlo:hryvnia_100').displayName('Купюра 100 ₴').maxStackSize(64)
+  const award = (id, name, rarity) => event.create('svitlo:' + id).displayName(name).maxStackSize(1).rarity(rarity)
+  award('hramota', 'Грамота від сільради', 'common')
+  award('znak_horod', 'Почесний знак «Захисник городу»', 'uncommon')
+  award('medal_tysiacha', 'Медаль «Тисяча мінус»', 'rare')
+  award('hodynnyk', 'Іменний годинник від Генштабу', 'rare')
+  award('orden_svitla', 'Орден «Світло Дали»', 'epic')
+  // --- енергетики, самогон, огірки, бабуся
+  event.create('svitlo:can_empty').displayName('Порожня бляшанка')
+  event.create('svitlo:viiskovyi_dokument').displayName('Військово-обліковий документ').maxStackSize(1).rarity('uncommon')
+  const drink = (id, name, convert, fx) => event.create('svitlo:' + id).displayName(name).maxStackSize(16)
+    .food(f => { f.nutrition(1).saturation(0.1).alwaysEdible().eatSeconds(1.2); if (convert) f.usingConvertsTo(convert); fx(f) })
+  const can = null, bottle = 'minecraft:glass_bottle'  // бляшанку видає server_scripts/napoi.js
+  drink('non_stop', 'Non Stop', can, f => f.effect('minecraft:speed', 3600, 0, 1.0).effect('minecraft:haste', 3600, 0, 1.0))
+  drink('monster_original', 'Monster Energy', can, f => f.effect('minecraft:haste', 3600, 1, 1.0).effect('minecraft:jump_boost', 3600, 0, 1.0))
+  drink('monster_ultra', 'Monster Ultra', can, f => f.effect('minecraft:haste', 4800, 0, 1.0).effect('minecraft:night_vision', 4800, 0, 1.0))
+  drink('red_bull', 'Red Bull', can, f => f.effect('minecraft:slow_falling', 1800, 0, 1.0).effect('minecraft:jump_boost', 1800, 1, 1.0))
+  drink('braha', 'Бутель браги', bottle, f => f.effect('minecraft:nausea', 300, 0, 1.0).effect('minecraft:hunger', 300, 0, 1.0))
+  drink('samohon', 'Самогон', bottle, f => f.effect('minecraft:strength', 1200, 0, 1.0).effect('minecraft:resistance', 1200, 0, 1.0).effect('minecraft:nausea', 160, 0, 1.0))
+  drink('khortytsia', 'Хортиця', bottle, f => f.effect('minecraft:strength', 2400, 0, 1.0).effect('minecraft:resistance', 2400, 0, 1.0).effect('minecraft:nausea', 80, 0, 1.0))
+  drink('vyshnianka', 'Бабусина вишнянка', bottle, f => f.effect('minecraft:regeneration', 200, 0, 1.0).effect('minecraft:strength', 600, 0, 1.0))
+  drink('rozsil', 'Огірковий розсіл', bottle, f => f.effect('minecraft:saturation', 20, 0, 1.0))
+  event.create('svitlo:cucumber').displayName('Огірок').food(f => f.nutrition(2).saturation(0.4))
+  event.create('svitlo:banka_ohirkiv').displayName('Банка солоних огірків').maxStackSize(16)
+    .food(f => f.nutrition(6).saturation(0.6))  // розсіл видає napoi.js
+  dish('pyrizhok', 'Бабусин пиріжок з вишнями', 5, 0.6)
+})
+
+StartupEvents.registry('block', event => {
+  event.create('svitlo:cucumber_plant', 'crop').displayName('Огірки')
+    .age(3)
+    .crop('svitlo:cucumber').crop('svitlo:cucumber', 0.6)
+
+  event.create('svitlo:yizhak')
+    .displayName('Протитанковий їжак')
+    .soundType('metal')
+    .hardness(6).resistance(1200)
+    .requiresTool(true)
+    .notSolid()
+    .defaultCutout()
+    .parentModel('svitlo:block/yizhak_shape')
+    .tagBlock('minecraft:mineable/pickaxe')
+
+  event.create('svitlo:bankomat', 'cardinal')
+    .displayName('Банкомат')
+    .soundType('metal')
+    .hardness(4).resistance(20)
+    .requiresTool(true)
+    .lightLevel(0.4)
+    .textures({ side: 'svitlo:block/bankomat_side', front: 'svitlo:block/bankomat_front', top: 'svitlo:block/bankomat_top', particle: 'svitlo:block/bankomat_side' })
+    .tagBlock('minecraft:mineable/pickaxe')
+})
