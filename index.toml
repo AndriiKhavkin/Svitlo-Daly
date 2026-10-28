@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "81ab477b859175cc2b1b209b6ba8dda0c79b34021e6ed382b5798a9a88cd1da0"
+hash = "95590c66e6cce1b21e8b6e0311b536dde9b5fa75c54d5a489142db8684729b31"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -1408,6 +1408,10 @@ hash = "ba9f55f64766a371c3d158c4f207894e6653565bfaee1652fef2ee96f26aa6cc"
 [[files]]
 file = "kubejs/server_scripts/napoi.js"
 hash = "70636f7d50193a231e9d76e7a855ec493402647511b6657d59577c802a59ba9d"
+
+[[files]]
+file = "kubejs/server_scripts/nichnyi_restart.js"
+hash = "9c379bcd30dd4844b82ef485e88a88a4b9c922ba01690aab695af8d5d4229d94"
 
 [[files]]
 file = "kubejs/server_scripts/tab_i_sejv.js"
