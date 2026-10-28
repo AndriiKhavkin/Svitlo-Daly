@@ -14,6 +14,7 @@
 	quests: [
 		{
 			dependencies: [ ]
+			disable_toast: true
 			id: "39FEFB1CE80E2F95"
 			invisible: true
 			rewards: [ ]
@@ -31,16 +32,16 @@
 		}
 		{
 			dependencies: [ ]
+			disable_toast: true
 			id: "58578FE666023D9D"
 			invisible: true
 			rewards: [ ]
 			tasks: [
 				{
+					advancement: "svitlo:selo_miny"
+					criterion: ""
 					id: "5147BE355736EBAC"
-					observe_type: 5
-					timer: 0L
-					to_observe: "superbwarfare:claymore"
-					type: "observation"
+					type: "advancement"
 				}
 			]
 			x: -3.0d
@@ -48,6 +49,7 @@
 		}
 		{
 			dependencies: [ ]
+			disable_toast: true
 			id: "3AF984D9F778E52A"
 			invisible: true
 			rewards: [ ]

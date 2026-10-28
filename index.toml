@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "9195bc6ef2edf1905fbc25bd214fa0ffda131bd6ec13d5035a1e457b2717bec4"
+hash = "970029be96832abeaf973c48e31f88cb2070ea05e5b178abca44cbbb21094d6d"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -34,7 +34,7 @@ hash = "bd1d8e49a27d3f2d1918ab33e5a0c53ba51d7599975489329d71c646104a464b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rozminuvannia.snbt"
-hash = "b244250e061d4b18eded88e44bc5a1670b65d24a24518dc0890245e8f6b1e071"
+hash = "4a61fb3789b859bf47e12ad59c21b10039ead06b2e3d9fa3176acd50ccfa6f15"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sich.snbt"
@@ -66,11 +66,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "4d80057068058d3340de4513abfd241e549e1e351b4b5dafbbb0f28b3955b3b8"
+hash = "05f8f400afdeb695fff209807d9fd9667acd4b45fbd9ca6e9ef2a81e29be71c5"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "4d80057068058d3340de4513abfd241e549e1e351b4b5dafbbb0f28b3955b3b8"
+hash = "05f8f400afdeb695fff209807d9fd9667acd4b45fbd9ca6e9ef2a81e29be71c5"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -894,6 +894,10 @@ file = "kubejs/data/svitlo/advancement/ryba.json"
 hash = "389542afd2b503bdd9bab78e893b56d4b0cfcdb7168f1d50232ab2817fd06713"
 
 [[files]]
+file = "kubejs/data/svitlo/advancement/selo_miny.json"
+hash = "e72c7d2eb23a2592fc9df77a1779fd388fd184a4179ca8c6f4424509470d0812"
+
+[[files]]
 file = "kubejs/data/svitlo/advancement/shelter.json"
 hash = "de7cea6b7afbcc37b5e264c332b8a0ff3ced7d5d147d9aa4cbc0d6ff318f185c"
 
@@ -1079,7 +1083,11 @@ hash = "9f4b2a5998d37f562c7b7a96df65cf67118f4f82779803e8a4b5f68475570ac1"
 
 [[files]]
 file = "kubejs/data/svitlo/function/second.mcfunction"
-hash = "e944562dafcb3037286f17a9d075c09833e12e777f1a131a2dbb92c9e325c905"
+hash = "2b03545746741301f17128ce96c18604d8633d6db7a39a2b44e65a25f34b334f"
+
+[[files]]
+file = "kubejs/data/svitlo/function/selo_warn.mcfunction"
+hash = "255339681b55254860dbcbfa1e836156d21841e6ad3ef4582774afdac4d08971"
 
 [[files]]
 file = "kubejs/data/svitlo/function/speeding.mcfunction"
@@ -1180,6 +1188,10 @@ hash = "64cb5f76a4c195f7f49ac748474540b46d18138e082a444d3810d0b99e4d8542"
 [[files]]
 file = "kubejs/data/svitlo/predicate/in_minefield.json"
 hash = "131c3caabc702ce7ebacd5ad160f54c41d6a46d6459d30b27ff8db081f7a0a9a"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/in_village.json"
+hash = "fb776a873be44f7379f12be050f34cb3d0631e5c5335848d2fac6e7da6501bf4"
 
 [[files]]
 file = "kubejs/data/svitlo/predicate/sneaking.json"

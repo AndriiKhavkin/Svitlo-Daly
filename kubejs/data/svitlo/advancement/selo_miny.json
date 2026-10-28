@@ -1,0 +1,2 @@
+{"parent":"svitlo:root","display":{"icon":{"id":"superbwarfare:claymore_mine"},"title":"Заміноване село","description":"Знайди покинуте село, де біля дверей хат чекають клеймори","frame":"goal"},
+ "criteria":{"granted":{"trigger":"minecraft:impossible"}}}
