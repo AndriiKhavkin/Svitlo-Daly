@@ -23,6 +23,8 @@
 					xp: 50
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					count: 1L
@@ -109,9 +111,74 @@
 		}
 		{
 			dependencies: [
+				"37332CF5ABFBA93D"
+			]
+			id: "0DA4001706EDC000"
+			rewards: [
+				{
+					id: "0408456E0C3CD979"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "41956B45EAA10F8E"
+					item: {
+						count: 1
+						id: "aeronautics:levitite"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7EE60CFC532F1C9F"
+			]
+			id: "312E970D2650ACE4"
+			rewards: [
+				{
+					id: "73470D67BE5ED39F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "08315BE4014134BF"
+					item: {
+						count: 1
+						id: "simulated:steering_wheel"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "79AB597E24D225EE"
+					item: {
+						count: 1
+						id: "simulated:throttle_lever"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
 				"7EE60CFC532F1C9F"
 				"37332CF5ABFBA93D"
 			]
+			icon: {
+				count: 1
+				id: "aeronautics:white_envelope"
+			}
 			id: "398CDC3D4190A6E0"
 			rewards: [
 				{
@@ -136,9 +203,48 @@
 		}
 		{
 			dependencies: [
+				"0D97F52C79117AF0"
+			]
+			id: "58938A59945A21B7"
+			rewards: [
+				{
+					id: "66F713B88FF4CD39"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "342340A0AFCC8D41"
+					item: {
+						count: 1
+						id: "offroad:wheel_mount"
+					}
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "31DE7AD7045383F9"
+					item: {
+						count: 1
+						id: "offroad:tire"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
 				"398CDC3D4190A6E0"
 				"6E5B815FD96C9D47"
 			]
+			icon: {
+				count: 1
+				id: "waystones:waystone"
+			}
 			id: "2CADEDC7368A1A56"
 			rewards: [
 				{
@@ -155,6 +261,32 @@
 			]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"312E970D2650ACE4"
+			]
+			id: "433FFA0718E2856B"
+			rewards: [
+				{
+					id: "7F3E831FC829830E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "22377F47DC8F723A"
+					item: {
+						count: 1
+						id: "simulated:docking_connector"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
 		}
 	]
 }

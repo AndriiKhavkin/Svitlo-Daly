@@ -54,6 +54,10 @@
 			dependencies: [
 				"67750AAE478F3036"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:spruce_sapling"
+			}
 			id: "60F8D8B626EE45B2"
 			rewards: [
 				{
@@ -84,6 +88,10 @@
 			dependencies: [
 				"60F8D8B626EE45B2"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:snowball"
+			}
 			id: "7AD987A1B64D664E"
 			rewards: [
 				{
@@ -106,6 +114,10 @@
 			dependencies: [
 				"67750AAE478F3036"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:lily_pad"
+			}
 			id: "64551C4918DB9FF6"
 			rewards: [
 				{
@@ -136,6 +148,10 @@
 			dependencies: [
 				"67750AAE478F3036"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:sunflower"
+			}
 			id: "13D5F0F3558A9AAD"
 			rewards: [
 				{
@@ -166,6 +182,10 @@
 			dependencies: [
 				"67750AAE478F3036"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:water_bucket"
+			}
 			id: "51610BE7705348E4"
 			rewards: [
 				{
@@ -196,6 +216,10 @@
 			dependencies: [
 				"51610BE7705348E4"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:acacia_sapling"
+			}
 			id: "0FA0C5CFE59F2510"
 			rewards: [
 				{
@@ -218,6 +242,10 @@
 			dependencies: [
 				"51610BE7705348E4"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:sand"
+			}
 			id: "23AF8F722D921422"
 			rewards: [
 				{
@@ -240,6 +268,10 @@
 			dependencies: [
 				"67750AAE478F3036"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:kelp"
+			}
 			id: "71A13E20D5210F60"
 			rewards: [
 				{
@@ -270,6 +302,10 @@
 			dependencies: [
 				"60F8D8B626EE45B2"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:glow_berries"
+			}
 			id: "273016BA89606DBE"
 			rewards: [
 				{
@@ -300,6 +336,10 @@
 			dependencies: [
 				"273016BA89606DBE"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:pointed_dripstone"
+			}
 			id: "0AB81AE0BA080C45"
 			rewards: [
 				{
@@ -322,6 +362,10 @@
 			dependencies: [
 				"67750AAE478F3036"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:bell"
+			}
 			id: "35C62E01C245DC20"
 			rewards: [
 				{
@@ -352,6 +396,10 @@
 			dependencies: [
 				"13D5F0F3558A9AAD"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:decorated_pot"
+			}
 			id: "1A416F9108535100"
 			rewards: [
 				{
@@ -382,6 +430,10 @@
 			dependencies: [
 				"51610BE7705348E4"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:rail"
+			}
 			id: "06223F1C3DC5D263"
 			rewards: [
 				{
@@ -412,6 +464,10 @@
 			dependencies: [
 				"35C62E01C245DC20"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:crossbow"
+			}
 			id: "3CCCDCB4352422F1"
 			rewards: [
 				{
@@ -434,6 +490,10 @@
 			dependencies: [
 				"71A13E20D5210F60"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:oak_boat"
+			}
 			id: "1D07EBE8303F0870"
 			rewards: [
 				{
@@ -456,6 +516,10 @@
 			dependencies: [
 				"0AB81AE0BA080C45"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:sculk_shrieker"
+			}
 			id: "7E775B3910731B41"
 			rewards: [
 				{
@@ -480,6 +544,10 @@
 			dependencies: [
 				"3CCCDCB4352422F1"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:ender_eye"
+			}
 			id: "656E072A03B25DD5"
 			rewards: [
 				{

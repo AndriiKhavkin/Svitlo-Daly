@@ -26,6 +26,8 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					count: 1L
@@ -39,6 +41,32 @@
 			]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"76EA33FB81E37BE5"
+			]
+			id: "091F82E4AA78BA91"
+			rewards: [
+				{
+					id: "3E9D9134A20D7C35"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "0D32215B9A3735E2"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:basic_to_iron_tier_upgrade"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -62,9 +90,45 @@
 					}
 					type: "item"
 				}
+				{
+					count: 1L
+					id: "619ADF064B5FDE67"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:magnet_upgrade"
+					}
+					type: "item"
+				}
 			]
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"091F82E4AA78BA91"
+				"058E93A6D9A60594"
+			]
+			id: "1C2E643FB2577719"
+			rewards: [
+				{
+					id: "59DFAE4BAAB2B1C5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "29E1B31E3C868326"
+					item: {
+						count: 1
+						id: "sophisticatedstorage:controller"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -102,7 +166,7 @@
 				{
 					id: "7BDB34A8D0C64783"
 					type: "xp"
-					xp: 30
+					xp: 40
 				}
 			]
 			tasks: [
@@ -115,6 +179,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 2L
+					id: "281AC7D41E167D48"
+					item: {
+						count: 1
+						id: "create:chain_conveyor"
+					}
+					type: "item"
+				}
 			]
 			x: 6.0d
 			y: -1.0d
@@ -123,10 +196,10 @@
 			dependencies: [
 				"47E512BDFE61B45E"
 			]
-			id: "77DBAADFDF234C46"
+			id: "2543C3114AD9054E"
 			rewards: [
 				{
-					id: "3C44B78D55660F28"
+					id: "634C3EE863E3DBB2"
 					item: {
 						count: 1
 						id: "sophisticatedbackpacks:backpack"
@@ -139,16 +212,78 @@
 			tasks: [
 				{
 					count: 1L
-					id: "03C9B0613A692549"
+					id: "70F022F982DC2E8C"
 					item: {
 						count: 1
 						id: "create:stock_ticker"
 					}
 					type: "item"
 				}
+				{
+					count: 1L
+					id: "62AB27A37F945ED8"
+					item: {
+						count: 1
+						id: "create:stock_link"
+					}
+					type: "item"
+				}
 			]
 			x: 6.0d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2543C3114AD9054E"
+			]
+			id: "77DBAADFDF234C46"
+			rewards: [
+				{
+					id: "3C44B78D55660F28"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "03C9B0613A692549"
+					item: {
+						count: 1
+						id: "create:factory_gauge"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7F433740F91AADE4"
+				"5FC4DA0F27F3414F"
+			]
+			id: "584ADBC40507CAC9"
+			rewards: [
+				{
+					id: "0192DC22F6321B85"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "40A13E3FCE885DD6"
+					item: {
+						count: 1
+						id: "create:white_postbox"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [

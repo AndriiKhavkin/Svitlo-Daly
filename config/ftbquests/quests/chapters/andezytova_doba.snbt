@@ -43,6 +43,10 @@
 			dependencies: [
 				"71A05B05CCB713BD"
 			]
+			icon: {
+				count: 1
+				id: "create:goggles"
+			}
 			id: "1B47D2446D241195"
 			rewards: [
 				{
@@ -461,6 +465,10 @@
 				"7D0C35F70A79D91F"
 				"7375D9A70BB16BAB"
 			]
+			icon: {
+				count: 1
+				id: "svitlo:palianytsia"
+			}
 			id: "6EF5AD2B8EE0F07C"
 			rewards: [
 				{

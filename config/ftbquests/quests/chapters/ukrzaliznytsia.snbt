@@ -23,6 +23,8 @@
 					xp: 40
 				}
 			]
+			shape: "gear"
+			size: 1.5d
 			tasks: [
 				{
 					count: 64L
@@ -67,6 +69,41 @@
 			dependencies: [
 				"5FC4DA0F27F3414F"
 			]
+			id: "634EF9ABE41C098E"
+			rewards: [
+				{
+					id: "1EFF5AC479039FE5"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "4BC642B9055BCDAE"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+				{
+					count: 1L
+					id: "7C738C5861052E92"
+					item: {
+						count: 1
+						id: "create:small_bogey"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5FC4DA0F27F3414F"
+			]
 			id: "7FD6B696CB86A1E0"
 			rewards: [
 				{
@@ -92,7 +129,7 @@
 				}
 			]
 			x: 4.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -170,7 +207,95 @@
 				}
 			]
 			x: 4.0d
-			y: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"42FFE8BAAFD1749A"
+			]
+			id: "65A34F4648628362"
+			rewards: [
+				{
+					id: "373F7E53161CEDD5"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "457A9F04A0B582F1"
+					item: {
+						count: 1
+						id: "railways:handcar"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7FD6B696CB86A1E0"
+			]
+			id: "7C68E7A339A2ACE9"
+			rewards: [
+				{
+					id: "31983252CAE3A1A2"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "044C0686C964023A"
+					item: {
+						count: 1
+						id: "railways:smokestack_coalburner"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"432C5FB70CAB0E07"
+				"634EF9ABE41C098E"
+			]
+			icon: {
+				count: 1
+				id: "create:track_station"
+			}
+			id: "704DBFC19969DBA3"
+			rewards: [
+				{
+					id: "71D1600B23DC38A5"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "5CFF54D2204386F8"
+					item: {
+						count: 10
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "6F838281CD0D78A9"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: -2.0d
 		}
 	]
 }

@@ -27,7 +27,7 @@ for rel in files:
     out.append('[[files]]')
     out.append('file = ' + q(rel))
     out.append('hash = ' + q(sha256(os.path.join(ROOT, rel))))
-    if rel.startswith('mods/') and rel.endswith('.pw.toml'): out.append('metafile = true')
+    if rel.endswith('.pw.toml'): out.append('metafile = true')
     if rel in PRESERVE: out.append('preserve = true')
     out.append('')
 open(os.path.join(ROOT, 'index.toml'), 'w', encoding='utf-8', newline='\n').write('\n'.join(out))

@@ -28,6 +28,9 @@ execute if score #t120 sd.var matches 120.. run scoreboard players set #t120 sd.
 execute as @e[type=minecraft:wandering_trader,tag=!sd.seen] at @s run function svitlo:babusia/check
 scoreboard players add @e[tag=sd.babusia] sd.life 1
 execute as @e[tag=sd.babusia,scores={sd.life=2400..}] at @s run function svitlo:babusia/leave
+# --- мінне поле: попередження при кожному заході
+execute as @a[tag=!sd.in_field,gamemode=!spectator] at @s if predicate svitlo:in_minefield run function svitlo:minefield_warn
+execute as @a[tag=sd.in_field] at @s unless predicate svitlo:in_minefield run tag @s remove sd.in_field
 # --- втрати противника: переносимо особисті вбивства в загальний рахунок
 execute as @a run function svitlo:count_kills
 scoreboard players add #t3 sd.var 1

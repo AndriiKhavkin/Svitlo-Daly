@@ -15,6 +15,10 @@
 			dependencies: [
 				"461501CCC066B81F"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:oak_door"
+			}
 			id: "5F5987F88DC2E14F"
 			rewards: [
 				{
@@ -46,6 +50,10 @@
 			dependencies: [
 				"5F5987F88DC2E14F"
 			]
+			icon: {
+				count: 1
+				id: "handcrafted:oak_table"
+			}
 			id: "085C694AFC1CD0E1"
 			rewards: [
 				{
@@ -83,6 +91,10 @@
 			dependencies: [
 				"5F5987F88DC2E14F"
 			]
+			icon: {
+				count: 1
+				id: "handcrafted:oak_couch"
+			}
 			id: "7B48CEA7BEEBFBA2"
 			rewards: [
 				{
@@ -114,6 +126,10 @@
 			dependencies: [
 				"5F5987F88DC2E14F"
 			]
+			icon: {
+				count: 1
+				id: "handcrafted:oak_cupboard"
+			}
 			id: "173102F75D4E098C"
 			rewards: [
 				{
@@ -145,6 +161,10 @@
 			dependencies: [
 				"5F5987F88DC2E14F"
 			]
+			icon: {
+				count: 1
+				id: "handcrafted:oak_counter"
+			}
 			id: "3EA2D135108CAD3D"
 			rewards: [
 				{
@@ -176,6 +196,10 @@
 			dependencies: [
 				"5F5987F88DC2E14F"
 			]
+			icon: {
+				count: 1
+				id: "another_furniture:white_lamp"
+			}
 			id: "42218062ED36CC15"
 			rewards: [
 				{
@@ -207,6 +231,10 @@
 			dependencies: [
 				"3EA2D135108CAD3D"
 			]
+			icon: {
+				count: 1
+				id: "handcrafted:wood_plate"
+			}
 			id: "5BB32F8B9349599F"
 			rewards: [
 				{
@@ -238,6 +266,10 @@
 			dependencies: [
 				"42218062ED36CC15"
 			]
+			icon: {
+				count: 1
+				id: "handcrafted:creeper_trophy"
+			}
 			id: "66D1BF405EA26A59"
 			rewards: [
 				{
@@ -269,6 +301,10 @@
 			dependencies: [
 				"42218062ED36CC15"
 			]
+			icon: {
+				count: 1
+				id: "another_furniture:oak_flower_box"
+			}
 			id: "64D8CF7B0509C7E2"
 			rewards: [
 				{
@@ -304,6 +340,10 @@
 				"3EA2D135108CAD3D"
 				"42218062ED36CC15"
 			]
+			icon: {
+				count: 1
+				id: "minecraft:cake"
+			}
 			id: "0FD992256BBE0F8C"
 			rewards: [
 				{

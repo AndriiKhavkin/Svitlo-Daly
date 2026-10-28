@@ -96,6 +96,10 @@
 				"299B2B5CA321D78F"
 				"08E31D6F5A0E8484"
 			]
+			icon: {
+				count: 1
+				id: "create_new_age:generator_coil"
+			}
 			id: "4A28C7FD80369994"
 			rewards: [
 				{
@@ -263,6 +267,32 @@
 			dependencies: [
 				"1CD5C25D251D9EDA"
 			]
+			id: "374D7E8375BA68F9"
+			rewards: [
+				{
+					id: "0320F3BFB279B651"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6273C80786ECE70B"
+					item: {
+						count: 1
+						id: "create_new_age:heater"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1CD5C25D251D9EDA"
+			]
 			id: "4DD465DCD5892244"
 			rewards: [
 				{
@@ -321,6 +351,32 @@
 		}
 		{
 			dependencies: [
+				"374D7E8375BA68F9"
+			]
+			id: "54989F991CF6952C"
+			rewards: [
+				{
+					id: "778ACBCFFF5388C3"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7693678AB7D750C4"
+					item: {
+						count: 1
+						id: "create_new_age:basic_solar_heating_plate"
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
 				"161B982AB8ED4BCA"
 				"7FD6B696CB86A1E0"
 			]
@@ -354,7 +410,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 6.0d
 			y: 3.0d
 		}
 	]

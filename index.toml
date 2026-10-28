@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "95590c66e6cce1b21e8b6e0311b536dde9b5fa75c54d5a489142db8684729b31"
+hash = "9195bc6ef2edf1905fbc25bd214fa0ffda131bd6ec13d5035a1e457b2717bec4"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -10,7 +10,7 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andezytova_doba.snbt"
-hash = "eeb6e54a12b54baacf77e35b35855590724352162b045e3122dfb4ec35112de8"
+hash = "87caa679f9efc9081c951a23b4196fcaf8efadf6d212f4228e38d87e9e01f6c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/khata_skraiu.snbt"
@@ -18,15 +18,15 @@ hash = "0af7fa6979da5ea777adf4b6c9e736565e27a3554c10cf24916c70039ba80b79"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mandry.snbt"
-hash = "2c76750471b37a8deea4f17c9d73a8b05abc4d34e369832486a133fa861537aa"
+hash = "e34ec63ced482ceb3e8b128535a0a92d599d3a77bc9e1fcefbd7f20307a72d40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nebo.snbt"
-hash = "3cfaed938543fd24e3f123e3bcf5d9de8a664c8fc0c74cb31e3682465fd3e71f"
+hash = "5f4cf1b11e5d0bad8dc336ac77e977c7bcb6944316a7240caac62cd1de6aaaeb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nova_poshta.snbt"
-hash = "16bd59d00196e51acd5e79f4a336592240200dddfafc711d6ba7a7ecebf6698c"
+hash = "f4f1871133a09477fa783472abb35923448665178eb0c1667eec74124073fc2a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pasika.snbt"
@@ -46,7 +46,7 @@ hash = "070518a9f864e90e3b0ad2172cda9bc60771075145c1629ce0242ccfd75f888b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svii_dtek.snbt"
-hash = "5e6570e1473bad7b0b19130ca57428fdbf1b4db0f81dd5fafd2ed015994d571a"
+hash = "9c8ec346c33542ec7bb6f527a1279fdc6880b9a4db0b4d42e713093a9a0f2bd7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svitlo_daly.snbt"
@@ -54,11 +54,11 @@ hash = "5145702c880ae4b2b69f67214e69ad9227259662b39b63eaa7ad3948f163f9e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svoia_khata.snbt"
-hash = "17268c8babe0e97e8bbca4f85ee287a38c23f907436f6f0b1a60545f06796d6c"
+hash = "5c18d8313166562f5b8fc5102820894f33192fdd4f286e08cea344ade9a0e638"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ukrzaliznytsia.snbt"
-hash = "7b066ea0eb9bb4a716d6bd65a50aa769da95369e5437847d47d9fc828878815e"
+hash = "db12707f337fed6fb6609d719e967645242f0e035f84f63406e92aa777273ce7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -66,11 +66,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "519af752f3c02341e86711f9c3872a0ce058a5b1192cdef0d615e9c17354b98d"
+hash = "4d80057068058d3340de4513abfd241e549e1e351b4b5dafbbb0f28b3955b3b8"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "519af752f3c02341e86711f9c3872a0ce058a5b1192cdef0d615e9c17354b98d"
+hash = "4d80057068058d3340de4513abfd241e549e1e351b4b5dafbbb0f28b3955b3b8"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -871,7 +871,7 @@ hash = "115c98cec0336bdeef9587903bcb3046a5b8fd5392cb80719f32d40e0aafdec7"
 
 [[files]]
 file = "kubejs/data/svitlo/advancement/minefield_enter.json"
-hash = "14c3b28f3ed6ee7a2fbc866af547bd944791cc6aac1d1495a7ef39e3c842a11d"
+hash = "d06cc7475aad295c7bd3489a33565dc0f12b5fa3614bcbd2cec5cde1bedbe523"
 
 [[files]]
 file = "kubejs/data/svitlo/advancement/nether_bread.json"
@@ -1047,7 +1047,7 @@ hash = "6a430474f3a1addf8ce1068086e63fdf5b4a6c0bb22c438d8428ed10140e0490"
 
 [[files]]
 file = "kubejs/data/svitlo/function/minefield_warn.mcfunction"
-hash = "9b645d90295d1871bf40056855b28bfb49ed98b51f05da2527917f104811f4ee"
+hash = "e96078dbbc3de3d3dba2bdd9595a2ead5cd7d65d20d3bf6d476afd0b4f244feb"
 
 [[files]]
 file = "kubejs/data/svitlo/function/morning.mcfunction"
@@ -1079,7 +1079,7 @@ hash = "9f4b2a5998d37f562c7b7a96df65cf67118f4f82779803e8a4b5f68475570ac1"
 
 [[files]]
 file = "kubejs/data/svitlo/function/second.mcfunction"
-hash = "87ac21f01df24caec4d35aff17c99db4517d92ddd1a1ae779f3c3437157e703a"
+hash = "e944562dafcb3037286f17a9d075c09833e12e777f1a131a2dbb92c9e325c905"
 
 [[files]]
 file = "kubejs/data/svitlo/function/speeding.mcfunction"
@@ -1176,6 +1176,10 @@ hash = "67bee5eab340b58b5d06b5c1517b6c98173bfffae48e0b6e80c2d4fcdbc5d4ff"
 [[files]]
 file = "kubejs/data/svitlo/predicate/has_jacket.json"
 hash = "64cb5f76a4c195f7f49ac748474540b46d18138e082a444d3810d0b99e4d8542"
+
+[[files]]
+file = "kubejs/data/svitlo/predicate/in_minefield.json"
+hash = "131c3caabc702ce7ebacd5ad160f54c41d6a46d6459d30b27ff8db081f7a0a9a"
 
 [[files]]
 file = "kubejs/data/svitlo/predicate/sneaking.json"
@@ -1419,7 +1423,7 @@ hash = "c52a277017843f45c866e63aab85b4ce5ab82420880697be13d097be7ab52fc3"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "029d80b92a8317d572f1fe888bfcd8d001f0ca944d0b26909ba5025d04e19d36"
+hash = "df976147d845345bd973eacd76bb4641a874dc8746d6429ef7bab76b6b6492bd"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
@@ -1778,4 +1782,34 @@ metafile = true
 [[files]]
 file = "mods/yungs-cave-biomes.pw.toml"
 hash = "8681b0a7788308fc91ec773dabb22b6fa115cdc6499c772f223086b16fbbbf36"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bliss-shader.pw.toml"
+hash = "8e297f1cf6be26faa43f09ff1d9d8845753878c600b20af15a23f1664a7398e0"
+metafile = true
+
+[[files]]
+file = "shaderpacks/bsl-shaders.pw.toml"
+hash = "accfd86c5569cb6d1bfde78a100fed93e4950fda8be73cc445fe05e492124a2e"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "7d13a6a314dcc04bd66c2a8330b986f56730268c56d3148a536a85de83cbf4f5"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "cc84a26ef185ac12938d4d8d50986765e552c5086ff7ceb0256ba7d5fb529a16"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shaders.pw.toml"
+hash = "f971bb0cb5ab4fb211243977932b55fd389aac39105dd5509537d4e2d2ba45c6"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon-shader.pw.toml"
+hash = "2419764d192b821158da18c6044c3563963dfcccab0624a8603f5602a68922d8"
 metafile = true
