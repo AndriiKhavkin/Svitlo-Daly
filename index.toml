@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "158f142194be3ae66e0c34ca41210c95e1772dab5e08588b358f1494e1a6d743"
+hash = "bc5d2a109b88a44dd2061de92c56877bb85c653f5e3204e76264d6778389b339"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -38,7 +38,7 @@ hash = "6acaaa2789bf1257e69588d96031ab32daceecdbbc18b44a2e46664c696a0036"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/punkt_nezlamnosti.snbt"
-hash = "7367d19aefd47eb2f1274bfda1323a48fb2f734f3adf8143763b1efdabd1d241"
+hash = "20dba0e357e99408e6b1e9fbf05e2828ef054e8aace6450826fad128956d4f13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rozminuvannia.snbt"
@@ -74,11 +74,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "0888a1f3641d7b4d9e7a8d8e9f6832a203bac5e8af502d482c7c60368f92afb4"
+hash = "14c9e53c22f19468805f129b52295acf3ed81bf6118bc4776103b4ce8f0dbf5a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "0888a1f3641d7b4d9e7a8d8e9f6832a203bac5e8af502d482c7c60368f92afb4"
+hash = "14c9e53c22f19468805f129b52295acf3ed81bf6118bc4776103b4ce8f0dbf5a"
 
 [[files]]
 file = "config/tide/tide_server.json"
@@ -87,6 +87,10 @@ hash = "e399d739b2b9e2c0374a7096950e60d596ae51be0babec84dcaddedcd948679b"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "7010ff123c6d1d66d12de64eda3515c8e95aa148f75aabfce9cecaea9474a3cf"
+
+[[files]]
+file = "defaultconfigs/jmsharedmaps-server.toml"
+hash = "c5666c8086492d77672b40bb9aff2edd17204b2b0b9718809a245fef7e9f799a"
 
 [[files]]
 file = "journeymap/config/6.0/journeymap.waypoint.config"
@@ -286,11 +290,11 @@ hash = "e619491312a3a9d5419a8e244aaec734ce7b4ff244cf8647f0a8d4875f91ab76"
 
 [[files]]
 file = "kubejs/assets/svitlo/lang/en_us.json"
-hash = "2e286e59b2876c4f61503a29c96b22c64d672944eed416509a560fa2f43a4334"
+hash = "c402bdcf05a84a46d6ab489af64f96c570eabc155911fddc552844320c4f9239"
 
 [[files]]
 file = "kubejs/assets/svitlo/lang/uk_ua.json"
-hash = "515a3b0e344fbe0ec8af995d7cac9a6fde88a2307c9fb03c5e40ca3e9744f852"
+hash = "69d076403bf3e8ea81553bcf757d4d5d4737f30caf78734b516903b435b38691"
 
 [[files]]
 file = "kubejs/assets/svitlo/models/block/yizhak_shape.json"
@@ -339,6 +343,18 @@ hash = "3a2a093a818b04d4951aec828e6906610688bef4fe7d2a52e27a80c4a1666422"
 [[files]]
 file = "kubejs/assets/svitlo/textures/block/cucumber_plant/3.png"
 hash = "2565d7bfbfa87d79ce02424f16907c28ac754ccdca827eeae4bc1e8bbba9f597"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/shtabna_karta_front.png"
+hash = "9c09586da8c8380a50c4e30e96748fab98a73ee8f0f5fb315128029a4bcfdd19"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/shtabna_karta_side.png"
+hash = "d75ca99f00374e0b17ddb31c2289156e4899cc7e8ea9a4ccdcfd39a28bf1e210"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/block/shtabna_karta_top.png"
+hash = "b15f841cdda07cf14e26bdeffb644b4636487786c5cd543d1f42313c29abe7b6"
 
 [[files]]
 file = "kubejs/assets/svitlo/textures/item/banka_ohirkiv.png"
@@ -1349,6 +1365,10 @@ file = "kubejs/data/svitlo/recipe/samohon.json"
 hash = "8aa6564b13dde63a536e18f2c25d01292709f2d3634e98b8366d5c03dc20eaa3"
 
 [[files]]
+file = "kubejs/data/svitlo/recipe/shtabna_karta.json"
+hash = "314b4de3b94b86dc29a66a7b7ef6e86193c546b470b488a37b95525820154697"
+
+[[files]]
 file = "kubejs/data/svitlo/recipe/syrnyky.json"
 hash = "df618fd56a2de099bc4c807e850bbffa079295e106bdeb32a81a4a9a66d6b530"
 
@@ -1410,15 +1430,15 @@ hash = "a3cdb53c2ef011a92e7da40d5a94908265226f1dee748211ee013be63a36d720"
 
 [[files]]
 file = "kubejs/data/svitlo/structure/punkt/stage1.nbt"
-hash = "c80e907c0f3063cc4a1b09f9a19d8c732451482dcc1fddb717f0ba5d278a5723"
+hash = "1062a57e4bbe620ae07594c4ab282c69e36a79bd847a0bd119c0c44098f4055f"
 
 [[files]]
 file = "kubejs/data/svitlo/structure/punkt/stage2.nbt"
-hash = "5d3c2755af4e04d667648e60800814edebcf66fecb9234cedee5163411ece4e8"
+hash = "661fc949692cdf955d57fc86c84ace3d00482c38cf5fecaec74eff8dbee1e5c1"
 
 [[files]]
 file = "kubejs/data/svitlo/structure/punkt/stage3.nbt"
-hash = "d570a91c67649fe521f18545ab8c79f8193090b32f115a0a13f3efe1e4624298"
+hash = "f464eaf7a48c6edfc8156841bec145346f456e26afbe5552f96e1cbc37ccf6fe"
 
 [[files]]
 file = "kubejs/data/svitlo/tags/entity_type/mines.json"
@@ -1497,6 +1517,14 @@ file = "kubejs/server_scripts/nichnyi_restart.js"
 hash = "a7e0ed224a46ed09bc9094f503264a3467b167ea21fc696600f6e52b1a0eda2e"
 
 [[files]]
+file = "kubejs/server_scripts/prybyrannia.js"
+hash = "3cb77c782189cd43c075de0f252cdd64d16885210a968398a924d787d2e7f6d3"
+
+[[files]]
+file = "kubejs/server_scripts/shtab_karta.js"
+hash = "c40d8aa1c1acdc2dd364f79b1af4b800ab292a218db3e49bc111706603fd9fc6"
+
+[[files]]
 file = "kubejs/server_scripts/tab_i_sejv.js"
 hash = "025203a629f54700504d769c7448d065ab082f3d97acba065edc35c72ce4b29d"
 
@@ -1506,11 +1534,11 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "a8af9322b46eb0372b91fc982d6312d37f53914fe6c7b31c3dc9d3aea98910ae"
+hash = "18aa0cc3d45e939c1a3db35c1406c693f7a3d58bfaea1cb866fc3ae4890ad8ee"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
-hash = "bfc480669160c84bd3b9427231d04684c7dc885d4117a9329e20fddc7d8554b1"
+hash = "6ff10f3abd86570f2c65fe1ef66d2ecd38edd428ba6a04458de4071c2fd11df7"
 
 [[files]]
 file = "mods/another-furniture.pw.toml"
@@ -1690,6 +1718,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5d1176bd1420bdc46216841cdb5b93ff49aa4ef8a1b132561d3a2246102176a5"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-shared-maps.pw.toml"
+hash = "d5412e2d3adf4ce01c5423ee9cc06445fdf549c1c4deec03bbcf965faf1a260f"
 metafile = true
 
 [[files]]

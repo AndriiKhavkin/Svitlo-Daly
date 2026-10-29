@@ -1,0 +1,3 @@
+{"type":"minecraft:crafting_shaped","category":"misc","pattern":["PMP","CTC","SSS"],
+ "key":{"P":{"item":"minecraft:paper"},"M":{"item":"minecraft:map"},"C":{"item":"minecraft:compass"},"T":{"item":"minecraft:cartography_table"},"S":{"tag":"minecraft:wooden_slabs"}},
+ "result":{"id":"svitlo:shtabna_karta","count":1}}

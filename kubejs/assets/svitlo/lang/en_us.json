@@ -38,5 +38,6 @@
   "item.svitlo.banka_ohirkiv": "Jar of Pickles",
   "item.svitlo.pyrizhok": "Granny's Cherry Pie",
   "item.svitlo.viiskovyi_dokument": "Military Registration Document",
-  "item.svitlo.ulamok_shaheda": "Shahed Fragment"
+  "item.svitlo.ulamok_shaheda": "Shahed Fragment",
+  "block.svitlo.shtabna_karta": "Staff Map Table"
 }

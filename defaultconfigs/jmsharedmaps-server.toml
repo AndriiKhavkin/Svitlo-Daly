@@ -1,0 +1,4 @@
+# Світло Дали: карта ділиться наживо лише всередині FTB-команди.
+# Між усіма — тільки через блок «Штабна карта» (kubejs/server_scripts/shtab_karta.js).
+ftbTeamsOnly = true
+joinSyncTilesPerTick = 8

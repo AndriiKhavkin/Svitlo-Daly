@@ -1,0 +1,9 @@
+filename = 'jmsharedmaps-1.7.1-1.21.1-neoforge.jar'
+name = 'JourneyMap Shared Maps'
+side = 'both'
+
+[download]
+hash = '17ff1da058a1fd2bd534fd3c00fa5d58935282c3'
+hash-format = 'sha1'
+mode = 'url'
+url = 'https://edge.forgecdn.net/files/9114/574/jmsharedmaps-1.7.1-1.21.1-neoforge.jar'

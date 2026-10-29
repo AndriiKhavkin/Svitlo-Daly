@@ -184,6 +184,39 @@
 			dependencies: [
 				"1D5B2C3B18334411"
 			]
+			icon: {
+				count: 1
+				id: "svitlo:shtabna_karta"
+			}
+			id: "6A518A54C1D505DE"
+			rewards: [
+				{
+					id: "50AB8483B5D08B3B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "23CDD62A85300E44"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "50F7656CB9403CAC"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1D5B2C3B18334411"
+			]
 			id: "39FFD6FEEC128CD5"
 			rewards: [
 				{

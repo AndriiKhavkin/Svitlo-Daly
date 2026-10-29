@@ -76,4 +76,12 @@ StartupEvents.registry('block', event => {
     .lightLevel(0.4)
     .textures({ side: 'svitlo:block/bankomat_side', front: 'svitlo:block/bankomat_front', top: 'svitlo:block/bankomat_top', particle: 'svitlo:block/bankomat_side' })
     .tagBlock('minecraft:mineable/pickaxe')
+
+  // Штабна карта: обмін розвіданою картою JourneyMap (JourneyMap Shared Maps, режим «тільки команда»)
+  event.create('svitlo:shtabna_karta', 'cardinal')
+    .displayName('Штабна карта')
+    .soundType('wood')
+    .hardness(2.5).resistance(6)
+    .textures({ side: 'svitlo:block/shtabna_karta_side', front: 'svitlo:block/shtabna_karta_front', top: 'svitlo:block/shtabna_karta_top', particle: 'svitlo:block/shtabna_karta_side' })
+    .tagBlock('minecraft:mineable/axe')
 })
