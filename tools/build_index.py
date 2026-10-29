@@ -3,7 +3,7 @@
 import hashlib, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SKIP_TOP = {'pack.toml', 'index.toml', 'README.md', '.packwizignore', 'tools', '.github', '.git', 'LICENSE', '.gitattributes'}
-PRESERVE = {'config/inventoryprofilesnext/inventoryprofiles.json'}   # ставиться один раз, далі гравець сам налаштовує
+PRESERVE = set()   # файли, які ставляться один раз і далі не перезаписуються
 
 def sha256(p):
     h = hashlib.sha256()

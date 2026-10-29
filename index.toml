@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "9547d51f4dd83dc4ece505073accc5fbce4823c39176bb400e7b5cb55cb35d98"
+hash = "158f142194be3ae66e0c34ca41210c95e1772dab5e08588b358f1494e1a6d743"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -74,16 +74,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1d6976dc589d467482a3d42ac3ab46873f186adf3fab47d08fae83e407d9ea5a"
+hash = "0888a1f3641d7b4d9e7a8d8e9f6832a203bac5e8af502d482c7c60368f92afb4"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "1d6976dc589d467482a3d42ac3ab46873f186adf3fab47d08fae83e407d9ea5a"
-
-[[files]]
-file = "config/inventoryprofilesnext/inventoryprofiles.json"
-hash = "8f4a78575df9bccb72a69d106bd3f70a4430d5c20d327812ae424b9645b800da"
-preserve = true
+hash = "0888a1f3641d7b4d9e7a8d8e9f6832a203bac5e8af502d482c7c60368f92afb4"
 
 [[files]]
 file = "config/tide/tide_server.json"
@@ -92,6 +87,10 @@ hash = "e399d739b2b9e2c0374a7096950e60d596ae51be0babec84dcaddedcd948679b"
 [[files]]
 file = "config/waystones-common.toml"
 hash = "7010ff123c6d1d66d12de64eda3515c8e95aa148f75aabfce9cecaea9474a3cf"
+
+[[files]]
+file = "journeymap/config/6.0/journeymap.waypoint.config"
+hash = "d9ecbb9b154a73fbc1d0d8fac1aa1576046d589fa1e573a35f40db97b0d461ee"
 
 [[files]]
 file = "kubejs/assets/minecraft/lang/en_us.json"
@@ -326,19 +325,19 @@ file = "kubejs/assets/svitlo/textures/block/bankomat_top.png"
 hash = "96415546abf93d6a51305bf63c10ea785d2bdaf0286cfcf5421570bcc1051561"
 
 [[files]]
-file = "kubejs/assets/svitlo/textures/block/cucumber_plant0.png"
+file = "kubejs/assets/svitlo/textures/block/cucumber_plant/0.png"
 hash = "724a904e2807d355b2941440ff6fbfecddc2310caa0405e0faa8b7112acca065"
 
 [[files]]
-file = "kubejs/assets/svitlo/textures/block/cucumber_plant1.png"
+file = "kubejs/assets/svitlo/textures/block/cucumber_plant/1.png"
 hash = "8776f52a16c414df334ca456cbc93b1a48db10e3d64b90b59b3a03267b0807a2"
 
 [[files]]
-file = "kubejs/assets/svitlo/textures/block/cucumber_plant2.png"
+file = "kubejs/assets/svitlo/textures/block/cucumber_plant/2.png"
 hash = "3a2a093a818b04d4951aec828e6906610688bef4fe7d2a52e27a80c4a1666422"
 
 [[files]]
-file = "kubejs/assets/svitlo/textures/block/cucumber_plant3.png"
+file = "kubejs/assets/svitlo/textures/block/cucumber_plant/3.png"
 hash = "2565d7bfbfa87d79ce02424f16907c28ac754ccdca827eeae4bc1e8bbba9f597"
 
 [[files]]
@@ -1507,7 +1506,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "bd9a9fc96969dc92f965faf192d3d4a8ccf3103b9488eaf8eda7d1d04b2dc355"
+hash = "a8af9322b46eb0372b91fc982d6312d37f53914fe6c7b31c3dc9d3aea98910ae"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
@@ -1679,11 +1678,6 @@ hash = "d4699836c7d65541ad60d61fd90777796b85b2fe046a7673357b6a8ff14e7cb9"
 metafile = true
 
 [[files]]
-file = "mods/inventory-profiles-next.pw.toml"
-hash = "7c436acc5f0e7a046e5b5cee5afa050e6de41b524bbc91ded6212989faa794f3"
-metafile = true
-
-[[files]]
 file = "mods/iris.pw.toml"
 hash = "2121dcf5fafdbea1c6add988ba3a79ec8c8b9814dcc37b406558cace8925a9b0"
 metafile = true
@@ -1711,11 +1705,6 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "dad387216edd199a83c2bc8896af29b15a6c3ddc4e1b4292622020712c151690"
-metafile = true
-
-[[files]]
-file = "mods/libipn.pw.toml"
-hash = "d77ae0d6e81bbef57001dfff91cfc66fc5d007b59a8d2b9ae028adfdffeec349"
 metafile = true
 
 [[files]]
