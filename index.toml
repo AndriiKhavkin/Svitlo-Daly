@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "b4b0322d0285ffcf278f49e44f48f07b391b1ef1fca8b0d56196a7e3d8042498"
+hash = "9fac8dd0274486743d9ad21ccd6a538e7dec6ca17caed10f1f72e52682ee7afd"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -74,11 +74,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "eb8d9f8556eb365b882c77416bca4402d47a4060d1517a9917a01aa21018b483"
+hash = "bb9a653bad2311314cd0ace80954e56eb6d44aba160dae21dc6d9b990c34b35c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "eb8d9f8556eb365b882c77416bca4402d47a4060d1517a9917a01aa21018b483"
+hash = "bb9a653bad2311314cd0ace80954e56eb6d44aba160dae21dc6d9b990c34b35c"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1141,6 +1141,22 @@ file = "kubejs/data/svitlo/function/punkt/init.mcfunction"
 hash = "556d267d24376f051cfde55b43d532c825b181a7b657eda6a20dff9b706fa6a5"
 
 [[files]]
+file = "kubejs/data/svitlo/function/punkt/move.mcfunction"
+hash = "3f96468a82890d1e7b433e988f4500c66c24e6e0a77d4635c7c309b55ed34349"
+
+[[files]]
+file = "kubejs/data/svitlo/function/punkt/old_clear.mcfunction"
+hash = "9bfc6e19a51aa3c975537f735fe64b363508f619fd93b43e020645caaffcd5cf"
+
+[[files]]
+file = "kubejs/data/svitlo/function/punkt/old_clear2.mcfunction"
+hash = "2db04570e89b45209d69fddee914195a447e7f00f7c277395a162b95de6f2280"
+
+[[files]]
+file = "kubejs/data/svitlo/function/punkt/old_load.mcfunction"
+hash = "ed25c2a7b569ed162f07ccd4eada6029b4d6e57f732fc5346235924d3ea23332"
+
+[[files]]
 file = "kubejs/data/svitlo/function/punkt/stage.mcfunction"
 hash = "829c64cf2542061d897c01e11921a33f3037c471feaaf7ce41159cc796a35f04"
 
@@ -1150,7 +1166,7 @@ hash = "951437c53b88bd9f3f6fd70ee56c479f834cb8397afde45bec369a7b58429439"
 
 [[files]]
 file = "kubejs/data/svitlo/function/second.mcfunction"
-hash = "4c2b1a07384d45aecf9235dacbb07ca195a021ddc608050329af7874f6da0aed"
+hash = "36eb16491b09ddbb22692c47ad46d95a9484fd8a15e230e67c0e3051505c2d19"
 
 [[files]]
 file = "kubejs/data/svitlo/function/selo_warn.mcfunction"
@@ -1538,7 +1554,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "8214513099a47a9204630526d4bf9cbb07de9637b959f62229da8809b16726ad"
+hash = "08af4eb5ea86453f953f20fe3e383600f66cc9ab5ba5600d83878cc40510bd81"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
