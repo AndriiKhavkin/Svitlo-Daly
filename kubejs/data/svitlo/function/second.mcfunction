@@ -34,6 +34,8 @@ execute as @a[tag=sd.in_field] at @s unless predicate svitlo:in_minefield run ta
 # --- заміноване село: у межах села і поруч є клеймор
 execute as @a[tag=!sd.in_selo,gamemode=!spectator] at @s if predicate svitlo:in_village if entity @e[type=superbwarfare:claymore,distance=..12] run function svitlo:selo_warn
 execute as @a[tag=sd.in_selo] at @s unless predicate svitlo:in_village run tag @s remove sd.in_selo
+# --- Пункт незламності: ставимо/відбудовуємо, коли ділянка завантажена
+execute if score #punkt_want sd.var > #punkt_have sd.var run function svitlo:punkt/try with storage svitlo:punkt
 # --- втрати противника: переносимо особисті вбивства в загальний рахунок
 execute as @a run function svitlo:count_kills
 scoreboard players add #t3 sd.var 1

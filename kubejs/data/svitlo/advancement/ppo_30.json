@@ -1,0 +1,1 @@
+{"parent": "svitlo:root", "display": {"icon": {"id": "minecraft:shield"}, "title": "Небесний щит", "description": "Збий 30 шахедів. Над твоїм районом можна спати спокійно", "frame": "challenge"}, "criteria": {"granted": {"trigger": "minecraft:impossible"}}}

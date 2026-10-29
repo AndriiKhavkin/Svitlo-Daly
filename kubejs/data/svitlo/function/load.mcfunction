@@ -46,3 +46,4 @@ scoreboard objectives add sd.crash dummy
 scoreboard objectives add sd.drunk dummy
 scoreboard objectives add sd.hang dummy
 scoreboard objectives add sd.life dummy
+scoreboard objectives add sd.ppo dummy "Збито шахедів"

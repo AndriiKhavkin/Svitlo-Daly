@@ -1,0 +1,1 @@
+{"parent": "svitlo:root", "display": {"icon": {"id": "minecraft:crossbow"}, "title": "Мобільна вогнева група", "description": "Збий 5 шахедів", "frame": "goal"}, "criteria": {"granted": {"trigger": "minecraft:impossible"}}}

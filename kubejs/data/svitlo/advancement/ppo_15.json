@@ -1,0 +1,1 @@
+{"parent": "svitlo:root", "display": {"icon": {"id": "superbwarfare:igla_9k38"}, "title": "ППО району", "description": "Збий 15 шахедів", "frame": "goal"}, "criteria": {"granted": {"trigger": "minecraft:impossible"}}}

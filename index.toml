@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "970029be96832abeaf973c48e31f88cb2070ea05e5b178abca44cbbb21094d6d"
+hash = "0859d6350dfc6a73a418127b150c0031a5f3a66741c77eb64559065880d521d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -10,43 +10,51 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andezytova_doba.snbt"
-hash = "87caa679f9efc9081c951a23b4196fcaf8efadf6d212f4228e38d87e9e01f6c4"
+hash = "01cabca9e2cca0dca13aa6c78a8670e79d3dc0ef5b6d6e4d461e047e8ca87893"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/khata_skraiu.snbt"
-hash = "0af7fa6979da5ea777adf4b6c9e736565e27a3554c10cf24916c70039ba80b79"
+hash = "d1ca840b9785683dde95332d31ea280785f6153f79ca4e10cf2052c2ab227532"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mandry.snbt"
-hash = "e34ec63ced482ceb3e8b128535a0a92d599d3a77bc9e1fcefbd7f20307a72d40"
+hash = "1cd8dfc076cf6a144247b55e20db805869e4bbc35a6e85fb47e5acdadaccbe1c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nebo.snbt"
-hash = "5f4cf1b11e5d0bad8dc336ac77e977c7bcb6944316a7240caac62cd1de6aaaeb"
+hash = "b62f79761f74f9597eda015b807fe065410610dc921a0d326b9ef838f23924fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nova_poshta.snbt"
-hash = "f4f1871133a09477fa783472abb35923448665178eb0c1667eec74124073fc2a"
+hash = "68407139dec80e7f81e34c36621f70f46bd5eec36187232b5bb2f43c999bc877"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pasika.snbt"
-hash = "bd1d8e49a27d3f2d1918ab33e5a0c53ba51d7599975489329d71c646104a464b"
+hash = "f46a8aa2b5362200d5c11ad1ac4c61fecec7d7d1de9ff2b435def804eca0ccbe"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/povitriana_tryvoga.snbt"
+hash = "6acaaa2789bf1257e69588d96031ab32daceecdbbc18b44a2e46664c696a0036"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/punkt_nezlamnosti.snbt"
+hash = "7367d19aefd47eb2f1274bfda1323a48fb2f734f3adf8143763b1efdabd1d241"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rozminuvannia.snbt"
-hash = "4a61fb3789b859bf47e12ad59c21b10039ead06b2e3d9fa3176acd50ccfa6f15"
+hash = "e9343d17b56b4897e27142c7976aa34a0661e761458de0d991f790ceb7c2e543"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sich.snbt"
-hash = "58c69bb886c0f597f7b1356c0ba706f3af1a84c5986affe2b28a4068cb03cb3a"
+hash = "bdec3c1013fc46a78befc387abce856addde87ff1ccd3c986af842e6135c8bb8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/smachna_mapa.snbt"
-hash = "070518a9f864e90e3b0ad2172cda9bc60771075145c1629ce0242ccfd75f888b"
+hash = "fd287c6dc156b44b95b05c5945a775192ca9531e83d78f02c3525d76d1f897b0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svii_dtek.snbt"
-hash = "9c8ec346c33542ec7bb6f527a1279fdc6880b9a4db0b4d42e713093a9a0f2bd7"
+hash = "2ad9d8772695d196468cf5fc8ea73b1fa936de7ea44e5dcb0bb1c243c0f67d06"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svitlo_daly.snbt"
@@ -54,11 +62,11 @@ hash = "5145702c880ae4b2b69f67214e69ad9227259662b39b63eaa7ad3948f163f9e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svoia_khata.snbt"
-hash = "5c18d8313166562f5b8fc5102820894f33192fdd4f286e08cea344ade9a0e638"
+hash = "b9e571d824accf5f0ec3110e7f82fc3c229c129f9172fb5345e1e83c07712fa1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ukrzaliznytsia.snbt"
-hash = "db12707f337fed6fb6609d719e967645242f0e035f84f63406e92aa777273ce7"
+hash = "d3a3043b8b8d044d8a7f1dc6e6416bfcaa0280092657b8a6e914f017415b2ba6"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -66,11 +74,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "05f8f400afdeb695fff209807d9fd9667acd4b45fbd9ca6e9ef2a81e29be71c5"
+hash = "3b67a3b70f7ad7c848d6f4970274757a8d4646d9a4fe150f0ed42ae064eb588f"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "05f8f400afdeb695fff209807d9fd9667acd4b45fbd9ca6e9ef2a81e29be71c5"
+hash = "3b67a3b70f7ad7c848d6f4970274757a8d4646d9a4fe150f0ed42ae064eb588f"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -279,11 +287,11 @@ hash = "e619491312a3a9d5419a8e244aaec734ce7b4ff244cf8647f0a8d4875f91ab76"
 
 [[files]]
 file = "kubejs/assets/svitlo/lang/en_us.json"
-hash = "d34bd8b09d9c15721616e5f2842e2dc8c98bd6d73d82f29d8e91292117e5b038"
+hash = "2e286e59b2876c4f61503a29c96b22c64d672944eed416509a560fa2f43a4334"
 
 [[files]]
 file = "kubejs/assets/svitlo/lang/uk_ua.json"
-hash = "a025d5116385507276e6df1c745c7b66aa88a8ac9ad336b42887e40ec87ec18e"
+hash = "515a3b0e344fbe0ec8af995d7cac9a6fde88a2307c9fb03c5e40ca3e9744f852"
 
 [[files]]
 file = "kubejs/assets/svitlo/models/block/yizhak_shape.json"
@@ -444,6 +452,10 @@ hash = "699352486da6bcae1bdfaa14ea85b24a9ff1c5bef38bb712b570363a2dcf82a7"
 [[files]]
 file = "kubejs/assets/svitlo/textures/item/syrnyky.png"
 hash = "fd88474d972253b32f5a466f1e6e7f6f61defd20d5949099be18e2462c5ac557"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/ulamok_shaheda.png"
+hash = "7e3377fbfa831a0af37efb41c4e4d847a24b939b685477e163cbcc23aaeb0e90"
 
 [[files]]
 file = "kubejs/assets/svitlo/textures/item/unfinished_cartridge.png"
@@ -882,6 +894,22 @@ file = "kubejs/data/svitlo/advancement/patron.json"
 hash = "3fe2a42b4162e3462c010eaee97b749215fb20be13768aac81fc82edb34ffc04"
 
 [[files]]
+file = "kubejs/data/svitlo/advancement/ppo_1.json"
+hash = "6c64b93787eb732c75e099769caa3b29d76f931e1a4269d49c2b89d042a24c03"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/ppo_15.json"
+hash = "7bcda6f6aa283bc8e6132dad0d7bc229845f8b385a38df7d891cfe011844ea23"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/ppo_30.json"
+hash = "eb79c55a70174eda919b5df893286ead99c1e0b7d7a45d0a7b8b60b82d8c5ea6"
+
+[[files]]
+file = "kubejs/data/svitlo/advancement/ppo_5.json"
+hash = "6c87013435d5d6ab10a56930a4e598455e8b5eb30b6a83e58fab982b3c15d2f8"
+
+[[files]]
 file = "kubejs/data/svitlo/advancement/root.json"
 hash = "570b428889249cf319c780580fa67bf35baeb8a80cd91853f2b6985f25ff6d9e"
 
@@ -1039,7 +1067,7 @@ hash = "55a063f3254c0da32566333d45d9b56ca14d84afa1a137cac8937d3ca105ed9a"
 
 [[files]]
 file = "kubejs/data/svitlo/function/load.mcfunction"
-hash = "1ebf59e8cb55affa86a0bb10764bd632d5f3c68d74c2483484004307ffebf636"
+hash = "2bd16b32fd213271679422aeb4ffacb2d06ccfae128bc7cf481e298d7a23a479"
 
 [[files]]
 file = "kubejs/data/svitlo/function/loss_line.mcfunction"
@@ -1082,8 +1110,28 @@ file = "kubejs/data/svitlo/function/player_tick.mcfunction"
 hash = "9f4b2a5998d37f562c7b7a96df65cf67118f4f82779803e8a4b5f68475570ac1"
 
 [[files]]
+file = "kubejs/data/svitlo/function/punkt/do.mcfunction"
+hash = "92bf064518a7c62f7cf47d51d6c8660a1638ff08d5881154a91ac559198f72fc"
+
+[[files]]
+file = "kubejs/data/svitlo/function/punkt/here.mcfunction"
+hash = "adbac9774c4fef8b5d89547b91de4441e6bbfa80c73f612d16bffd521a7b7373"
+
+[[files]]
+file = "kubejs/data/svitlo/function/punkt/init.mcfunction"
+hash = "556d267d24376f051cfde55b43d532c825b181a7b657eda6a20dff9b706fa6a5"
+
+[[files]]
+file = "kubejs/data/svitlo/function/punkt/stage.mcfunction"
+hash = "829c64cf2542061d897c01e11921a33f3037c471feaaf7ce41159cc796a35f04"
+
+[[files]]
+file = "kubejs/data/svitlo/function/punkt/try.mcfunction"
+hash = "951437c53b88bd9f3f6fd70ee56c479f834cb8397afde45bec369a7b58429439"
+
+[[files]]
 file = "kubejs/data/svitlo/function/second.mcfunction"
-hash = "2b03545746741301f17128ce96c18604d8633d6db7a39a2b44e65a25f34b334f"
+hash = "4c2b1a07384d45aecf9235dacbb07ca195a021ddc608050329af7874f6da0aed"
 
 [[files]]
 file = "kubejs/data/svitlo/function/selo_warn.mcfunction"
@@ -1152,6 +1200,10 @@ hash = "3da14a7054e14faa43949a1f6afd6841aac7cb4699a467f6c461cc51577582c7"
 [[files]]
 file = "kubejs/data/svitlo/loot_table/chests/poshtomat.json"
 hash = "9bc9e90a1b5017364def67affbe371e03991d952405667a8da96178fba2c3686"
+
+[[files]]
+file = "kubejs/data/svitlo/loot_table/chests/punkt.json"
+hash = "d293917d6e1b091610c2ee7afa8f5c4e8a1b32991f41760476fc1bd1ec5860b6"
 
 [[files]]
 file = "kubejs/data/svitlo/loot_table/inject/cucumber_seeds.json"
@@ -1302,6 +1354,10 @@ file = "kubejs/data/svitlo/recipe/syrnyky.json"
 hash = "df618fd56a2de099bc4c807e850bbffa079295e106bdeb32a81a4a9a66d6b530"
 
 [[files]]
+file = "kubejs/data/svitlo/recipe/ulamok_crushing.json"
+hash = "6fea4f9c06b62e4c659cd5690402658bd69fe3c696f4b0bb9df10bbb91573eee"
+
+[[files]]
 file = "kubejs/data/svitlo/recipe/uzvar.json"
 hash = "d694abc5e39fa4c7066bb8ebe3290c7078ae718cb7b3b84d8af55d9afe96eb24"
 
@@ -1352,6 +1408,18 @@ hash = "1dd412a9cb2b4fa43d612d2bea0c2f13d8c52e7a8e71d0a1c17d66c1275d2242"
 [[files]]
 file = "kubejs/data/svitlo/structure/nova_poshta/taiga.nbt"
 hash = "a3cdb53c2ef011a92e7da40d5a94908265226f1dee748211ee013be63a36d720"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/punkt/stage1.nbt"
+hash = "c80e907c0f3063cc4a1b09f9a19d8c732451482dcc1fddb717f0ba5d278a5723"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/punkt/stage2.nbt"
+hash = "5d3c2755af4e04d667648e60800814edebcf66fecb9234cedee5163411ece4e8"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/punkt/stage3.nbt"
+hash = "d570a91c67649fe521f18545ab8c79f8193090b32f115a0a13f3efe1e4624298"
 
 [[files]]
 file = "kubejs/data/svitlo/tags/entity_type/mines.json"
@@ -1434,12 +1502,16 @@ file = "kubejs/server_scripts/tab_i_sejv.js"
 hash = "c52a277017843f45c866e63aab85b4ce5ab82420880697be13d097be7ab52fc3"
 
 [[files]]
+file = "kubejs/server_scripts/trivoga.js"
+hash = "e0676edc6264d9bdc12ec2342c6d93fc3f435dd4e974630aabdf9508a79f9ed5"
+
+[[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "df976147d845345bd973eacd76bb4641a874dc8746d6429ef7bab76b6b6492bd"
+hash = "c22c426aef686c37009620dd190e9615da47dc90ef4c9d5c1b4882a91d4e735b"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
-hash = "f247b1f733a9d9f1083981fc87cbf2093049f8ac54a982a491c30d9de5ba3269"
+hash = "bfc480669160c84bd3b9427231d04684c7dc885d4117a9329e20fddc7d8554b1"
 
 [[files]]
 file = "mods/another-furniture.pw.toml"

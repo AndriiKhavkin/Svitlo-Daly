@@ -1,0 +1,359 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "punkt_nezlamnosti"
+	group: ""
+	icon: {
+		count: 1
+		id: "minecraft:campfire"
+	}
+	id: "73BFABF06A464AB3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"003A07DEA023CCFB"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:campfire"
+			}
+			id: "55142C802A10E9C4"
+			rewards: [
+				{
+					id: "51FB096075FA3BE1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "618C91321288C393"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"55142C802A10E9C4"
+			]
+			id: "5DEF357B37F035EF"
+			rewards: [
+				{
+					id: "479AC7EC53FC592F"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "4F91CCF15DD02606"
+					item: {
+						count: 2
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "1D2C4F8D3EF2386F"
+					item: {
+						count: 1
+						id: "minecraft:charcoal"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"55142C802A10E9C4"
+			]
+			id: "49B387518A601392"
+			rewards: [
+				{
+					id: "5B8E434E9370FDFD"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "15BA3304530CBC2A"
+					item: {
+						count: 2
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 12L
+					id: "7454A272CA77DAF2"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"55142C802A10E9C4"
+			]
+			id: "200F61EEA9481DD5"
+			rewards: [
+				{
+					id: "27D44298B6BCACBE"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "49781FEF738AC40E"
+					item: {
+						count: 2
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 16L
+					id: "1B8DC08E381CA4EC"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5DEF357B37F035EF"
+				"49B387518A601392"
+				"200F61EEA9481DD5"
+			]
+			icon: {
+				count: 1
+				id: "farmersdelight:stove"
+			}
+			id: "1D5B2C3B18334411"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "function svitlo:punkt/stage {n:2}"
+					elevate_perms: true
+					id: "67C9AAAAB0B9AA72"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "6940A93968289065"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "3425AB2EE2C03634"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D5B2C3B18334411"
+			]
+			id: "39FFD6FEEC128CD5"
+			rewards: [
+				{
+					id: "6E3288485BB8C975"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0E406172B41AAF76"
+					item: {
+						count: 2
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "592ECAAF8219BD06"
+					item: {
+						count: 1
+						id: "minecraft:lantern"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1D5B2C3B18334411"
+				"0A72FAB5D6C37F0E"
+			]
+			id: "2B7E89EF1A80C441"
+			rewards: [
+				{
+					id: "11D0DCD355216D7A"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "3AEE4C7374EF5B91"
+					item: {
+						count: 2
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 1L
+					id: "499CC86A1C8B6F3F"
+					item: {
+						count: 1
+						id: "create:water_wheel"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1D5B2C3B18334411"
+			]
+			id: "79210082EC17E568"
+			rewards: [
+				{
+					id: "159728753F12B6F2"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "6E26B6D48C4DD8E5"
+					item: {
+						count: 2
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "587B5EB146091062"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"39FFD6FEEC128CD5"
+				"2B7E89EF1A80C441"
+				"79210082EC17E568"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+			id: "7566B5E310D780C5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "function svitlo:punkt/stage {n:3}"
+					elevate_perms: true
+					id: "777EDF2BD1CA134B"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4A0E24EA2482F5E2"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6E572CE394571B7D"
+					item: {
+						count: 10
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "title @a times 10 80 20"
+					elevate_perms: true
+					id: "27F793C93CC28673"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "title @a subtitle {\"text\":\"Світло, тепло, чай. Цілодобово.\",\"color\":\"gray\"}"
+					elevate_perms: true
+					id: "6AF378AA787C1620"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "title @a title {\"text\":\"☀ ПУНКТ ПРАЦЮЄ\",\"color\":\"yellow\",\"bold\":true}"
+					elevate_perms: true
+					id: "1972BDB62943ED77"
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "21C443B694455B12"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+}

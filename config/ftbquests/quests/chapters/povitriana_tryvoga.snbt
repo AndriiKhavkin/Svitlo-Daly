@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "povitriana_tryvoga"
+	group: ""
+	icon: {
+		count: 1
+		id: "sbwdroneconfig:drone_detection_siren"
+	}
+	id: "2F7EC875A82F5772"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"003A07DEA023CCFB"
+			]
+			icon: {
+				count: 1
+				id: "sbwdroneconfig:drone_detection_siren"
+			}
+			id: "1AF8A0468E763586"
+			rewards: [
+				{
+					id: "1D511D15B235E503"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4571C4DD4D9F4B21"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AF8A0468E763586"
+			]
+			id: "08DF52518769BDA0"
+			rewards: [
+				{
+					id: "31E62AC2553A8323"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:shelter"
+					criterion: ""
+					id: "3727647119380D56"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1AF8A0468E763586"
+			]
+			id: "5341B8F187B6CECD"
+			rewards: [
+				{
+					id: "641F16D253FA1667"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "457AFF6764569FB5"
+					item: {
+						count: 1
+						id: "sbwdroneconfig:drone_detection_siren"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5341B8F187B6CECD"
+			]
+			id: "0405057E9CF2A5EA"
+			rewards: [
+				{
+					id: "5CC0D2B5D809453B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "036A562D31D5E6DA"
+					item: {
+						count: 1
+						id: "sbwdroneconfig:anti_drone_net"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5341B8F187B6CECD"
+				"5B81CDB348F32F1E"
+			]
+			id: "57FF3E1EB6508D83"
+			rewards: [
+				{
+					id: "498613BFA53690E7"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "6AE4E69EF56FF612"
+					item: {
+						count: 1
+						id: "sbwdroneconfig:jammer"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1AF8A0468E763586"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:phantom_membrane"
+			}
+			id: "5BB4B8911942F961"
+			rewards: [
+				{
+					id: "57556625DE0771B5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:ppo_1"
+					criterion: ""
+					id: "38B831E5A5A0802A"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5BB4B8911942F961"
+			]
+			id: "21EE6F15A2040CB8"
+			rewards: [
+				{
+					id: "3C7F7A2E58A2246F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:ppo_5"
+					criterion: ""
+					id: "06F65A781C8553B9"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"21EE6F15A2040CB8"
+			]
+			id: "53CA717D61A982F4"
+			rewards: [
+				{
+					id: "710D27E3C6A17B38"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "6587B2F2AC7D8565"
+					item: {
+						count: 1
+						id: "superbwarfare:igla_9k38"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"21EE6F15A2040CB8"
+			]
+			id: "0A8BCC099209519F"
+			rewards: [
+				{
+					id: "2FC977FE4F56AC84"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					advancement: "svitlo:ppo_15"
+					criterion: ""
+					id: "4902CE131239893B"
+					type: "advancement"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0A8BCC099209519F"
+			]
+			id: "73A61F00F902CA3B"
+			rewards: [
+				{
+					id: "50C5C8E99A29D13F"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "svitlo:ppo_30"
+					criterion: ""
+					id: "7770B10A7F63AD1D"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"5BB4B8911942F961"
+			]
+			id: "0D3F7B85DC13FF0D"
+			rewards: [
+				{
+					id: "5FA58F579B77C71C"
+					item: {
+						count: 5
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "0D809E4D8B7D4EFB"
+					item: {
+						count: 1
+						id: "svitlo:ulamok_shaheda"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"57FF3E1EB6508D83"
+				"0405057E9CF2A5EA"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:clock"
+			}
+			id: "756FDF89CC055082"
+			rewards: [
+				{
+					id: "7065A49EB1E9D27D"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "3BF427F0116C167D"
+					item: {
+						count: 5
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "04684FC38DEFC897"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+}

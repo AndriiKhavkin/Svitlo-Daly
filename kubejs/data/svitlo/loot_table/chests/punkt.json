@@ -1,0 +1,9 @@
+{"type":"minecraft:chest","pools":[{"rolls":1,"entries":[
+ {"type":"minecraft:item","name":"minecraft:bread","functions":[{"function":"minecraft:set_count","count":8}]}]},
+ {"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:torch","functions":[{"function":"minecraft:set_count","count":16}]}]},
+ {"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:spruce_planks","functions":[{"function":"minecraft:set_count","count":16}]}]},
+ {"rolls":1,"entries":[{"type":"minecraft:item","name":"farmersdelight:flint_knife"}]},
+ {"rolls":1,"entries":[{"type":"minecraft:item","name":"svitlo:salo","functions":[{"function":"minecraft:set_count","count":3}]}]},
+ {"rolls":1,"entries":[{"type":"minecraft:item","name":"svitlo:hryvnia_100","functions":[{"function":"minecraft:set_count","count":3}]}]},
+ {"rolls":1,"entries":[{"type":"minecraft:item","name":"minecraft:apple","functions":[{"function":"minecraft:set_count","count":4}]}]}
+]}

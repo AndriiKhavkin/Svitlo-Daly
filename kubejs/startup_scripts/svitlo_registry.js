@@ -33,6 +33,7 @@ StartupEvents.registry('item', event => {
   award('orden_svitla', 'Орден «Світло Дали»', 'epic')
   // --- енергетики, самогон, огірки, бабуся
   event.create('svitlo:can_empty').displayName('Порожня бляшанка')
+  event.create('svitlo:ulamok_shaheda').displayName('Уламок шахеда')
   event.create('svitlo:viiskovyi_dokument').displayName('Військово-обліковий документ').maxStackSize(1).rarity('uncommon')
   const drink = (id, name, convert, fx) => event.create('svitlo:' + id).displayName(name).maxStackSize(16)
     .food(f => { f.nutrition(1).saturation(0.1).alwaysEdible().eatSeconds(1.2); if (convert) f.usingConvertsTo(convert); fx(f) })

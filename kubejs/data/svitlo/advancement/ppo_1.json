@@ -1,0 +1,1 @@
+{"parent": "svitlo:root", "display": {"icon": {"id": "minecraft:phantom_membrane"}, "title": "Перший збитий", "description": "Збий шахед під час повітряної тривоги", "frame": "task"}, "criteria": {"granted": {"trigger": "minecraft:impossible"}}}
