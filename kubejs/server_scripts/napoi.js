@@ -5,9 +5,9 @@ const SVITLO_DRINKS = {
   'brewinandchewin:vodka': 'booze', 'svitlo:rozsil': 'rozsil', 'svitlo:banka_ohirkiv': 'banka'
 }
 ItemEvents.foodEaten(event => {
-  const kind = SVITLO_DRINKS[String(event.item.id)]
+  let kind = SVITLO_DRINKS[String(event.item.id)]
   if (!kind) return
-  const p = event.entity
+  let p = event.entity
   if (!p.isPlayer()) return
-  event.server.runCommandSilent('execute as ' + p.getStringUUID() + ' at @s run function svitlo:drink/' + kind)
+  event.server.runCommandSilent('execute as ' + p.getStringUuid() + ' at @s run function svitlo:drink/' + kind)
 })

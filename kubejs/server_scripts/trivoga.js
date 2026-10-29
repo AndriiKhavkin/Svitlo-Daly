@@ -16,10 +16,10 @@ const SD_BP = Java.loadClass('net.minecraft.core.BlockPos')
 let sdRaid = { ids: [], nextAt: -1, launchAt: -1, decidedDay: -1, plan: [], loaded: false }
 
 function sdScore(server, name, def) {
-  const sb = server.getScoreboard(), obj = sb.getObjective('sd.var')
+  let sb = server.getScoreboard(), obj = sb.getObjective('sd.var')
   if (!obj) return def
-  const h = SD_SB.forNameOnly(name)
-  const info = sb.getPlayerScoreInfo(h, obj)
+  let h = SD_SB.forNameOnly(name)
+  let info = sb.getPlayerScoreInfo(h, obj)
   return info ? info.value() : def
 }
 function sdSetScore(server, name, v) { server.runCommandSilent('scoreboard players set ' + name + ' sd.var ' + v) }
@@ -29,10 +29,10 @@ function sdSay(server, txt) { server.runCommandSilent('tellraw @a ' + JSON.strin
 
 // --- облік цілей і РЕБ
 BlockEvents.placed(event => {
-  const id = String(event.block.id), lvl = String(event.level.dimension)
+  let id = String(event.block.id), lvl = String(event.level.dimension)
   if (lvl != 'minecraft:overworld') return
-  const b = event.block, server = event.server
-  const isBed = id.endsWith('_bed') || id.startsWith('comforts:sleeping_bag')
+  let b = event.block, server = event.server
+  let isBed = id.endsWith('_bed') || id.startsWith('comforts:sleeping_bag')
   if (SD_TARGET_BLOCKS.indexOf(id) >= 0 || isBed) {
     let t = sdGet(server, 'sd_targets')
     t.push({ x: b.x, y: b.y, z: b.z, k: isBed ? 'home' : 'mech' })
@@ -48,7 +48,7 @@ BlockEvents.placed(event => {
   }
 })
 BlockEvents.broken(event => {
-  const b = event.block, server = event.server
+  let b = event.block, server = event.server
   for (const key of ['sd_targets', 'sd_jammers']) {
     let a = sdGet(server, key), n = a.filter(p => !(p.x == b.x && p.y == b.y && p.z == b.z))
     if (n.length != a.length) sdPut(server, key, n)
@@ -58,16 +58,16 @@ BlockEvents.broken(event => {
 // --- нагороди за збиття
 const SD_RANKS = [[1, 'ppo_1', 'Перший збитий', 500], [5, 'ppo_5', 'Мобільна вогнева група', 1500], [15, 'ppo_15', 'ППО району', 4000], [30, 'ppo_30', 'Небесний щит', 10000]]
 EntityEvents.death('minecraft:phantom', event => {
-  const e = event.entity
+  let e = event.entity
   if (!e.getTags().contains('sd.raid')) return
-  const p = event.source.player
+  let p = event.source.player
   if (!p) return
-  const server = event.server, n = p.getGameProfile().getName()
+  let server = event.server, n = p.getGameProfile().getName()
   server.runCommandSilent('scoreboard players add ' + n + ' sd.bank 300')
   server.runCommandSilent('scoreboard players add ' + n + ' sd.ppo 1')
   server.runCommandSilent('give ' + n + ' svitlo:ulamok_shaheda 1')
-  const sb = server.getScoreboard(), obj = sb.getObjective('sd.ppo')
-  const cnt = obj ? sb.getOrCreatePlayerScore(SD_SB.forNameOnly(n), obj).get() : 0
+  let sb = server.getScoreboard(), obj = sb.getObjective('sd.ppo')
+  let cnt = obj ? sb.getOrCreatePlayerScore(SD_SB.forNameOnly(n), obj).get() : 0
   sdSay(server, [{ text: '✪ ', color: 'gold' }, { text: n, color: 'yellow', bold: true }, { text: ' збив шахед! +300 ₴. На рахунку: ' + cnt, color: 'white' }])
   for (const r of SD_RANKS) {
     if (cnt == r[0]) {
@@ -80,30 +80,30 @@ EntityEvents.death('minecraft:phantom', event => {
 
 // --- запуск хвилі
 function sdPlan(server, level) {
-  const targets = sdGet(server, 'sd_targets'), plan = []
-  const day = Math.floor(level.getDayTime() / 24000)
-  const start = server.persistentData.getInt('sd_raid_start_day')
+  let targets = sdGet(server, 'sd_targets'), plan = []
+  let day = Math.floor(level.getDayTime() / 24000)
+  let start = server.persistentData.getInt('sd_raid_start_day')
   let size = 1 + Math.floor(Math.max(0, day - start) / 7) + Math.floor(targets.length / 15)
   size = Math.max(1, Math.min(6, size))
-  const ps = level.players(), players = []
+  let ps = level.getPlayers(), players = []
   for (let i = 0; i < ps.size(); i++) { const p = ps.get(i); if (!p.isSpectator() && !p.isCreative()) players.push(p) }
-  const homes = []
+  let homes = []
   for (const p of players) {
-    const near = targets.filter(t => Math.abs(t.x - p.x) < 90 && Math.abs(t.z - p.z) < 90)
+    let near = targets.filter(t => Math.abs(t.x - p.x) < 90 && Math.abs(t.z - p.z) < 90)
     if (near.length > 0) homes.push({ p: p, near: near })
   }
   if (homes.length == 0) return plan
   for (let i = 0; i < size; i++) {
-    const h = homes[i % homes.length]
-    const mech = h.near.filter(t => t.k == 'mech'), pool = mech.length > 0 && Math.random() < 0.75 ? mech : h.near
-    const t = pool[Math.floor(Math.random() * pool.length)]
+    let h = homes[i % homes.length]
+    let mech = h.near.filter(t => t.k == 'mech'), pool = mech.length > 0 && Math.random() < 0.75 ? mech : h.near
+    let t = pool[Math.floor(Math.random() * pool.length)]
     plan.push({ x: t.x + 0.5, y: t.y + 1, z: t.z + 0.5, who: h.p.getGameProfile().getName() })
   }
   return plan
 }
 
 function sdAnnounce(server, plan) {
-  const who = {}
+  let who = {}
   plan.forEach(t => who[t.who] = (who[t.who] || 0) + 1)
   server.runCommandSilent('execute as @a at @s run playsound minecraft:event.raid.horn master @s ~ ~ ~ 1 1')
   server.runCommandSilent('title @a times 10 80 20')
@@ -115,24 +115,24 @@ function sdAnnounce(server, plan) {
 
 function sdSpawn(server, level, t) {
   for (const dist of [70, 50, 35]) {
-    const a = Math.random() * Math.PI * 2
-    const x = t.x + Math.cos(a) * dist, z = t.z + Math.sin(a) * dist, y = t.y + 30
+    let a = Math.random() * Math.PI * 2
+    let x = t.x + Math.cos(a) * dist, z = t.z + Math.sin(a) * dist, y = t.y + 30
     if (!level.isLoaded(SD_BP.containing(x, y, z))) continue
-    const e = level.createEntity('minecraft:phantom')
+    let e = level.createEntity('minecraft:phantom')
     e.setPos(x, y, z)
     e.addTag('sd.raid'); e.addTag('sd.swarm'); e.addTag('sd.buffed')
     e.persistentData.putDouble('tx', t.x); e.persistentData.putDouble('ty', t.y); e.persistentData.putDouble('tz', t.z)
     e.persistentData.putInt('life', 0)
     e.spawn()
-    server.runCommandSilent('data merge entity ' + e.getStringUUID() + ' {NoAI:1b,PersistenceRequired:1b,Health:8f,attributes:[{id:"minecraft:generic.max_health",base:8.0d}],active_effects:[{id:"minecraft:fire_resistance",amplifier:0b,duration:-1,show_particles:0b}]}')
-    sdRaid.ids.push(e.getUUID())
+    server.runCommandSilent('data merge entity ' + e.getStringUuid() + ' {NoAI:1b,PersistenceRequired:1b,Health:8f,attributes:[{id:"minecraft:generic.max_health",base:8.0d}],active_effects:[{id:"minecraft:fire_resistance",amplifier:0b,duration:-1,show_particles:0b}]}')
+    sdRaid.ids.push(e.getUuid())
     return
   }
 }
 
 function sdBoom(server, e, grief) {
-  const x = e.x.toFixed(1), y = e.y.toFixed(1), z = e.z.toFixed(1)
-  const at = 'execute in minecraft:overworld positioned ' + x + ' ' + y + ' ' + z + ' run '
+  let x = e.x.toFixed(1), y = e.y.toFixed(1), z = e.z.toFixed(1)
+  let at = 'execute in minecraft:overworld positioned ' + x + ' ' + y + ' ' + z + ' run '
   if (grief) server.runCommandSilent(at + 'summon minecraft:creeper ~ ~ ~ {Fuse:0s,ignited:1b,ExplosionRadius:2b,NoAI:1b,Silent:1b,Invisible:1b,Tags:["sd.tck_done"]}')
   else {
     server.runCommandSilent(at + 'particle minecraft:explosion_emitter ~ ~ ~')
@@ -143,45 +143,45 @@ function sdBoom(server, e, grief) {
 }
 
 ServerEvents.tick(event => {
-  const server = event.server
-  const level = server.getLevel('minecraft:overworld')
+  let server = event.server
+  let level = server.getLevel('minecraft:overworld')
   if (!level) return
-  const now = level.getGameTime()
+  let now = level.getTime()
   if (!sdRaid.loaded) {   // після перезапуску прибираємо «завислі» шахеди
     sdRaid.loaded = true
     server.runCommandSilent('kill @e[type=minecraft:phantom,tag=sd.raid]')
   }
   // --- рух шахедів (щотіку)
   if (sdRaid.ids.length > 0) {
-    const grief = sdScore(server, '#raid_grief', 1) == 1
-    const jam = sdGet(server, 'sd_jammers')
+    let grief = sdScore(server, '#raid_grief', 1) == 1
+    let jam = sdGet(server, 'sd_jammers')
     sdRaid.ids = sdRaid.ids.filter(uuid => {
-      const e = level.getEntity(uuid)
+      let e = server.getEntityByUUID(uuid)
       if (!e || !e.isAlive()) return false
-      const pd = e.persistentData
-      const life = pd.getInt('life') + 1; pd.putInt('life', life)
+      let pd = e.persistentData
+      let life = pd.getInt('life') + 1; pd.putInt('life', life)
       if (life > 1600) { e.discard(); return false }
       let tx = pd.getDouble('tx'), ty = pd.getDouble('ty'), tz = pd.getDouble('tz')
       // РЕБ: у радіусі 48 блоків від глушилки шахед втрачає курс
       if (!pd.getBoolean('jam') && jam.some(j => Math.abs(j.x - e.x) < 48 && Math.abs(j.z - e.z) < 48 && Math.abs(j.y - e.y) < 64)) {
         pd.putBoolean('jam', true)
-        const a = Math.random() * Math.PI * 2
+        let a = Math.random() * Math.PI * 2
         tx = e.x + Math.cos(a) * 60; tz = e.z + Math.sin(a) * 60; ty = ty - 6
         pd.putDouble('tx', tx); pd.putDouble('tz', tz); pd.putDouble('ty', ty)
         server.runCommandSilent('execute in minecraft:overworld positioned ' + e.x.toFixed(1) + ' ' + e.y.toFixed(1) + ' ' + e.z.toFixed(1) + ' run particle minecraft:electric_spark ~ ~ ~ 0.5 0.5 0.5 0.2 30')
         sdSay(server, [{ text: '⚡ РЕБ: ', color: 'aqua', bold: true }, { text: 'шахед втратив курс і йде в поле.', color: 'white', bold: false }])
       }
-      const dx = tx - e.x, dy = ty - e.y, dz = tz - e.z
-      const d = Math.sqrt(dx * dx + dy * dy + dz * dz)
+      let dx = tx - e.x, dy = ty - e.y, dz = tz - e.z
+      let d = Math.sqrt(dx * dx + dy * dy + dz * dz)
       if (d < 1.2) {
         if (pd.getBoolean('jam')) { server.runCommandSilent('execute in minecraft:overworld positioned ' + e.x.toFixed(1) + ' ' + e.y.toFixed(1) + ' ' + e.z.toFixed(1) + ' run particle minecraft:poof ~ ~ ~ 1 1 1 0.05 40'); e.discard() }
         else sdBoom(server, e, grief)
         return false
       }
-      const sp = Math.min(0.55, d)
-      const nx = e.x + dx / d * sp, ny = e.y + dy / d * sp, nz = e.z + dz / d * sp
+      let sp = Math.min(0.55, d)
+      let nx = e.x + dx / d * sp, ny = e.y + dy / d * sp, nz = e.z + dz / d * sp
       // антидронова сітка
-      const bid = String(level.getBlock(Math.floor(nx), Math.floor(ny), Math.floor(nz)).id)
+      let bid = String(level.getBlock(Math.floor(nx), Math.floor(ny), Math.floor(nz)).id)
       if (bid.indexOf('anti_drone_net') >= 0) {
         server.runCommandSilent('execute in minecraft:overworld positioned ' + nx.toFixed(1) + ' ' + ny.toFixed(1) + ' ' + nz.toFixed(1) + ' run summon minecraft:item ~ ~ ~ {Item:{id:"svitlo:ulamok_shaheda",count:1}}')
         sdSay(server, [{ text: '✔ ', color: 'green' }, { text: 'Шахед заплутався в антидроновій сітці. Без вибуху.', color: 'white' }])
@@ -191,20 +191,20 @@ ServerEvents.tick(event => {
         if (pd.getBoolean('jam')) { e.discard(); return false }
         sdBoom(server, e, grief); return false
       }
-      const yaw = Math.atan2(-dx, dz) * 180 / Math.PI, pitch = -Math.atan2(dy, Math.sqrt(dx * dx + dz * dz)) * 180 / Math.PI
-      e.moveTo(nx, ny, nz, yaw, pitch)
+      let yaw = Math.atan2(-dx, dz) * 180 / Math.PI, pitch = -Math.atan2(dy, Math.sqrt(dx * dx + dz * dz)) * 180 / Math.PI
+      e.setPositionAndRotation(nx, ny, nz, yaw, pitch)
       e.setYHeadRot(yaw)
       return true
     })
   }
   if (now % 20 != 0) return
   // --- розклад
-  const mode = sdScore(server, '#raids', 0)
+  let mode = sdScore(server, '#raids', 0)
   if (sdScore(server, '#raid_test', 0) == 1) {
     sdSetScore(server, '#raid_test', 0)
     sdRaid.nextAt = now
   }
-  const tod = level.getDayTime() % 24000, day = Math.floor(level.getDayTime() / 24000)
+  let tod = level.getDayTime() % 24000, day = Math.floor(level.getDayTime() / 24000)
   let on = mode == 1 || (mode == 0 && (server.persistentData.getBoolean('sd_raids_on') || day >= 20))
   if (on && !server.persistentData.getBoolean('sd_raids_announced')) {
     server.persistentData.putBoolean('sd_raids_announced', true)
@@ -213,8 +213,8 @@ ServerEvents.tick(event => {
   }
   if (on && tod >= 13000 && tod < 13040 && sdRaid.decidedDay != day) {
     sdRaid.decidedDay = day
-    const since = day - server.persistentData.getInt('sd_raid_start_day')
-    const chance = since < 10 ? 0.25 : (since < 30 ? 0.35 : 0.45)
+    let since = day - server.persistentData.getInt('sd_raid_start_day')
+    let chance = since < 10 ? 0.25 : (since < 30 ? 0.35 : 0.45)
     if (Math.random() < chance) sdRaid.nextAt = now + 400 + Math.floor(Math.random() * 7000)
   }
   if (sdRaid.nextAt >= 0 && now >= sdRaid.nextAt) {

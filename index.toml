@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "0859d6350dfc6a73a418127b150c0031a5f3a66741c77eb64559065880d521d2"
+hash = "9547d51f4dd83dc4ece505073accc5fbce4823c39176bb400e7b5cb55cb35d98"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -74,11 +74,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "3b67a3b70f7ad7c848d6f4970274757a8d4646d9a4fe150f0ed42ae064eb588f"
+hash = "1d6976dc589d467482a3d42ac3ab46873f186adf3fab47d08fae83e407d9ea5a"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "3b67a3b70f7ad7c848d6f4970274757a8d4646d9a4fe150f0ed42ae064eb588f"
+hash = "1d6976dc589d467482a3d42ac3ab46873f186adf3fab47d08fae83e407d9ea5a"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1487,27 +1487,27 @@ hash = "3d63002077cff8ec212f0920dda3ac0dea2c697d016cc5a78186aa91e382ac88"
 
 [[files]]
 file = "kubejs/server_scripts/bankomat.js"
-hash = "ba9f55f64766a371c3d158c4f207894e6653565bfaee1652fef2ee96f26aa6cc"
+hash = "678c1673a4d8ea26f1f1a78047187571656409b70ccc1e11aa21037e24891118"
 
 [[files]]
 file = "kubejs/server_scripts/napoi.js"
-hash = "70636f7d50193a231e9d76e7a855ec493402647511b6657d59577c802a59ba9d"
+hash = "8a09589e41e6f5cf5839f83cccb3a58cc13371e9a7e7f5d70264936342f4473a"
 
 [[files]]
 file = "kubejs/server_scripts/nichnyi_restart.js"
-hash = "9c379bcd30dd4844b82ef485e88a88a4b9c922ba01690aab695af8d5d4229d94"
+hash = "a7e0ed224a46ed09bc9094f503264a3467b167ea21fc696600f6e52b1a0eda2e"
 
 [[files]]
 file = "kubejs/server_scripts/tab_i_sejv.js"
-hash = "c52a277017843f45c866e63aab85b4ce5ab82420880697be13d097be7ab52fc3"
+hash = "025203a629f54700504d769c7448d065ab082f3d97acba065edc35c72ce4b29d"
 
 [[files]]
 file = "kubejs/server_scripts/trivoga.js"
-hash = "e0676edc6264d9bdc12ec2342c6d93fc3f435dd4e974630aabdf9508a79f9ed5"
+hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "c22c426aef686c37009620dd190e9615da47dc90ef4c9d5c1b4882a91d4e735b"
+hash = "bd9a9fc96969dc92f965faf192d3d4a8ccf3103b9488eaf8eda7d1d04b2dc355"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"

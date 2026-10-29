@@ -1,12 +1,12 @@
 name = "Світло Дали"
 author = "Andryhex"
-version = "0.6"
+version = "0.61"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e00d75a14eff857e8f37b57ea396c5fec36db4a03eb50089a3a594346d1fe847"
+hash = "cca978e132add7378942a945238af5d788c75ffb0f2f8b10ec4b7b3bb984fdb1"
 
 [versions]
 minecraft = "1.21.1"
