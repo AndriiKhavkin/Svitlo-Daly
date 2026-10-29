@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "bc5d2a109b88a44dd2061de92c56877bb85c653f5e3204e76264d6778389b339"
+hash = "b4b0322d0285ffcf278f49e44f48f07b391b1ef1fca8b0d56196a7e3d8042498"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -74,11 +74,15 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "14c9e53c22f19468805f129b52295acf3ed81bf6118bc4776103b4ce8f0dbf5a"
+hash = "eb8d9f8556eb365b882c77416bca4402d47a4060d1517a9917a01aa21018b483"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "14c9e53c22f19468805f129b52295acf3ed81bf6118bc4776103b4ce8f0dbf5a"
+hash = "eb8d9f8556eb365b882c77416bca4402d47a4060d1517a9917a01aa21018b483"
+
+[[files]]
+file = "config/inventoryprofilesnext/inventoryprofiles.json"
+hash = "8f4a78575df9bccb72a69d106bd3f70a4430d5c20d327812ae424b9645b800da"
 
 [[files]]
 file = "config/tide/tide_server.json"
@@ -1534,7 +1538,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "18aa0cc3d45e939c1a3db35c1406c693f7a3d58bfaea1cb866fc3ae4890ad8ee"
+hash = "8214513099a47a9204630526d4bf9cbb07de9637b959f62229da8809b16726ad"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
@@ -1706,6 +1710,11 @@ hash = "d4699836c7d65541ad60d61fd90777796b85b2fe046a7673357b6a8ff14e7cb9"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "7c436acc5f0e7a046e5b5cee5afa050e6de41b524bbc91ded6212989faa794f3"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 hash = "2121dcf5fafdbea1c6add988ba3a79ec8c8b9814dcc37b406558cace8925a9b0"
 metafile = true
@@ -1738,6 +1747,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "dad387216edd199a83c2bc8896af29b15a6c3ddc4e1b4292622020712c151690"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "d77ae0d6e81bbef57001dfff91cfc66fc5d007b59a8d2b9ae028adfdffeec349"
 metafile = true
 
 [[files]]
