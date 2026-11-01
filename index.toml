@@ -1826,7 +1826,7 @@ hash = "60ca4a46637aa9d2b0e5bbc4c5b11065cb28cc53d277e0c523d601995ba8776e"
 metafile = true
 
 [[files]]
-file = "mods/skinrestorer-2.11.0+1.21-neoforge.jar"
+file = "mods/skinrestorer-2.11.0-1.21-neoforge.jar"
 hash = "a56b18a7f51f66cdb0010c2a1d4d3b056bb65573351f90eb406974bfacfc4bc8"
 
 [[files]]
