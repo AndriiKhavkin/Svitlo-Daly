@@ -7,6 +7,7 @@
     },
     "AutoRefillSettings": {
         "visual_durability_notification": false,
-        "audio_durability_notification": false
+        "audio_durability_notification": false,
+        "enable_auto_refill": false
     }
 }
