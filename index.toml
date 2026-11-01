@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "56ff7672829850fa5316b3a55d9e39c26ffdc86488a62c2533e2b2b47e4c2a47"
+hash = "2b00b14bb7a91b0237d56897ae421c2c1026cf6ea9fff348c9161087394fb5c4"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -78,11 +78,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "791d7a21f1b9e28e5c5329503e8f1fbe8c163d3d0009a18595f47bf720f69d1a"
+hash = "54447ad0ec9496d9c3b6df089a1beddf940acee0f7460595a4d58485883dc3b6"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "791d7a21f1b9e28e5c5329503e8f1fbe8c163d3d0009a18595f47bf720f69d1a"
+hash = "54447ad0ec9496d9c3b6df089a1beddf940acee0f7460595a4d58485883dc3b6"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1533,6 +1533,10 @@ file = "kubejs/server_scripts/bankomat.js"
 hash = "678c1673a4d8ea26f1f1a78047187571656409b70ccc1e11aa21037e24891118"
 
 [[files]]
+file = "kubejs/server_scripts/mohyla.js"
+hash = "83374523b16b5a6c8ca6bee29ea4e3b66368226a395fa60c5e527aeb96359e72"
+
+[[files]]
 file = "kubejs/server_scripts/napoi.js"
 hash = "8a09589e41e6f5cf5839f83cccb3a58cc13371e9a7e7f5d70264936342f4473a"
 
@@ -1558,7 +1562,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "6df87096c86ea657beed7d418e3d0740a6fda858eaa047b0143bf18ac8c9179a"
+hash = "5a1067415197955dbdbc43527b8a0dc875d8f51e832e57c3ab5043a4b7951ce1"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
