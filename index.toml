@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "9fac8dd0274486743d9ad21ccd6a538e7dec6ca17caed10f1f72e52682ee7afd"
+hash = "756766f3df97ef96bb7a20c1133617d7b478308123645c4b1975ea27bc2ab73b"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -74,11 +74,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "bb9a653bad2311314cd0ace80954e56eb6d44aba160dae21dc6d9b990c34b35c"
+hash = "a054b6d8efcfaa7d24d0dd327ea9e538b2478e3cf56d115dcedfacf063fdf3ad"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "bb9a653bad2311314cd0ace80954e56eb6d44aba160dae21dc6d9b990c34b35c"
+hash = "a054b6d8efcfaa7d24d0dd327ea9e538b2478e3cf56d115dcedfacf063fdf3ad"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1554,7 +1554,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "08af4eb5ea86453f953f20fe3e383600f66cc9ab5ba5600d83878cc40510bd81"
+hash = "f5de23c4373fca84aea12fb0b7e0131ea47d73e14167e5222dc6cdf89c4e3b4b"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
@@ -1824,6 +1824,10 @@ metafile = true
 file = "mods/sbw-tactical-drone.pw.toml"
 hash = "60ca4a46637aa9d2b0e5bbc4c5b11065cb28cc53d277e0c523d601995ba8776e"
 metafile = true
+
+[[files]]
+file = "mods/skinrestorer-2.11.0+1.21-neoforge.jar"
+hash = "a56b18a7f51f66cdb0010c2a1d4d3b056bb65573351f90eb406974bfacfc4bc8"
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
