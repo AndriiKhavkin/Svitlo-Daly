@@ -1,0 +1,9 @@
+filename = 'forgematica-0.4.3+mc1.21.1.jar'
+name = 'Forgematica (Litematica)'
+side = 'client'
+
+[download]
+hash = 'babad424d23c39f196d931f4c63ba0d9f35791f59d5dee03daca3b9c3700430e7677f10a580f1567db6ae93e59fa5bd5b59b73a6d0a160e5a7200f7a15c7bdd0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://raw.githubusercontent.com/AndriiKhavkin/Svitlo-Daly/main/files/forgematica-0.4.3-mc1.21.1.jar'

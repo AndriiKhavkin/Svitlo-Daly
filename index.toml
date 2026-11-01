@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "2b00b14bb7a91b0237d56897ae421c2c1026cf6ea9fff348c9161087394fb5c4"
+hash = "6495f1f4462179fe29ffffeca7751155b803f1e78ac07f2f7def3083821ef073"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -78,11 +78,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "54447ad0ec9496d9c3b6df089a1beddf940acee0f7460595a4d58485883dc3b6"
+hash = "3ca22b630acf2cba39180f9e0b5945044667cbf89480110b5caa65b63d2f1e14"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "54447ad0ec9496d9c3b6df089a1beddf940acee0f7460595a4d58485883dc3b6"
+hash = "3ca22b630acf2cba39180f9e0b5945044667cbf89480110b5caa65b63d2f1e14"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1562,7 +1562,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "5a1067415197955dbdbc43527b8a0dc875d8f51e832e57c3ab5043a4b7951ce1"
+hash = "8bc9512c0b112ae1a0c4e58a0dfa283ad93e48f0c63f13a6a4edd0872636cdfd"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
@@ -1676,6 +1676,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "36f48fcf3565488130a3fb2417688cce6b77461c9beec468be43c9deea5519d3"
+metafile = true
+
+[[files]]
+file = "mods/forgematica.pw.toml"
+hash = "afe717d357dd143b8e1989859776bfe9edced3078896e04e6566c71f895ff501"
 metafile = true
 
 [[files]]
