@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "0776eacecc2d3feeb5c60bcc2636e601d2ade788f3085290adca1104a5f22234"
+hash = "7ff9c1e8fcbb25c3d4faefd07ea4f4f56e6a2d1852845862cc2acf65a2f77e86"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -14,27 +14,31 @@ hash = "01cabca9e2cca0dca13aa6c78a8670e79d3dc0ef5b6d6e4d461e047e8ca87893"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/khata_skraiu.snbt"
-hash = "d1ca840b9785683dde95332d31ea280785f6153f79ca4e10cf2052c2ab227532"
+hash = "73f68a16c524439d3329e034afdd0f99666fedaba4942b9821cddf9e8b5aaf08"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/kreslennia.snbt"
+hash = "b6c23f7d5ba6c581dc825c1ea205b0b7194bac92eb7327d89800611618d326a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mandry.snbt"
-hash = "1cd8dfc076cf6a144247b55e20db805869e4bbc35a6e85fb47e5acdadaccbe1c"
+hash = "2f6d75161ee91838941725c5ead88bb57641df1944faae0a3cd733b2856cc354"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nebo.snbt"
-hash = "b62f79761f74f9597eda015b807fe065410610dc921a0d326b9ef838f23924fa"
+hash = "f8fa89b6da43181d928c9b484826cf8dfb2dc8af8237fadff58811930c46bb17"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nova_poshta.snbt"
-hash = "68407139dec80e7f81e34c36621f70f46bd5eec36187232b5bb2f43c999bc877"
+hash = "f8887ee5c8e14a7d0207ac28cb0508fb4a39ab328e8fb11e2286947f15b1c808"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pasika.snbt"
-hash = "f46a8aa2b5362200d5c11ad1ac4c61fecec7d7d1de9ff2b435def804eca0ccbe"
+hash = "be0302f8b83f05d2a70c0b53cf48f9931a341b100ba4480393bb5d3597b67bdc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/povitriana_tryvoga.snbt"
-hash = "6acaaa2789bf1257e69588d96031ab32daceecdbbc18b44a2e46664c696a0036"
+hash = "d79ea82d8e639402088d1332a949cde2a91e1fbaea74bebdb9a90b8ea64d7862"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/punkt_nezlamnosti.snbt"
@@ -42,19 +46,19 @@ hash = "20dba0e357e99408e6b1e9fbf05e2828ef054e8aace6450826fad128956d4f13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rozminuvannia.snbt"
-hash = "e9343d17b56b4897e27142c7976aa34a0661e761458de0d991f790ceb7c2e543"
+hash = "41e599de7a7778026ee70898033945261d973f456550bccbb12951900ec8135d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sich.snbt"
-hash = "bdec3c1013fc46a78befc387abce856addde87ff1ccd3c986af842e6135c8bb8"
+hash = "e046a4fa0fe4a12d52d7d67520234f1aff60d616694425658120ec051fbd3178"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/smachna_mapa.snbt"
-hash = "fd287c6dc156b44b95b05c5945a775192ca9531e83d78f02c3525d76d1f897b0"
+hash = "84dfdc225ca650df043c943aab423f6901fcdd7c452d4a832075cc83c540287c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svii_dtek.snbt"
-hash = "2ad9d8772695d196468cf5fc8ea73b1fa936de7ea44e5dcb0bb1c243c0f67d06"
+hash = "a7c8ae31d897416acd8fb5b89f3c0d9738b203817810e1bd0a8ec202c64015c8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svitlo_daly.snbt"
@@ -62,11 +66,11 @@ hash = "5145702c880ae4b2b69f67214e69ad9227259662b39b63eaa7ad3948f163f9e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svoia_khata.snbt"
-hash = "b9e571d824accf5f0ec3110e7f82fc3c229c129f9172fb5345e1e83c07712fa1"
+hash = "7078b77db5f265b3ce91c0e86b533dd169f3f857debeb9d023b4ee87bb57bc47"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ukrzaliznytsia.snbt"
-hash = "d3a3043b8b8d044d8a7f1dc6e6416bfcaa0280092657b8a6e914f017415b2ba6"
+hash = "09fa735022b4843a2b897a55bc974bcc1612dacf321f2cbad677038a59cedd44"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -74,11 +78,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "12a59f063a33f292aeca11ee230b27063923bf5b5acbb9907fb7e96c22a3c59c"
+hash = "47707b69dafa1a7e2936f929d4cbfe6021477b76c8c1ccd4167f327d6688464d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "12a59f063a33f292aeca11ee230b27063923bf5b5acbb9907fb7e96c22a3c59c"
+hash = "47707b69dafa1a7e2936f929d4cbfe6021477b76c8c1ccd4167f327d6688464d"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1554,7 +1558,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "baedffb08323fee3aec739fbfa36da0b09be283113bdb3cee455c24f49c15966"
+hash = "d99119057dd93c2b4bdf8ab90ff95d425a893cbafb798f351cadbb11567100c0"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
