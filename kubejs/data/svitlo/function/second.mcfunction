@@ -52,3 +52,7 @@ execute if score #spike_t sd.var >= #squad_delay sd.var unless score #squads sd.
 execute if score #squads sd.var matches 1 run team join sbwnpc_cat @a[team=]
 execute if score #squads sd.var matches 1 if score #time sd.var matches 13500..22500 if predicate svitlo:chance_squad as @r[gamemode=survival] at @s if dimension minecraft:overworld run function svitlo:squad_raid
 execute if score #squads sd.var matches 1 if score #time sd.var matches 0..19 as @e[tag=sd.enemy] at @s unless entity @a[distance=..48] run tp @s ~ -120 ~
+# Squad Command Tool: мод видає новий при кожному відродженні, а старий лежить у могилі.
+# Лишаємо максимум один (зайві прибираються по одному щосекунди).
+execute as @a store result score @s sd.squadt run clear @s sbwnpc:squad_tool 0
+execute as @a[scores={sd.squadt=2..}] run clear @s sbwnpc:squad_tool 1
