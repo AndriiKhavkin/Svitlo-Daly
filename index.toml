@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "6495f1f4462179fe29ffffeca7751155b803f1e78ac07f2f7def3083821ef073"
+hash = "eb9f8463e84e59b75578317639007d10daa60bf75c1d777c05396e988952bf86"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -78,15 +78,19 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "3ca22b630acf2cba39180f9e0b5945044667cbf89480110b5caa65b63d2f1e14"
+hash = "0fabe846a09e267a3bf9ce37c773eeacd1a023f0a1da385a7c1afb77b932108e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "3ca22b630acf2cba39180f9e0b5945044667cbf89480110b5caa65b63d2f1e14"
+hash = "0fabe846a09e267a3bf9ce37c773eeacd1a023f0a1da385a7c1afb77b932108e"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "fbf145cbee15d709e1befd07d188209f09d7c4f58fb1d99ff3c146cb5c61aaaa"
+
+[[files]]
+file = "config/sable-common.toml"
+hash = "a949789f04ed38f2677f5ab78fbafbdf805a1b2a6f23bf1e47a3b7f62cfba44d"
 
 [[files]]
 file = "config/tide/tide_server.json"
@@ -1562,7 +1566,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "8bc9512c0b112ae1a0c4e58a0dfa283ad93e48f0c63f13a6a4edd0872636cdfd"
+hash = "ecf18d9d70b46e36debe428b99569102a0b9f90017a7830e3b860c5b9bb0e2e4"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
