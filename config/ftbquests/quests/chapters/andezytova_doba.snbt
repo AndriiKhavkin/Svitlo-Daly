@@ -655,6 +655,217 @@
 		}
 		{
 			dependencies: [
+				"3B0D7674E1118F98"
+			]
+			id: "358A976F517DF543"
+			rewards: [
+				{
+					id: "42F521E9575C9426"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "204DBC65E38C5E10"
+					item: {
+						count: 1
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"358A976F517DF543"
+			]
+			id: "00CC27B4B3E7818A"
+			rewards: [
+				{
+					id: "0FFC480977638F17"
+					item: {
+						count: 16
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "4F329D44CD0830E6"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "56C92CE634F39955"
+					item: {
+						count: 1
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"358A976F517DF543"
+			]
+			id: "6E1A96130807DD93"
+			rewards: [
+				{
+					id: "72080678CA45457B"
+					item: {
+						count: 4
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "5582A498A85F0FD8"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "5D57C6D31B8BEDC4"
+					item: {
+						count: 1
+						id: "create:blaze_burner"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"00CC27B4B3E7818A"
+				"6E1A96130807DD93"
+				"2EA47E207DE37896"
+			]
+			id: "48D569C75CCBE934"
+			rewards: [
+				{
+					id: "53AB3E77BCF36118"
+					type: "xp"
+					xp: 80
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "4DD33494EF80143B"
+					item: {
+						count: 1
+						id: "create:steam_engine"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"48D569C75CCBE934"
+				"349D31AB6072BE4E"
+			]
+			icon: {
+				count: 1
+				id: "create:goggles"
+			}
+			id: "1377E901AC386A69"
+			rewards: [
+				{
+					id: "233A5718F4861390"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "6264C9690E0E4C50"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"48D569C75CCBE934"
+			]
+			id: "43F33DE6DF9F4CCE"
+			rewards: [
+				{
+					id: "66E83B098FFCAB07"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "122378E87BACBA5D"
+					item: {
+						count: 1
+						id: "create:steam_whistle"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1377E901AC386A69"
+			]
+			icon: {
+				count: 1
+				id: "create:steam_engine"
+			}
+			id: "2E01CA0E6FFD98E6"
+			rewards: [
+				{
+					id: "3B61DD8F88A7F38C"
+					item: {
+						count: 4
+						id: "create:blaze_cake"
+					}
+					type: "item"
+				}
+				{
+					id: "0407219CC11A70AC"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "20988708E7B61337"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
 				"440F8FE4A51E3D28"
 				"7D0C35F70A79D91F"
 				"7375D9A70BB16BAB"
