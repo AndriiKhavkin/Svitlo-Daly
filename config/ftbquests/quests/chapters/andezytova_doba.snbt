@@ -463,6 +463,10 @@
 			dependencies: [
 				"7375D9A70BB16BAB"
 			]
+			icon: {
+				count: 1
+				id: "create:belt_connector"
+			}
 			id: "52F0E4797A98C969"
 			rewards: [
 				{
@@ -519,6 +523,10 @@
 				"52F0E4797A98C969"
 				"226CCE7FDDE65642"
 			]
+			icon: {
+				count: 1
+				id: "create:mechanical_press"
+			}
 			id: "275FA063D8C85254"
 			rewards: [
 				{
@@ -606,6 +614,10 @@
 				"6D230517A9DA8ACF"
 				"0CB4CF8E26FE9A89"
 			]
+			icon: {
+				count: 1
+				id: "create:brass_tunnel"
+			}
 			id: "2E029A73876B7203"
 			rewards: [
 				{
