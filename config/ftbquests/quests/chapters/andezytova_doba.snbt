@@ -461,6 +461,188 @@
 		}
 		{
 			dependencies: [
+				"7375D9A70BB16BAB"
+			]
+			id: "52F0E4797A98C969"
+			rewards: [
+				{
+					id: "19B8D196016808DF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [
+				{
+					id: "088A18C542BB4A8C"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"52F0E4797A98C969"
+			]
+			id: "2E55AA222FB474A3"
+			rewards: [
+				{
+					id: "39F9F0818893B78D"
+					item: {
+						count: 4
+						id: "create:andesite_funnel"
+					}
+					type: "item"
+				}
+				{
+					id: "76571FEA45D359B7"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "59D6D65353F3BF11"
+					item: {
+						count: 1
+						id: "create:andesite_tunnel"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"52F0E4797A98C969"
+				"226CCE7FDDE65642"
+			]
+			id: "275FA063D8C85254"
+			rewards: [
+				{
+					id: "1AEC9B73C87AE2D0"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "698B443F0E4876CE"
+					item: {
+						count: 1
+						id: "create:iron_sheet"
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2E55AA222FB474A3"
+			]
+			id: "6D230517A9DA8ACF"
+			rewards: [
+				{
+					id: "72D088984855EA5D"
+					item: {
+						count: 4
+						id: "create:brass_funnel"
+					}
+					type: "item"
+				}
+				{
+					id: "1C28E22C05600C9D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "515E2A889EFCE251"
+					item: {
+						count: 1
+						id: "create:filter"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"275FA063D8C85254"
+			]
+			id: "0CB4CF8E26FE9A89"
+			rewards: [
+				{
+					id: "5156B2E343A92786"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "7F5C6F8E4162BEAA"
+					item: {
+						count: 1
+						id: "create:chute"
+					}
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6D230517A9DA8ACF"
+				"0CB4CF8E26FE9A89"
+			]
+			id: "2E029A73876B7203"
+			rewards: [
+				{
+					id: "39CC4ADC135BED49"
+					item: {
+						count: 2
+						id: "create:brass_tunnel"
+					}
+					type: "item"
+				}
+				{
+					id: "5B40A5F9768D2C21"
+					item: {
+						count: 1
+						id: "create:weighted_ejector"
+					}
+					type: "item"
+				}
+				{
+					id: "796B9DA66623D07C"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "0ED4463756C1A372"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
 				"440F8FE4A51E3D28"
 				"7D0C35F70A79D91F"
 				"7375D9A70BB16BAB"

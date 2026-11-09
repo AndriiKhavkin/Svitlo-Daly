@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "eb9f8463e84e59b75578317639007d10daa60bf75c1d777c05396e988952bf86"
+hash = "a87a2e4f1a9f768a1f1e62baff868b7af86fb13e1b8fcb4c10999fb8356e04fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -10,7 +10,7 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/andezytova_doba.snbt"
-hash = "01cabca9e2cca0dca13aa6c78a8670e79d3dc0ef5b6d6e4d461e047e8ca87893"
+hash = "d11020be7b3c14e69627d92f2b9088737b4bd13cb83b3348cf5db2087c94f200"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/khata_skraiu.snbt"
@@ -78,11 +78,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "0fabe846a09e267a3bf9ce37c773eeacd1a023f0a1da385a7c1afb77b932108e"
+hash = "840e2d569639b206e3233e1e7ca8c7d49f71ff1418de0108c17630ea9846ebdf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "0fabe846a09e267a3bf9ce37c773eeacd1a023f0a1da385a7c1afb77b932108e"
+hash = "840e2d569639b206e3233e1e7ca8c7d49f71ff1418de0108c17630ea9846ebdf"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1566,7 +1566,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "ecf18d9d70b46e36debe428b99569102a0b9f90017a7830e3b860c5b9bb0e2e4"
+hash = "badbba8352d23cf9cbbc8eb01f4c97f6170eb84c746cdaa48fe17b0f727b1fbf"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
