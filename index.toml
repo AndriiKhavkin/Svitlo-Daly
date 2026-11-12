@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "f49b64b349365633a7dfdcf4a8d67688982a009eee5af905efe63ae5747c4d4a"
+hash = "03bde296cdd4a182292767ffc3554566816774434ecccc87d7d317d374cff4a1"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -86,11 +86,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "5dc51ddf2ffe10b04ba1ec5583e84b5506a8c69e15623b4c8585dca1aecb0c0e"
+hash = "da134a77d60b7d7f23e326f1886df9f664a49871ed3e4f820a2f4ed58397a347"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "5dc51ddf2ffe10b04ba1ec5583e84b5506a8c69e15623b4c8585dca1aecb0c0e"
+hash = "da134a77d60b7d7f23e326f1886df9f664a49871ed3e4f820a2f4ed58397a347"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1029,6 +1029,10 @@ file = "kubejs/data/svitlo/function/blackout.mcfunction"
 hash = "db0ddb7285db672181d41083cf982cb852a627884d8833de709f8810fbb755f0"
 
 [[files]]
+file = "kubejs/data/svitlo/function/blackout_roll.mcfunction"
+hash = "bbd8b92e4d214c756075769b2cacb2c5da171d6e45036cd54ba19cb8714056ba"
+
+[[files]]
 file = "kubejs/data/svitlo/function/buff.mcfunction"
 hash = "327d76558b392cdcc07f72320f0f918f59d37f3c56740e2c5f0b3327d63c216e"
 
@@ -1182,7 +1186,7 @@ hash = "951437c53b88bd9f3f6fd70ee56c479f834cb8397afde45bec369a7b58429439"
 
 [[files]]
 file = "kubejs/data/svitlo/function/second.mcfunction"
-hash = "79bbb64c5b9ca4aa81c6c8a69bf786b3a8b2d1ccc9f377d8eff6745e4f1ac084"
+hash = "c875de48bbf03f711ec05af02c5342afec3512d61498a17379e06384fec5ddba"
 
 [[files]]
 file = "kubejs/data/svitlo/function/selo_warn.mcfunction"
@@ -1626,7 +1630,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "b810eac1cd15c7ea883e1f19dc345732006cb73987fb7725a8bd7ea2c1c33a9e"
+hash = "3ce3be8883644666d77b66b9fab426522858c315c9171a9fc999bd77ed1bd2e7"
 
 [[files]]
 file = "kubejs/server_scripts/yaderka.js"

@@ -14,7 +14,9 @@ execute if score #spike sd.var matches 1 as @e[type=#svitlo:okupanty,tag=!sd.buf
 execute if score #spike sd.var matches 1 as @e[type=minecraft:phantom,tag=!sd.swarm] at @s run function svitlo:swarm
 # екстрені відключення: раз на ніч, о півночі, шанс 1/3
 execute store result score #time sd.var run time query daytime
-execute if score #time sd.var matches 18000..18019 if predicate svitlo:chance_third run function svitlo:blackout
+execute store result score #day sd.var run time query day
+execute store result score #dlc sd.var run gamerule doDaylightCycle
+execute if score #dlc sd.var matches 1 if score #time sd.var matches 18000..18019 unless score #day sd.var = #bo_day sd.var run function svitlo:blackout_roll
 execute if score #blackout sd.var matches 1.. run scoreboard players remove #blackout sd.var 1
 # --- пес-сапер: приручений вовк чує міни за 8 блоків
 execute as @e[type=minecraft:wolf] if data entity @s Owner at @s if entity @e[type=#svitlo:mines,tag=!sd.found,distance=..8] run function svitlo:dog_sniff
