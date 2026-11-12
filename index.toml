@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "03bde296cdd4a182292767ffc3554566816774434ecccc87d7d317d374cff4a1"
+hash = "bfd2fbb807f4d24fd9dc1bc3bcbaca0d2ef1ce59e29959c468a5ffed9b1b52cd"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -66,7 +66,7 @@ hash = "07e04056515f0ea9918ad6bfd01e17ca882743231d0f6e4113f38d8991c45185"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svii_dtek.snbt"
-hash = "a7c8ae31d897416acd8fb5b89f3c0d9738b203817810e1bd0a8ec202c64015c8"
+hash = "015e87321100bbf3ebe6c510e95969601e82967c40eee52cdce3c274e6cc28cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svitlo_daly.snbt"
@@ -86,11 +86,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "da134a77d60b7d7f23e326f1886df9f664a49871ed3e4f820a2f4ed58397a347"
+hash = "49e3c59ec9eaded9738010ab3be07185840fe6eeb645ad341963deef7f987207"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "da134a77d60b7d7f23e326f1886df9f664a49871ed3e4f820a2f4ed58397a347"
+hash = "49e3c59ec9eaded9738010ab3be07185840fe6eeb645ad341963deef7f987207"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1026,7 +1026,7 @@ hash = "462d9ba944b66e81aa8227497aedf635f2f6f5ea446de372b06d85f9fe39a660"
 
 [[files]]
 file = "kubejs/data/svitlo/function/blackout.mcfunction"
-hash = "db0ddb7285db672181d41083cf982cb852a627884d8833de709f8810fbb755f0"
+hash = "23c679ac30e508a21bc97749c625d969ebb2ce69ebe3c7093f455b2f5bc8d9b6"
 
 [[files]]
 file = "kubejs/data/svitlo/function/blackout_roll.mcfunction"
@@ -1601,6 +1601,10 @@ file = "kubejs/server_scripts/bankomat.js"
 hash = "678c1673a4d8ea26f1f1a78047187571656409b70ccc1e11aa21037e24891118"
 
 [[files]]
+file = "kubejs/server_scripts/heneratory.js"
+hash = "a29232a142c9cd39eca62062241d713ede91bd8cea313d45a6e2fb0e381c77a6"
+
+[[files]]
 file = "kubejs/server_scripts/mohyla.js"
 hash = "83374523b16b5a6c8ca6bee29ea4e3b66368226a395fa60c5e527aeb96359e72"
 
@@ -1630,7 +1634,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "3ce3be8883644666d77b66b9fab426522858c315c9171a9fc999bd77ed1bd2e7"
+hash = "2ad98cda1c9eb3696543f1853f9dc85579ec1c142d0f7fb8fbd4dcb9aab21aae"
 
 [[files]]
 file = "kubejs/server_scripts/yaderka.js"
@@ -1698,6 +1702,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "e8fffc7c025ff962cb2b57171e52ce32ef84df377e2816e241d375248305745c"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "2555c1d0209bb0061b310561a6503e82956b6e14513ac73d3cc247b6a3860d95"
 metafile = true
 
 [[files]]
