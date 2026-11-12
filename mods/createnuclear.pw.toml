@@ -1,0 +1,9 @@
+filename = 'createnuclear-2.0.0-neoforge.jar'
+name = 'Create Nuclear'
+side = 'both'
+
+[download]
+hash = '7d09687e1dc379824738e33b25431ba27e5c31bce53bcd476d93926b514be91e748875043cd9a0782b0beb074983a3645f68bb65c73a8454e06637fdf8d02b3b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/z611fdf7/versions/TANOhO2C/createnuclear-2.0.0-neoforge.jar'

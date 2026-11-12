@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "myrnyi_atom"
+	group: ""
+	icon: {
+		count: 1
+		id: "createnuclear:uranium_rod"
+	}
+	id: "19158EEF639440F3"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"3F3B7B2B76470919"
+			]
+			id: "5F30B3BA3EB10EB3"
+			rewards: [
+				{
+					id: "2FB6C9C3BE3E6BE8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					count: 8L
+					id: "25739FF80BCF2588"
+					item: {
+						count: 1
+						id: "createnuclear:raw_uranium"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5F30B3BA3EB10EB3"
+			]
+			id: "2D048B35AEB8EB40"
+			rewards: [
+				{
+					id: "4A2E168A3CE04084"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "450465EF854F6BDD"
+					item: {
+						count: 1
+						id: "createnuclear:lead_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2D048B35AEB8EB40"
+				"3943DE5597F109F2"
+			]
+			id: "673452E32E16661A"
+			rewards: [
+				{
+					id: "41D2031CAA5CC4A9"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "390F0039A1A7C471"
+					item: {
+						count: 1
+						id: "createnuclear:default_anti_radiation_helmet"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5F30B3BA3EB10EB3"
+			]
+			id: "46094DA83A3B2B40"
+			rewards: [
+				{
+					id: "0DFFB98D4427D7BF"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "4D7EDB5009609CB4"
+					item: {
+						count: 1
+						id: "createnuclear:steel_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"46094DA83A3B2B40"
+			]
+			id: "3943DE5597F109F2"
+			rewards: [
+				{
+					id: "703AD36F5545D446"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "65AF17B8C44D54A6"
+					item: {
+						count: 1
+						id: "createnuclear:graphite_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5F30B3BA3EB10EB3"
+			]
+			id: "00B72EE935ED3D4E"
+			rewards: [
+				{
+					id: "5DB9DE8A1B1A86FB"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "36924FE3B7BBCE9B"
+					item: {
+						count: 1
+						id: "createnuclear:yellowcake"
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"00B72EE935ED3D4E"
+			]
+			id: "150EB4DA695EAF7E"
+			rewards: [
+				{
+					id: "643F4FF8C0909359"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					count: 4L
+					id: "3C8D6FE06BE7B5F7"
+					item: {
+						count: 1
+						id: "createnuclear:enriched_yellowcake"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"150EB4DA695EAF7E"
+			]
+			id: "35A282483E7820B6"
+			rewards: [
+				{
+					id: "3B0E4BAD98D7FC84"
+					type: "xp"
+					xp: 120
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "6F26E6FA5A5CE146"
+					item: {
+						count: 1
+						id: "createnuclear:uranium_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3943DE5597F109F2"
+			]
+			id: "2E10EF84F5E808EB"
+			rewards: [
+				{
+					id: "5B4404B2A8EC2A25"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "339FD4FAD5DE158F"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_blueprint_item"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"35A282483E7820B6"
+				"2E10EF84F5E808EB"
+				"673452E32E16661A"
+			]
+			id: "729BEE9985456347"
+			rewards: [
+				{
+					id: "640F5369F3B78FA7"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_alarm"
+					}
+					type: "item"
+				}
+				{
+					id: "4BDF3B3D1C3D20D7"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 1L
+					id: "4C2C2389999968AF"
+					item: {
+						count: 1
+						id: "createnuclear:reactor_controller"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"729BEE9985456347"
+			]
+			icon: {
+				count: 1
+				id: "createnuclear:reactor_core"
+			}
+			id: "3A6A6699AF9C5304"
+			rewards: [
+				{
+					id: "6A21E7085BA459BA"
+					item: {
+						count: 20
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "3A9BB6781B9C4CB2"
+					type: "xp"
+					xp: 500
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "003785F4C61E3655"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 1.0d
+		}
+	]
+}

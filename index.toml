@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "bc328535310857aa5fe5f71d56b85c52473db048d8b4ae91298458b3e30b9177"
+hash = "f49b64b349365633a7dfdcf4a8d67688982a009eee5af905efe63ae5747c4d4a"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -14,7 +14,7 @@ hash = "48a3bdb449203994b4887fe4cd49d5bcfd124374c91917b0c1cb3b5cae206b08"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/khata_skraiu.snbt"
-hash = "73f68a16c524439d3329e034afdd0f99666fedaba4942b9821cddf9e8b5aaf08"
+hash = "0f8f4134b11b347ba1a3c09f8393f5fd03ab69b87d79f6a4f52aae18dd26e30a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kreslennia.snbt"
@@ -22,27 +22,31 @@ hash = "b6c23f7d5ba6c581dc825c1ea205b0b7194bac92eb7327d89800611618d326a8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mandry.snbt"
-hash = "2f6d75161ee91838941725c5ead88bb57641df1944faae0a3cd733b2856cc354"
+hash = "c8d26acae05513b7c195b9989cba375451b3b7f3b9345f698d6d94ee3ff799bf"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/myrnyi_atom.snbt"
+hash = "0049423ac7c242415ba4a653a075d8500cb1dc67e860ef52c5d4b14d49b408bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nebo.snbt"
-hash = "dfbdba27d614985343df61c992adc2ddcfa009a9120dee0c48c5e8c0ae5adde0"
+hash = "a961490707773e81cf4d004c9f448a778e71e59733dc26feba9465a262d24065"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nova_poshta.snbt"
-hash = "f8887ee5c8e14a7d0207ac28cb0508fb4a39ab328e8fb11e2286947f15b1c808"
+hash = "631797e7737ecf081f5c2be977d690d44a702c1865161ed62884949a53df9925"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pasika.snbt"
-hash = "e40edbec4c71ddfffc38de6cc3b296afaef29588e8eb083d7ce0adc661588547"
+hash = "53f900cf532fc19b0b3722ad220705fc47b67a25023e26fd450950d45a3d8c69"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pekelne_vidriadzhennia.snbt"
-hash = "566e7d569fee915b8d4b7684358274ead0f1443f46e6423f32e70ba947477d94"
+hash = "2c5f6bc820ecbae14be551db4a43c8814080f2e7870c28b454505f8eb32da857"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/povitriana_tryvoga.snbt"
-hash = "f8b48b6c0c043c4af66ffb47113a15a460148f35194d90f9e15adb0fffac0595"
+hash = "566502a6a203641db5d0e3208958ae0d5d3770e8f6049eefacd405d975a9ff20"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/punkt_nezlamnosti.snbt"
@@ -50,15 +54,15 @@ hash = "20dba0e357e99408e6b1e9fbf05e2828ef054e8aace6450826fad128956d4f13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rozminuvannia.snbt"
-hash = "0c98b472666ef2b1f1c1b3450a6b17954b94dc129910c8bfa1120b25f982339c"
+hash = "d6fb1b1bedc8d9b11075e18344cdedf9aa9aafe9c462186149fe98544ff6c9d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sich.snbt"
-hash = "52070df324e7e3153f66fa36e6e6512ddf4174c5f328c791adbb3a26e65fd0cc"
+hash = "4a00e595ad9c08cb3ac35501657b10b7ba7e504957f95d375b59eb976c9393d8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/smachna_mapa.snbt"
-hash = "84dfdc225ca650df043c943aab423f6901fcdd7c452d4a832075cc83c540287c"
+hash = "07e04056515f0ea9918ad6bfd01e17ca882743231d0f6e4113f38d8991c45185"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svii_dtek.snbt"
@@ -70,11 +74,11 @@ hash = "5145702c880ae4b2b69f67214e69ad9227259662b39b63eaa7ad3948f163f9e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svoia_khata.snbt"
-hash = "7078b77db5f265b3ce91c0e86b533dd169f3f857debeb9d023b4ee87bb57bc47"
+hash = "9242619422745fc6715bf9045dc6dffc82d8234d9cc5a1f39ff5b424a0df27e9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ukrzaliznytsia.snbt"
-hash = "09fa735022b4843a2b897a55bc974bcc1612dacf321f2cbad677038a59cedd44"
+hash = "56916af3e0e3ceecfdf53702eac4a85a49311565facaf7f91804b6791c222c6e"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -82,11 +86,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "b5ec5a73b410d6b2ceb0541caea9a6eba8cbe6eb66b1ec1e76c508c034349b5d"
+hash = "5dc51ddf2ffe10b04ba1ec5583e84b5506a8c69e15623b4c8585dca1aecb0c0e"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "b5ec5a73b410d6b2ceb0541caea9a6eba8cbe6eb66b1ec1e76c508c034349b5d"
+hash = "5dc51ddf2ffe10b04ba1ec5583e84b5506a8c69e15623b4c8585dca1aecb0c0e"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1622,7 +1626,11 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "cbfd81167b696d9b31a7c2e2113a7aa683861500f7f64fb5bdf8beacd0d32ad8"
+hash = "b810eac1cd15c7ea883e1f19dc345732006cb73987fb7725a8bd7ea2c1c33a9e"
+
+[[files]]
+file = "kubejs/server_scripts/yaderka.js"
+hash = "c00ad8074ad0a9eb4f2380a48a663af5344e85672af97f4d2e834decd5cd937c"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
@@ -1706,6 +1714,11 @@ metafile = true
 [[files]]
 file = "mods/create.pw.toml"
 hash = "d54c45b486976c4c6ffb74197f2f1f8d37130ab4208db229969b6397517e40e7"
+metafile = true
+
+[[files]]
+file = "mods/createnuclear.pw.toml"
+hash = "b692d8eb2d5b9c225e8de4287ff7aba0d951b8a749c23b450606e67ed623193f"
 metafile = true
 
 [[files]]
