@@ -82,11 +82,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "acf7159ce7b7152f5ecf8d186630ba600a56f6bc2467d17efc30aa5c60e07722"
+hash = "b5ec5a73b410d6b2ceb0541caea9a6eba8cbe6eb66b1ec1e76c508c034349b5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "acf7159ce7b7152f5ecf8d186630ba600a56f6bc2467d17efc30aa5c60e07722"
+hash = "b5ec5a73b410d6b2ceb0541caea9a6eba8cbe6eb66b1ec1e76c508c034349b5d"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1454,11 +1454,11 @@ hash = "5286da5720c8dc78d0a68be3c494411439448f8a6a449daf85a27b3ab561d2dc"
 
 [[files]]
 file = "kubejs/data/svitlo/structure/nether/intercity.nbt"
-hash = "76355aed7f4c7a6035a4074c4709b3009aae46004dfb9cef49a0b49b3de3336d"
+hash = "516382f87b9272be8f21fbf16c73767392aa3c4d665d79e0d5619c89d4d90848"
 
 [[files]]
 file = "kubejs/data/svitlo/structure/nether/nova_poshta.nbt"
-hash = "c1495364a3936941bb49e69c5cddd49cd044f6ebe4154e6cd4bc6d47c0f187bc"
+hash = "015ee9897594ba4c5f5650123e81e9769735593dd56e1373375721ebc994cfa9"
 
 [[files]]
 file = "kubejs/data/svitlo/structure/nova_poshta/desert.nbt"
