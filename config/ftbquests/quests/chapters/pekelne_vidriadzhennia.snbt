@@ -1,0 +1,454 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pekelne_vidriadzhennia"
+	group: ""
+	icon: {
+		count: 1
+		id: "minecraft:netherrack"
+	}
+	id: "4EB264376B7F5C4D"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [ ]
+			icon: {
+				count: 1
+				id: "minecraft:obsidian"
+			}
+			id: "505AB281C4C98E59"
+			rewards: [
+				{
+					id: "274EE5102B6C9DB5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "71C5B0A7E613937C"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"505AB281C4C98E59"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:potion"
+			}
+			id: "51C775F96A0484C2"
+			rewards: [
+				{
+					id: "0CD37483A3D437A2"
+					item: {
+						count: 2
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "2BEDAB484C4BD19E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "30BA3BAE99892CCE"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"505AB281C4C98E59"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:nether_bricks"
+			}
+			id: "1608AC2A4E124444"
+			rewards: [
+				{
+					id: "58D09F5831E3D81B"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					id: "6A183CE30035C784"
+					structure: "minecraft:fortress"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1608AC2A4E124444"
+			]
+			id: "073BDFA858C38CF4"
+			rewards: [
+				{
+					id: "6563626A73EFDF55"
+					item: {
+						count: 16
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					id: "7F4D20C53E4E65E8"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "021532C79F000A57"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"505AB281C4C98E59"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:gilded_blackstone"
+			}
+			id: "5523E95A8E5F0C64"
+			rewards: [
+				{
+					id: "53A82D1EF78228C6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "224A0E23267C6F90"
+					structure: "minecraft:bastion_remnant"
+					type: "structure"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5523E95A8E5F0C64"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			id: "51FE31A8BC638DCB"
+			rewards: [
+				{
+					id: "3DC646506BC5B0F3"
+					item: {
+						count: 8
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6AD1D6760076576C"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "6A450A9722DFC2F7"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"51C775F96A0484C2"
+			]
+			id: "1DBD0C0ABF54F993"
+			rewards: [
+				{
+					id: "5D80D811B427CFB7"
+					item: {
+						count: 4
+						id: "create:polished_rose_quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "7815308A285198B5"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "41211C9DE95735AF"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5523E95A8E5F0C64"
+			]
+			id: "41F8C7293D183DBD"
+			rewards: [
+				{
+					id: "4D5A5A97F55C97FA"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "1DDE64A72F717699"
+					item: {
+						count: 1
+						id: "minecraft:ancient_debris"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1608AC2A4E124444"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:rail"
+			}
+			id: "2B945AF509CA69D6"
+			rewards: [
+				{
+					id: "207665914D657F2F"
+					item: {
+						count: 3
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "7379702A0BCAE89E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "2FDCDB9B60F9793B"
+					structure: "svitlo:intercity"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5523E95A8E5F0C64"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:barrel"
+			}
+			id: "0286AE71C144B62C"
+			rewards: [
+				{
+					id: "580D79A5B9E9A00F"
+					item: {
+						count: 3
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "42FAF7D46736FCA3"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "27E81F75C4C733C6"
+					structure: "svitlo:nova_poshta_nether"
+					type: "structure"
+				}
+			]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1DBD0C0ABF54F993"
+				"00CC27B4B3E7818A"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:lava_bucket"
+			}
+			id: "3EF1C1FA19AF5158"
+			rewards: [
+				{
+					id: "4733E42FED34225D"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "42F9F8B29560C26B"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1DBD0C0ABF54F993"
+				"7D0C35F70A79D91F"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:soul_campfire"
+			}
+			id: "7F8B7F0873A96A54"
+			rewards: [
+				{
+					id: "37747B13AC697316"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [
+				{
+					id: "30598CC92ECF31CF"
+					type: "checkmark"
+				}
+			]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"073BDFA858C38CF4"
+			]
+			id: "75553B9C71314ADC"
+			rewards: [
+				{
+					id: "3F50DE2AB6472043"
+					item: {
+						count: 2
+						id: "create:blaze_cake"
+					}
+					type: "item"
+				}
+				{
+					id: "1D0D3724F2CA9C5C"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "05423A850223A957"
+					item: {
+						count: 1
+						id: "create:blaze_cake"
+					}
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2B945AF509CA69D6"
+				"0286AE71C144B62C"
+				"41F8C7293D183DBD"
+				"75553B9C71314ADC"
+			]
+			icon: {
+				count: 1
+				id: "minecraft:netherite_ingot"
+			}
+			id: "1FFC25159FF10ACC"
+			rewards: [
+				{
+					id: "426AB5FCD0CD19AF"
+					item: {
+						count: 10
+						id: "svitlo:hryvnia_100"
+					}
+					type: "item"
+				}
+				{
+					id: "21741AFA94ECC7D8"
+					item: {
+						count: 1
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					id: "556752542BB14D8C"
+					type: "xp"
+					xp: 400
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0C1167BAB3C72B78"
+					type: "checkmark"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

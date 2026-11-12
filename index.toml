@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "94e8b710ac0cd4e4d9109f09d81c8174cc0f0ed1f97395b1474b4943d25efaa8"
+hash = "bc328535310857aa5fe5f71d56b85c52473db048d8b4ae91298458b3e30b9177"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -26,7 +26,7 @@ hash = "2f6d75161ee91838941725c5ead88bb57641df1944faae0a3cd733b2856cc354"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nebo.snbt"
-hash = "f8fa89b6da43181d928c9b484826cf8dfb2dc8af8237fadff58811930c46bb17"
+hash = "dfbdba27d614985343df61c992adc2ddcfa009a9120dee0c48c5e8c0ae5adde0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nova_poshta.snbt"
@@ -34,11 +34,15 @@ hash = "f8887ee5c8e14a7d0207ac28cb0508fb4a39ab328e8fb11e2286947f15b1c808"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pasika.snbt"
-hash = "be0302f8b83f05d2a70c0b53cf48f9931a341b100ba4480393bb5d3597b67bdc"
+hash = "e40edbec4c71ddfffc38de6cc3b296afaef29588e8eb083d7ce0adc661588547"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pekelne_vidriadzhennia.snbt"
+hash = "566e7d569fee915b8d4b7684358274ead0f1443f46e6423f32e70ba947477d94"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/povitriana_tryvoga.snbt"
-hash = "d79ea82d8e639402088d1332a949cde2a91e1fbaea74bebdb9a90b8ea64d7862"
+hash = "f8b48b6c0c043c4af66ffb47113a15a460148f35194d90f9e15adb0fffac0595"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/punkt_nezlamnosti.snbt"
@@ -46,11 +50,11 @@ hash = "20dba0e357e99408e6b1e9fbf05e2828ef054e8aace6450826fad128956d4f13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rozminuvannia.snbt"
-hash = "41e599de7a7778026ee70898033945261d973f456550bccbb12951900ec8135d"
+hash = "0c98b472666ef2b1f1c1b3450a6b17954b94dc129910c8bfa1120b25f982339c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sich.snbt"
-hash = "e046a4fa0fe4a12d52d7d67520234f1aff60d616694425658120ec051fbd3178"
+hash = "52070df324e7e3153f66fa36e6e6512ddf4174c5f328c791adbb3a26e65fd0cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/smachna_mapa.snbt"
@@ -78,11 +82,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "f02840c73a6d95e17cd812eff78e1bb0e0ea5a7ae4c38e1d8c088fe66ffd2e94"
+hash = "acf7159ce7b7152f5ecf8d186630ba600a56f6bc2467d17efc30aa5c60e07722"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "f02840c73a6d95e17cd812eff78e1bb0e0ea5a7ae4c38e1d8c088fe66ffd2e94"
+hash = "acf7159ce7b7152f5ecf8d186630ba600a56f6bc2467d17efc30aa5c60e07722"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1237,8 +1241,20 @@ file = "kubejs/data/svitlo/loot_modifiers/cucumber_from_grass.json"
 hash = "16e04abe97cfa6fbfbc602531237229523ddac82d3c8a841ce3d7cbe95f9a856"
 
 [[files]]
+file = "kubejs/data/svitlo/loot_table/chests/intercity.json"
+hash = "facd631ac24e94f19f79f56d953caeea5e091af77490020584f22eb72b96226b"
+
+[[files]]
+file = "kubejs/data/svitlo/loot_table/chests/intercity_bufet.json"
+hash = "806b8752bce28ff9508e62443b6b1c50d7228904ae4cfcb50b71a5b61aff336c"
+
+[[files]]
 file = "kubejs/data/svitlo/loot_table/chests/minefield.json"
 hash = "3da14a7054e14faa43949a1f6afd6841aac7cb4699a467f6c461cc51577582c7"
+
+[[files]]
+file = "kubejs/data/svitlo/loot_table/chests/nether_poshta.json"
+hash = "42a473b2d2f0794ef1c92be626c108e751e1356785b5c137770d117ce8ec1a94"
 
 [[files]]
 file = "kubejs/data/svitlo/loot_table/chests/poshtomat.json"
@@ -1437,6 +1453,14 @@ file = "kubejs/data/svitlo/structure/minefield/pole_2.nbt"
 hash = "5286da5720c8dc78d0a68be3c494411439448f8a6a449daf85a27b3ab561d2dc"
 
 [[files]]
+file = "kubejs/data/svitlo/structure/nether/intercity.nbt"
+hash = "76355aed7f4c7a6035a4074c4709b3009aae46004dfb9cef49a0b49b3de3336d"
+
+[[files]]
+file = "kubejs/data/svitlo/structure/nether/nova_poshta.nbt"
+hash = "c1495364a3936941bb49e69c5cddd49cd044f6ebe4154e6cd4bc6d47c0f187bc"
+
+[[files]]
 file = "kubejs/data/svitlo/structure/nova_poshta/desert.nbt"
 hash = "d075d88169db7e024fabe862d3883953c1dce69a8c3606d2ee276dcd429a8ff8"
 
@@ -1513,24 +1537,56 @@ file = "kubejs/data/svitlo/tags/item/mebli/trophy.json"
 hash = "dca89d77932e8adde915dd6315efe9371c2424e4bdcb6fa770f181836f5eafa0"
 
 [[files]]
+file = "kubejs/data/svitlo/tags/worldgen/biome/has_intercity.json"
+hash = "5d5d53af7f75e651752298908381e46de319049415aeafde435c3a25ff7bf2ff"
+
+[[files]]
 file = "kubejs/data/svitlo/tags/worldgen/biome/has_minefield.json"
 hash = "8191ac0c77350f7318072d96004df1eb4efc01906dc873595787996c2cba25d6"
+
+[[files]]
+file = "kubejs/data/svitlo/tags/worldgen/biome/has_nova_poshta_nether.json"
+hash = "5fcb541402c1a300abaa43f519592726c6bb38c5b1b8b2703b5b34f94106b9d8"
 
 [[files]]
 file = "kubejs/data/svitlo/tags/worldgen/biome/winter.json"
 hash = "cd6423b697dcd3cb4af8daf420d7a487bccfbdfe656c2cd36f0347daf5fbccd7"
 
 [[files]]
+file = "kubejs/data/svitlo/worldgen/structure/intercity.json"
+hash = "8c0cb12081452b7a0acece57dc933a6125b8081d17a98056761d19c0fc681315"
+
+[[files]]
 file = "kubejs/data/svitlo/worldgen/structure/minefield.json"
 hash = "436ca8a2ee5b01a998e2ed4ff92c3ecbcec550161839a097af27767da57dc70f"
+
+[[files]]
+file = "kubejs/data/svitlo/worldgen/structure/nova_poshta_nether.json"
+hash = "1ab33ce5ef6a3236b721ef61128836109317a8de8fc73c48d203c1b7101647bd"
+
+[[files]]
+file = "kubejs/data/svitlo/worldgen/structure_set/intercity.json"
+hash = "aca436c50410ec284b68c85e3fc1ff3145fe69fcd12cbee3d83dac084c6543ee"
 
 [[files]]
 file = "kubejs/data/svitlo/worldgen/structure_set/minefield.json"
 hash = "5f8b2457dceb7c9c95fc35d3132a894d0295366d6052f9f513fa42381103d790"
 
 [[files]]
+file = "kubejs/data/svitlo/worldgen/structure_set/nova_poshta_nether.json"
+hash = "ac31788b0805dd388bab75d63c8cd95a700edc99d405de702610cef037ebbcff"
+
+[[files]]
+file = "kubejs/data/svitlo/worldgen/template_pool/intercity/start.json"
+hash = "1854f7b3fc296b0b0ebb824bdb4a48a27535325f9bb49331810a57ffbfebbfa4"
+
+[[files]]
 file = "kubejs/data/svitlo/worldgen/template_pool/minefield/start.json"
 hash = "3d63002077cff8ec212f0920dda3ac0dea2c697d016cc5a78186aa91e382ac88"
+
+[[files]]
+file = "kubejs/data/svitlo/worldgen/template_pool/nova_poshta_nether/start.json"
+hash = "9865f0cddf30884997bf9c455eca5ed179a1d253eab51081f44362d87792771b"
 
 [[files]]
 file = "kubejs/server_scripts/bankomat.js"
@@ -1566,7 +1622,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "6cc1dada9c766aa852c3b879dac24827b1ceeef4e323e9bf90ec95dc119260b7"
+hash = "cbfd81167b696d9b31a7c2e2113a7aa683861500f7f64fb5bdf8beacd0d32ad8"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
