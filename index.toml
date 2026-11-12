@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "bfd2fbb807f4d24fd9dc1bc3bcbaca0d2ef1ce59e29959c468a5ffed9b1b52cd"
+hash = "4c827204c10b13185a5f6069559adb86d485b33e5380cba8d12694cfbe63c605"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -1697,6 +1697,11 @@ metafile = true
 [[files]]
 file = "mods/comforts.pw.toml"
 hash = "f97b49c7bc36be2ee693c5d7418b1a602a0b36c32387cfd9cdd5a9838b4ae8a1"
+metafile = true
+
+[[files]]
+file = "mods/copycats.pw.toml"
+hash = "d5db5a788950f0f5465870f8c26d20e5128573a1413249d4aec98b98a79e39ed"
 metafile = true
 
 [[files]]
