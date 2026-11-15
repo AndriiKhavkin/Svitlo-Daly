@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "43227985884263d389f342d182abd07c64b54edbe5749a96f837db3edb4c2179"
+hash = "fbf0a8996404db5b961179d8a01416b7988d7b6bd8a1407f052df7c88121115b"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -70,7 +70,7 @@ hash = "015e87321100bbf3ebe6c510e95969601e82967c40eee52cdce3c274e6cc28cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svitlo_daly.snbt"
-hash = "5145702c880ae4b2b69f67214e69ad9227259662b39b63eaa7ad3948f163f9e7"
+hash = "8659f9640edec279cdc99e03ac7867890ebc0f09dd0c93e3409cba1117ea5731"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/svoia_khata.snbt"
@@ -86,11 +86,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "875841a438f8c90b913eb189d537dfb9e52e0664b6f071af9c61287080a7fa6c"
+hash = "12031d481edff5974237b5cb2f971b2cde841623474c5c0eddde858b126dc3cf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "875841a438f8c90b913eb189d537dfb9e52e0664b6f071af9c61287080a7fa6c"
+hash = "12031d481edff5974237b5cb2f971b2cde841623474c5c0eddde858b126dc3cf"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1610,7 +1610,7 @@ hash = "678c1673a4d8ea26f1f1a78047187571656409b70ccc1e11aa21037e24891118"
 
 [[files]]
 file = "kubejs/server_scripts/dokument.js"
-hash = "33c6d3ceccfcc402f081f941900498dbbdce60855fceb4aaa8ccf02d039ade96"
+hash = "56153acc31d9377a19ca28854bedf09881e7cb00e2846dfb1426ce91e77a7b25"
 
 [[files]]
 file = "kubejs/server_scripts/heneratory.js"
@@ -1618,7 +1618,7 @@ hash = "a29232a142c9cd39eca62062241d713ede91bd8cea313d45a6e2fb0e381c77a6"
 
 [[files]]
 file = "kubejs/server_scripts/mohyla.js"
-hash = "1c2cad57211ced6516401fe0af5467af0bddefb907f6a3e3a6f76ea836e72e6f"
+hash = "411a5f0ee0e7fec3f59706a3f41d05ea8300fedc5e9d467ece5236e6690b365c"
 
 [[files]]
 file = "kubejs/server_scripts/napoi.js"
@@ -1646,11 +1646,11 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "c64f9892f6df855e34d4d5f5af302f2bfd13513bd88a7ddecd69a99468dd64cf"
+hash = "e407b344d932d95b3608125fef495f410c5c07c39d4fecb894181faf4be1516c"
 
 [[files]]
 file = "kubejs/server_scripts/yaderka.js"
-hash = "c00ad8074ad0a9eb4f2380a48a663af5344e85672af97f4d2e834decd5cd937c"
+hash = "86bb43f77eefb7c15ae78b4cb5da0b2c1816034ab4d3c9b7769a845da78573aa"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"

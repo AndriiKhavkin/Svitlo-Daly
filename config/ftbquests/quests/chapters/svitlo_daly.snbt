@@ -186,5 +186,100 @@
 			x: 4.0d
 			y: -1.0d
 		}
+		{
+			dependencies: [
+				"6E5B815FD96C9D47"
+			]
+			hide_quest_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "waystones:warp_stone"
+			}
+			id: "7C75D02934BEC923"
+			rewards: [
+				{
+					id: "31CEC0F3A1844696"
+					item: {
+						count: 4
+						id: "waystones:warp_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "0CB6E215E3BC9081"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "69BC84E8A2AA89D3"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6E5B815FD96C9D47"
+			]
+			hide_quest_until_deps_complete: true
+			id: "299D73693DE291D8"
+			rewards: [
+				{
+					id: "389EA41EE04640C3"
+					item: {
+						count: 2
+						id: "waystones:bound_scroll"
+					}
+					type: "item"
+				}
+				{
+					id: "3641BEFD075334B3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 1L
+					id: "49B940C7B7CC0B9F"
+					item: {
+						count: 1
+						id: "waystones:bound_scroll"
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6E5B815FD96C9D47"
+			]
+			hide_quest_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "svitlo:kvytok_mohyla"
+			}
+			id: "17414D396DA3501C"
+			rewards: [
+				{
+					id: "75D4DE2382BFAD2B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					id: "0F3818977ED7F887"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
 	]
 }

@@ -14,10 +14,10 @@ function sdNukeOn(server) {
 EntityEvents.spawned('createnuclear:nuclear_explosion', event => {
   let server = event.server
   if (sdNukeOn(server)) return
-  event.cancel()
   let e = event.entity
   let x = Math.floor(e.x), y = Math.floor(e.y), z = Math.floor(e.z)
   server.runCommandSilent('execute in ' + String(event.level.getDimension()) + ' positioned ' + x + ' ' + y + ' ' + z + ' run particle minecraft:campfire_signal_smoke ~ ~2 ~ 3 4 3 0.02 300 force')
   server.runCommandSilent('execute in ' + String(event.level.getDimension()) + ' positioned ' + x + ' ' + y + ' ' + z + ' run playsound minecraft:entity.generic.explode master @a[distance=..96] ~ ~ ~ 4 0.5')
   server.tell(Text.of('§c☢ Аварія на реакторі біля ' + x + ' ' + y + ' ' + z + '! §7Ядерного вибуху не сталося — ДСНС на сервері тримає його вимкненим. Але реактор — у тебе на совісті.'))
+  event.cancel()   // cancel() зупиняє скрипт — тому в самому кінці
 })

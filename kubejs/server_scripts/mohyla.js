@@ -101,10 +101,9 @@ PlayerEvents.respawned(event => {
   })
 })
 
-ItemEvents.rightClicked('svitlo:kvytok_mohyla', event => {
-  let p = event.player, st = event.item, server = event.server
-  if (!p) return
-  event.cancel()
+global.sdKvytokUse = (event) => {
+  let p = event.player, st = event.item, server = p.getServer()
+  if (!p || p.level.isClientSide()) return
   let t = st.getCustomData()
   if (!t || !t.contains('gx')) { p.tell(Text.of('§7Квиток порожній.')); st.shrink(1); return }
   if (String(t.getString('gowner')) != String(p.getStringUuid())) { p.tell(Text.of('§cЦе квиток до чужої могили.')); return }
@@ -118,4 +117,4 @@ ItemEvents.rightClicked('svitlo:kvytok_mohyla', event => {
   server.runCommandSilent('execute in ' + dim + ' run tp ' + p.getStringUuid() + ' ' + (x + 0.5) + ' ' + (y + 1) + ' ' + (z + 0.5))
   server.runCommandSilent('execute in ' + dim + ' positioned ' + x + ' ' + (y + 1) + ' ' + z + ' run playsound minecraft:block.portal.travel master @a[distance=..16] ~ ~ ~ 0.3 1.5')
   p.tell(Text.of('§6⚰ Прибув до могили. §7Забирай речі — ПКМ по надгробку.'))
-})
+}
