@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "4c827204c10b13185a5f6069559adb86d485b33e5380cba8d12694cfbe63c605"
+hash = "fac99603056a3fa3c17c99984a96498606becf152ba33c5b5e0766b348d4edb1"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -1622,7 +1622,7 @@ hash = "3cb77c782189cd43c075de0f252cdd64d16885210a968398a924d787d2e7f6d3"
 
 [[files]]
 file = "kubejs/server_scripts/shtab_karta.js"
-hash = "c40d8aa1c1acdc2dd364f79b1af4b800ab292a218db3e49bc111706603fd9fc6"
+hash = "d9be48e0ad7a85d364cd9234d9327399488483c105ab88cd17153bb710071a97"
 
 [[files]]
 file = "kubejs/server_scripts/tab_i_sejv.js"

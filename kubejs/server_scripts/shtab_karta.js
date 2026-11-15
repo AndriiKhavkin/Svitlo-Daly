@@ -17,16 +17,19 @@ let sdShtabCd = {}
 
 BlockEvents.rightClicked('svitlo:shtabna_karta', event => {
   let p = event.player
-  if (!p || String(event.hand) != 'MAIN_HAND') return
-  event.cancel()
-  let server = event.server
+  if (!p) return
+  let server = p.getServer()
   let name = p.getGameProfile().getName()
   let now = server.getTickCount()
-  if (sdShtabCd[name] && now - sdShtabCd[name] < 200) {
-    p.setStatusMessage(Text.of('§7Штаб ще оновлює карту... зачекай кілька секунд'))
+  let last = sdShtabCd[name] || -9999
+  if (now - last < 5) return                     // подвійний клік (дві руки) за один тік — ігноруємо
+  if (now - last < 100) {
+    p.tell(Text.of('§7🗺 Штаб ще оновлює карту... зачекай кілька секунд.'))
     return
   }
   sdShtabCd[name] = now
+  console.info('Штабна карта: клік від ' + name)
+  p.tell(Text.of('§6🗺 Штабна карта: §7звіряю розвідку...'))
   if (!SD_JMS) { p.tell(Text.of('§cШтабна карта не працює: на сервері немає мода JourneyMap Shared Maps.')); return }
   try {
     let cache = SD_JMS.cache.get()
