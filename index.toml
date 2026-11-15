@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "fac99603056a3fa3c17c99984a96498606becf152ba33c5b5e0766b348d4edb1"
+hash = "3f5acee577bcbc4d3f860ed3b951bb837877b45efc68fd924432e536960e0897"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -86,11 +86,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "49e3c59ec9eaded9738010ab3be07185840fe6eeb645ad341963deef7f987207"
+hash = "1850ab482fbaf7be0930f4363823a3bf2e8827b48eefbf84c83c94449325e99d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "49e3c59ec9eaded9738010ab3be07185840fe6eeb645ad341963deef7f987207"
+hash = "1850ab482fbaf7be0930f4363823a3bf2e8827b48eefbf84c83c94449325e99d"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -1106,7 +1106,7 @@ hash = "55a063f3254c0da32566333d45d9b56ca14d84afa1a137cac8937d3ca105ed9a"
 
 [[files]]
 file = "kubejs/data/svitlo/function/load.mcfunction"
-hash = "e15816dc0171bc55cfbf6a1c44bd2a23076f6333a2723dcea82df2b12bcc4a38"
+hash = "e09b1ca2e742838539c2910786d56242e6b5267be642ecccbf308c2a98955de3"
 
 [[files]]
 file = "kubejs/data/svitlo/function/loss_line.mcfunction"
@@ -1218,11 +1218,15 @@ hash = "9490550188b08e6ccb0ccd5c68aa3fc6006fc654e11795e2b26f8c57e92facb4"
 
 [[files]]
 file = "kubejs/data/svitlo/function/tck/check.mcfunction"
-hash = "f8a4bac29bb12bf35e4e897a319f152bf77149ac7d7cae576ec8e5fb95b3a6ff"
+hash = "b8d83cc3216dcca70fd5a0b99ee0801078b9c1d8cda1c7f71e8535c837d09cb6"
 
 [[files]]
 file = "kubejs/data/svitlo/function/tck/fail.mcfunction"
 hash = "4fc1ee86ffe9ae4c5365f7596b7faf01324788793c2d5275a458c463672270cf"
+
+[[files]]
+file = "kubejs/data/svitlo/function/tck/fake.mcfunction"
+hash = "8500f4fd8a4097368c682e981bd6a272ddfc5bff44a49ed01926a6e18fa7a0ea"
 
 [[files]]
 file = "kubejs/data/svitlo/function/tck/glitch.mcfunction"
@@ -1230,7 +1234,7 @@ hash = "333984dee51861ad68a277c78d5c1e8554934f54d0fb24ebe1e05c0c4867444c"
 
 [[files]]
 file = "kubejs/data/svitlo/function/tck/pass.mcfunction"
-hash = "aad9f3b70b01b829f20f3ce77b9ca86ad1c82542f9bee56c4361c49a3ed6583d"
+hash = "aede553aaf05af2dbb6510205917b9f67c38ddd115e5b1b3b52e9b4e75000631"
 
 [[files]]
 file = "kubejs/data/svitlo/function/tck/release.mcfunction"
@@ -1601,6 +1605,10 @@ file = "kubejs/server_scripts/bankomat.js"
 hash = "678c1673a4d8ea26f1f1a78047187571656409b70ccc1e11aa21037e24891118"
 
 [[files]]
+file = "kubejs/server_scripts/dokument.js"
+hash = "7ac01a6dc8e0384bdc481a1d6ac3b7cc1138e891ce41203e95571989d03bfc92"
+
+[[files]]
 file = "kubejs/server_scripts/heneratory.js"
 hash = "a29232a142c9cd39eca62062241d713ede91bd8cea313d45a6e2fb0e381c77a6"
 
@@ -1634,7 +1642,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "2ad98cda1c9eb3696543f1853f9dc85579ec1c142d0f7fb8fbd4dcb9aab21aae"
+hash = "8d9b7b29fdb218a9590eb84e589cdc38ea1cfa78f5e1d49a7daba0172d43699d"
 
 [[files]]
 file = "kubejs/server_scripts/yaderka.js"

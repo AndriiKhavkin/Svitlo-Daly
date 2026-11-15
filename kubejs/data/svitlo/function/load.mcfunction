@@ -48,3 +48,4 @@ scoreboard objectives add sd.hang dummy
 scoreboard objectives add sd.life dummy
 scoreboard objectives add sd.ppo dummy "Збито шахедів"
 scoreboard objectives add sd.squadt dummy
+scoreboard objectives add sd.tck_ok dummy "Перевірок ТЦК пройдено"
