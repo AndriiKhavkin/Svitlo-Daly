@@ -101,7 +101,7 @@ PlayerEvents.respawned(event => {
   })
 })
 
-global.sdKvytokUse = (event) => {
+function sdKvytokUse(event) {
   let p = event.player, st = event.item, server = p.getServer()
   if (!p || p.level.isClientSide()) return
   let t = st.getCustomData()

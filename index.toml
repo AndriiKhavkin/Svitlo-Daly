@@ -1610,7 +1610,7 @@ hash = "678c1673a4d8ea26f1f1a78047187571656409b70ccc1e11aa21037e24891118"
 
 [[files]]
 file = "kubejs/server_scripts/dokument.js"
-hash = "56153acc31d9377a19ca28854bedf09881e7cb00e2846dfb1426ce91e77a7b25"
+hash = "21b0c9c3c1bf8dee9097545ca9f697288642d87f123d8a9d8ae8539c85811fde"
 
 [[files]]
 file = "kubejs/server_scripts/heneratory.js"
@@ -1618,7 +1618,7 @@ hash = "a29232a142c9cd39eca62062241d713ede91bd8cea313d45a6e2fb0e381c77a6"
 
 [[files]]
 file = "kubejs/server_scripts/mohyla.js"
-hash = "411a5f0ee0e7fec3f59706a3f41d05ea8300fedc5e9d467ece5236e6690b365c"
+hash = "e0ea7e07eb02c08bc526a95b201de781e15296a85ebaee6004470667532bc4fd"
 
 [[files]]
 file = "kubejs/server_scripts/napoi.js"

@@ -103,7 +103,7 @@ function sdDocBook(server, p) {
 
 ItemEvents.crafted(SD_DOC, event => { if (event.player) sdDocBind(event.item, event.player) })
 
-global.sdDocUse = (event) => {
+function sdDocUse(event) {
   let p = event.player, st = event.item, hand = event.hand
   if (!p || p.level.isClientSide()) return
   let owner = sdDocOwner(st)
@@ -131,8 +131,8 @@ global.sdDocUse = (event) => {
 // Один обробник ПКМ предметом. УВАГА: event.cancel() у KubeJS одразу ЗУПИНЯЄ скрипт — тільки в кінці!
 ItemEvents.rightClicked(event => {
   let id = String(event.item.id)
-  if (id == SD_DOC) { global.sdDocUse(event); event.cancel() }
-  else if (id == 'svitlo:kvytok_mohyla') { global.sdKvytokUse(event); event.cancel() }
+  if (id == SD_DOC) { sdDocUse(event); event.cancel() }
+  else if (id == 'svitlo:kvytok_mohyla') { sdKvytokUse(event); event.cancel() }
 })
 
 // раз на 2 с: хто має СВІЙ документ — sd.doc_ok; хто лише чужий — sd.doc_fake; неоформлені — оформлюємо на власника
