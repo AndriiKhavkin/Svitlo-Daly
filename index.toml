@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.txt"
-hash = "3f5acee577bcbc4d3f860ed3b951bb837877b45efc68fd924432e536960e0897"
+hash = "43227985884263d389f342d182abd07c64b54edbe5749a96f837db3edb4c2179"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
@@ -86,11 +86,11 @@ hash = "e3ada90f79fba174e6e72045374cd27a2b62583cd6d1ef6ec00e4c2945285a5d"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1850ab482fbaf7be0930f4363823a3bf2e8827b48eefbf84c83c94449325e99d"
+hash = "875841a438f8c90b913eb189d537dfb9e52e0664b6f071af9c61287080a7fa6c"
 
 [[files]]
 file = "config/ftbquests/quests/lang/uk_ua.snbt"
-hash = "1850ab482fbaf7be0930f4363823a3bf2e8827b48eefbf84c83c94449325e99d"
+hash = "875841a438f8c90b913eb189d537dfb9e52e0664b6f071af9c61287080a7fa6c"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
@@ -310,11 +310,11 @@ hash = "e619491312a3a9d5419a8e244aaec734ce7b4ff244cf8647f0a8d4875f91ab76"
 
 [[files]]
 file = "kubejs/assets/svitlo/lang/en_us.json"
-hash = "c402bdcf05a84a46d6ab489af64f96c570eabc155911fddc552844320c4f9239"
+hash = "9e1f2fd7a85045688c0c889028a6c4507a732ddfedcb5b309e24d7902a43e8cc"
 
 [[files]]
 file = "kubejs/assets/svitlo/lang/uk_ua.json"
-hash = "69d076403bf3e8ea81553bcf757d4d5d4737f30caf78734b516903b435b38691"
+hash = "10b38f9a8b555d6a8b64fb553a25c4d26c8d136b391c35808cad73dbfabcab97"
 
 [[files]]
 file = "kubejs/assets/svitlo/models/block/yizhak_shape.json"
@@ -439,6 +439,10 @@ hash = "e7df7c0bfa17cb09bc25a5db0ac4d3fe369b9c6a9e00db7cc110ddb8dfaceb53"
 [[files]]
 file = "kubejs/assets/svitlo/textures/item/kotleta_kyivska.png"
 hash = "a817055d8cb12fd2b88fee002ecf72ce9a8aad68a3daec86204cf4b91a7802c1"
+
+[[files]]
+file = "kubejs/assets/svitlo/textures/item/kvytok_mohyla.png"
+hash = "e924bdf97afeabd5d66ad2c93b95119c058390e1926a32e3bbd37e1a2491e2ef"
 
 [[files]]
 file = "kubejs/assets/svitlo/textures/item/medal_tysiacha.png"
@@ -1606,7 +1610,7 @@ hash = "678c1673a4d8ea26f1f1a78047187571656409b70ccc1e11aa21037e24891118"
 
 [[files]]
 file = "kubejs/server_scripts/dokument.js"
-hash = "7ac01a6dc8e0384bdc481a1d6ac3b7cc1138e891ce41203e95571989d03bfc92"
+hash = "33c6d3ceccfcc402f081f941900498dbbdce60855fceb4aaa8ccf02d039ade96"
 
 [[files]]
 file = "kubejs/server_scripts/heneratory.js"
@@ -1614,7 +1618,7 @@ hash = "a29232a142c9cd39eca62062241d713ede91bd8cea313d45a6e2fb0e381c77a6"
 
 [[files]]
 file = "kubejs/server_scripts/mohyla.js"
-hash = "83374523b16b5a6c8ca6bee29ea4e3b66368226a395fa60c5e527aeb96359e72"
+hash = "1c2cad57211ced6516401fe0af5467af0bddefb907f6a3e3a6f76ea836e72e6f"
 
 [[files]]
 file = "kubejs/server_scripts/napoi.js"
@@ -1642,7 +1646,7 @@ hash = "8d034c3e712137f777d9f49dddf1002035348348ccd3f45d84526ebd548024e6"
 
 [[files]]
 file = "kubejs/server_scripts/versiia.js"
-hash = "8d9b7b29fdb218a9590eb84e589cdc38ea1cfa78f5e1d49a7daba0172d43699d"
+hash = "c64f9892f6df855e34d4d5f5af302f2bfd13513bd88a7ddecd69a99468dd64cf"
 
 [[files]]
 file = "kubejs/server_scripts/yaderka.js"
@@ -1650,7 +1654,7 @@ hash = "c00ad8074ad0a9eb4f2380a48a663af5344e85672af97f4d2e834decd5cd937c"
 
 [[files]]
 file = "kubejs/startup_scripts/svitlo_registry.js"
-hash = "6ff10f3abd86570f2c65fe1ef66d2ecd38edd428ba6a04458de4071c2fd11df7"
+hash = "04cdd6c49e951a1f34b2d86c8fcf17b3cee79a7337c3b16b02b1ced589e0326d"
 
 [[files]]
 file = "mods/another-furniture.pw.toml"

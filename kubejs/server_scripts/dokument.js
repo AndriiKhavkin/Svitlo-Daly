@@ -7,9 +7,13 @@ const SD_DOC_J = {
   ET: Java.loadClass('net.minecraft.world.entity.EntityType'),
   Blocks: Java.loadClass('net.minecraft.world.level.block.Blocks'),
   Tag: Java.loadClass('net.minecraft.nbt.CompoundTag'),
-  SH: Java.loadClass('net.minecraft.world.scores.ScoreHolder')
+  SH: Java.loadClass('net.minecraft.world.scores.ScoreHolder'),
+  DC: Java.loadClass('net.minecraft.core.component.DataComponents'),
+  WBC: Java.loadClass('net.minecraft.world.item.component.WrittenBookContent'),
+  Filt: Java.loadClass('net.minecraft.server.network.Filterable'),
+  List: Java.loadClass('java.util.ArrayList')
 }
-const SD_RANKS = [[0, 'Рекрут'], [25, 'Солдат'], [75, 'Старший солдат'], [150, 'Молодший сержант'], [300, 'Сержант'],
+const SD_DOC_RANKS = [[0, 'Рекрут'], [25, 'Солдат'], [75, 'Старший солдат'], [150, 'Молодший сержант'], [300, 'Сержант'],
   [500, 'Старший сержант'], [800, 'Старшина'], [1200, 'Молодший лейтенант'], [1800, 'Лейтенант'], [2600, 'Старший лейтенант'],
   [3600, 'Капітан'], [5000, 'Майор'], [7000, 'Підполковник'], [10000, 'Полковник'], [15000, 'Генерал (так, серйозно)']]
 
@@ -45,18 +49,17 @@ function sdScoreOf(server, name, obj) {
     return i ? i.value() : 0
   } catch (e) { return 0 }
 }
-function sdEsc(s) { return String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'") }
-function sdPage(parts) { return "'" + sdEsc(JSON.stringify(parts)) + "'" }
+function sdPage(parts) { return Text.of({ text: '', extra: parts }) }
 function sdLine(label, value) { return [{ text: label + ': ', color: 'dark_gray' }, { text: String(value) + '\n', color: 'black' }] }
 
 function sdDocBook(server, p) {
   let S = SD_DOC_J.Stats, ET = SD_DOC_J.ET
   let name = String(p.getGameProfile().getName()), uuid = String(p.getStringUuid())
   let kills = sdCustom(p, S.MOB_KILLS)
-  let rank = SD_RANKS[0][1]
-  for (let i = 0; i < SD_RANKS.length; i++) if (kills >= SD_RANKS[i][0]) rank = SD_RANKS[i][1]
+  let rank = SD_DOC_RANKS[0][1]
+  for (let i = 0; i < SD_DOC_RANKS.length; i++) if (kills >= SD_DOC_RANKS[i][0]) rank = SD_DOC_RANKS[i][1]
   let next = null
-  for (let i = 0; i < SD_RANKS.length; i++) if (kills < SD_RANKS[i][0]) { next = SD_RANKS[i]; break }
+  for (let i = 0; i < SD_DOC_RANKS.length; i++) if (kills < SD_DOC_RANKS[i][0]) { next = SD_DOC_RANKS[i]; break }
   let hours = Math.floor(sdCustom(p, S.PLAY_TIME) / 72000)
   let km = Math.floor((sdCustom(p, S.WALK_ONE_CM) + sdCustom(p, S.SPRINT_ONE_CM)) / 100000)
   let wagner = sdKilled(p, ET.ZOMBIE) + sdKilled(p, ET.HUSK) + sdKilled(p, ET.ZOMBIE_VILLAGER)
@@ -91,8 +94,11 @@ function sdDocBook(server, p) {
     .concat(sdLine('Спав разів', sdCustom(p, S.SLEEP_IN_BED)))
     .concat([{ text: '\nПідпис власника: ', color: 'dark_gray' }, { text: name, color: 'dark_blue', italic: true },
       { text: '\n\nДокумент іменний. Чужий документ — підробка.', color: 'dark_red', italic: true }])))
-  let snbt = 'minecraft:written_book[minecraft:written_book_content={title:"Особова справа",author:"РТЦК та СП",resolved:1b,pages:[' + pages.join(',') + ']}]'
-  return Item.of(snbt)
+  let J = SD_DOC_J, list = new J.List()
+  pages.forEach(pg => list.add(J.Filt.passThrough(pg)))
+  let book = Item.of('minecraft:written_book')
+  book.set(J.DC.WRITTEN_BOOK_CONTENT, new J.WBC(J.Filt.passThrough('Особова справа'), 'РТЦК та СП', 0, list, true))
+  return book
 }
 
 ItemEvents.crafted(SD_DOC, event => { if (event.player) sdDocBind(event.item, event.player) })

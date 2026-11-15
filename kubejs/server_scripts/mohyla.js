@@ -42,6 +42,7 @@ EntityEvents.death('minecraft:player', event => {
   let x0 = Math.floor(p.x), y0 = Math.floor(p.y), z0 = Math.floor(p.z)
   let dim = String(level.getDimension())
   let name = p.getGameProfile().getName()
+  let uuid = String(p.getStringUuid())
   server.scheduleInTicks(5, () => {
     try {
       // знайти могилу біля місця смерті
@@ -52,6 +53,7 @@ EntityEvents.death('minecraft:player', event => {
             for (let dy = -4; dy <= 6 && !g; dy++)
               if (String(level.getBlock(x0 + dx, y0 + dy, z0 + dz).id) == 'gravestone:gravestone') g = { x: x0 + dx, y: y0 + dy, z: z0 + dz }
       if (!g) return
+      sdGsRemember(server, uuid, dim, g)
       let nb = [[0, -1, 0], [0, 1, 0], [1, 0, 0], [-1, 0, 0], [0, 0, 1], [0, 0, -1]]
       let inLava = false
       for (let i = 0; i < nb.length; i++) if (sdGsBad(String(level.getBlock(g.x + nb[i][0], g.y + nb[i][1], g.z + nb[i][2]).id))) inLava = true
@@ -61,8 +63,59 @@ EntityEvents.death('minecraft:player', event => {
       let pre = 'execute in ' + dim + ' run '
       server.runCommandSilent(pre + 'clone ' + g.x + ' ' + g.y + ' ' + g.z + ' ' + g.x + ' ' + g.y + ' ' + g.z + ' ' + s.x + ' ' + s.y + ' ' + s.z + ' replace move')
       if (String(level.getBlock(s.x, s.y, s.z).id) == 'gravestone:gravestone') {
+        sdGsRemember(server, uuid, dim, s)
         server.runCommandSilent('tellraw ' + name + ' [{"text":"⚰ Могилу витягли з лави на берег: ","color":"gold"},{"text":"' + s.x + ' ' + s.y + ' ' + s.z + '","color":"yellow"}]')
       }
     } catch (e) { console.warn('Могила: ' + e) }
   })
+})
+
+// ---- Квиток до могили: після відродження видається безкоштовний одноразовий квиток,
+// ПКМ — телепорт до власної могили (без досвіду). Діє, поки могила стоїть.
+function sdGsRemember(server, uuid, dim, pos) {
+  server.persistentData.putString('sd_grave_' + uuid, dim + '|' + pos.x + '|' + pos.y + '|' + pos.z)
+}
+const SD_GS_Tag = Java.loadClass('net.minecraft.nbt.CompoundTag')
+
+PlayerEvents.respawned(event => {
+  let p = event.player, server = event.server
+  let uuid = String(p.getStringUuid()), name = String(p.getGameProfile().getName())
+  server.scheduleInTicks(20, () => {
+    let key = 'sd_grave_' + uuid
+    if (!server.persistentData.contains(key)) return
+    let v = String(server.persistentData.getString(key)).split('|')
+    server.persistentData.remove(key)
+    let pl = server.getPlayerList().getPlayer(p.getUuid())
+    if (!pl) return
+    let st = Item.of('svitlo:kvytok_mohyla')
+    let t = new SD_GS_Tag()
+    t.putString('gdim', v[0]); t.putInt('gx', parseInt(v[1])); t.putInt('gy', parseInt(v[2])); t.putInt('gz', parseInt(v[3])); t.putString('gowner', uuid)
+    st.setCustomData(t)
+    st.setLore([
+      Text.of({ text: 'Могила: ' + v[1] + ' ' + v[2] + ' ' + v[3], color: 'gray', italic: false }),
+      Text.of({ text: v[0].replace('minecraft:', ''), color: 'dark_gray', italic: false }),
+      Text.of({ text: 'ПКМ — на місце загибелі. Безкоштовно, один раз.', color: 'dark_green', italic: true })
+    ])
+    pl.give(st)
+    pl.tell(Text.of('§6⚰ Тобі видано §eКвиток до могили§6. §7ПКМ — і ти біля своїх речей.'))
+  })
+})
+
+ItemEvents.rightClicked('svitlo:kvytok_mohyla', event => {
+  let p = event.player, st = event.item, server = event.server
+  if (!p) return
+  event.cancel()
+  let t = st.getCustomData()
+  if (!t || !t.contains('gx')) { p.tell(Text.of('§7Квиток порожній.')); st.shrink(1); return }
+  if (String(t.getString('gowner')) != String(p.getStringUuid())) { p.tell(Text.of('§cЦе квиток до чужої могили.')); return }
+  let dim = String(t.getString('gdim')), x = t.getInt('gx'), y = t.getInt('gy'), z = t.getInt('gz')
+  let lvl = server.getLevel(dim)
+  if (!lvl || String(lvl.getBlock(x, y, z).id) != 'gravestone:gravestone') {
+    p.tell(Text.of('§7Могили на ' + x + ' ' + y + ' ' + z + ' вже нема — квиток анульовано.'))
+    st.shrink(1); return
+  }
+  st.shrink(1)
+  server.runCommandSilent('execute in ' + dim + ' run tp ' + p.getStringUuid() + ' ' + (x + 0.5) + ' ' + (y + 1) + ' ' + (z + 0.5))
+  server.runCommandSilent('execute in ' + dim + ' positioned ' + x + ' ' + (y + 1) + ' ' + z + ' run playsound minecraft:block.portal.travel master @a[distance=..16] ~ ~ ~ 0.3 1.5')
+  p.tell(Text.of('§6⚰ Прибув до могили. §7Забирай речі — ПКМ по надгробку.'))
 })
